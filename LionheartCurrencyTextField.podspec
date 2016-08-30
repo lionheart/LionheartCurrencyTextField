@@ -1,42 +1,23 @@
-#
-# Be sure to run `pod lib lint LionheartCurrencyTextField.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'LionheartCurrencyTextField'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LionheartCurrencyTextField.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A text field that formats currency values'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LionheartCurrencyTextField is a drop-in replacement for UITextField that
+displays currency values the way you'd expect it to. It's based on the user's
+current locale, so in the US, typing "12345.12" will output "$12,345.12".
+
+See the GitHub project for more details.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/LionheartCurrencyTextField'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/lionheart/LionheartCurrencyTextField'
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/LionheartCurrencyTextField.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/lionheart/LionheartCurrencyTextField.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/lionheartsw'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
   s.source_files = 'LionheartCurrencyTextField/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LionheartCurrencyTextField' => ['LionheartCurrencyTextField/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'LionheartExtensions', '~> 1.9'
 end
