@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'LionheartCurrencyTextField_Example' do
   pod 'LionheartCurrencyTextField', :path => '../'
-
-  target 'LionheartCurrencyTextField_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
