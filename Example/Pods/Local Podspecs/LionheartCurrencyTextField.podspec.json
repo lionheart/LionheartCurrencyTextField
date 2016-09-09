@@ -19,5 +19,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LionheartCurrencyTextField/Classes/**/*"
+  "source_files": "LionheartCurrencyTextField/Classes/**/*",
+  "dependencies": {
+    "LionheartExtensions": [
+      "~> 2.0"
+    ]
+  }
 }
