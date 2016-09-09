@@ -1,5 +1,6 @@
 use_frameworks!
 
 target 'LionheartCurrencyTextField_Example' do
+  pod 'LionheartExtensions', :path => '../../LionheartExtensions'
   pod 'LionheartCurrencyTextField', :path => '../'
 end
