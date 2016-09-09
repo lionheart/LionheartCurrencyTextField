@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C4D883167FA333FC6EC12AD247AF6F87977EBCB1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "259E6DB3CC1E181FE87F80802531A476961CF6B0" : 9223372036854775807,
+    "C4D883167FA333FC6EC12AD247AF6F87977EBCB1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1ACB8D69-E908-43A6-88BB-9C10CE2E4E76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "259E6DB3CC1E181FE87F80802531A476961CF6B0" : "LionheartExtensions\/",
+    "C4D883167FA333FC6EC12AD247AF6F87977EBCB1" : "LionheartCurrencyTextField\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LionheartCurrencyTextField",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/LionheartCurrencyTextField.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CocoaPods\/Specs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "259E6DB3CC1E181FE87F80802531A476961CF6B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lionheart\/LionheartCurrencyTextField.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4D883167FA333FC6EC12AD247AF6F87977EBCB1"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module LionheartCurrencyTextField {
+  umbrella header "LionheartCurrencyTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
