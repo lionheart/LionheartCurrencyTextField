@@ -17,29 +17,29 @@
 import LionheartExtensions
 
 extension String {
-    func charactersInSetBeforeIndex(characterSet: NSCharacterSet, index: Index) -> [UInt16] {
-        return substringToIndex(index).utf16.filter(characterSet.characterIsMember)
+    func charactersInSetBeforeIndex(_ characterSet: CharacterSet, index: Index) -> [UInt16] {
+        return substring(to: index).unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
 
-    func charactersInSetAfterIndex(characterSet: NSCharacterSet, index: Index) -> [UInt16] {
-        return substringFromIndex(index).utf16.filter(characterSet.characterIsMember)
+    func charactersInSetAfterIndex(_ characterSet: CharacterSet, index: Index) -> [UInt16] {
+        return substring(from: index).unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
 
-    func charactersInSet(characterSet: NSCharacterSet) -> [UInt16] {
-        return utf16.filter(characterSet.characterIsMember)
+    func charactersInSet(_ characterSet: CharacterSet) -> [UInt16] {
+        return unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
 }
 
-extension Range where Element: BidirectionalIndexType {
-    var length: Element.Distance {
-        return startIndex.distanceTo(endIndex)
+extension Range where Bound: Integer {
+    var length: Bound.Stride {
+        return lowerBound.distance(to: upperBound)
     }
 }
 
 class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFieldDelegate {
     static var identifier = "CurrencyTextFieldIdentifier"
 
-    weak private var passthroughDelegate: UITextFieldDelegate?
+    weak fileprivate var passthroughDelegate: UITextFieldDelegate?
 
     static let digitRegularExpression: NSRegularExpression = {
         return try! NSRegularExpression(pattern: "[^\\d\\.]", options: [])
@@ -49,24 +49,24 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         return try! NSRegularExpression(pattern: "[\\.](\\d+)", options: [])
     }()
 
-    static let digitCharacterSet: NSCharacterSet = {
-        var characterSet = NSMutableCharacterSet.decimalDigitCharacterSet()
-        characterSet.addCharactersInString(".")
-        return characterSet
+    static let digitCharacterSet: CharacterSet = {
+        var characterSet = NSMutableCharacterSet.decimalDigit()
+        characterSet.addCharacters(in: ".")
+        return characterSet as CharacterSet
     }();
 
-    let currencyFormatter: NSNumberFormatter = {
-        let formatter = NSNumberFormatter()
-        formatter.numberStyle = .CurrencyStyle
+    let currencyFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
         return formatter
     }()
 
-    var locale: NSLocale? {
+    var locale: Locale? {
         didSet {
             guard let locale = locale else { return }
 
-            currencyFormatter.currencyCode = locale.objectForKey(NSLocaleCurrencyCode) as? String
-            currencyFormatter.currencySymbol = locale.objectForKey(NSLocaleCurrencySymbol) as? String
+            currencyFormatter.currencyCode = (locale as NSLocale).object(forKey: NSLocale.Key.currencyCode) as? String
+            currencyFormatter.currencySymbol = (locale as NSLocale).object(forKey: NSLocale.Key.currencySymbol) as? String
         }
     }
 
@@ -80,10 +80,10 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
     }
 
     convenience init() {
-        self.init(locale: NSLocale.currentLocale())
+        self.init(locale: Locale.current)
     }
 
-    convenience init(locale theLocale: NSLocale) {
+    convenience init(locale theLocale: Locale) {
         self.init(frame: .zero)
 
         locale = theLocale
@@ -102,7 +102,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
 
     var currencyValue: NSDecimalNumber? {
         set {
-            text = newValue.flatMap { currencyFormatter.stringFromNumber($0) }
+            text = newValue.flatMap { currencyFormatter.string(from: $0) }
         }
 
         get {
@@ -123,22 +123,22 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
      5. Format as currency ("121233.20" -> "$121,233.20")
      6. Find index after traversing A digits. Move selection point to this value.
      */
-    func shouldChangeCharactersInRange(currentText: String, range: Range<String.Index>, replacementString string: String) -> Bool {
+    func shouldChangeCharactersInRange(_ currentText: String, range: Range<String.Index>, replacementString string: String) -> Bool {
         // These two are re-used a few times, so we assign them to shorter variables.
         let characterSet = LionheartCurrencyTextField.digitCharacterSet
         let digitExpression = LionheartCurrencyTextField.digitRegularExpression
 
         // Remove all non-digits or periods from the replacement string.
-        let string = digitExpression.stringByReplacingMatchesInString(string, options: [], range: string.range(), withTemplate: "")
+        let string = digitExpression.stringByReplacingMatches(in: string, options: [], range: string.range(), withTemplate: "")
 
         let wasTextDeleted = string.length < range.length
         let numDigits: Int
         if currentText.length > 0 {
             if wasTextDeleted {
-                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: range.startIndex.advancedBy(1)).count
+                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: <#T##String.CharacterView corresponding to your index##String.CharacterView#>.index(range.lowerBound, offsetBy: 1)).count
             } else {
-                let numDigitsInEnteredString = string.charactersInSet(NSCharacterSet.decimalDigitCharacterSet()).count
-                numDigits = currentText.charactersInSetBeforeIndex(characterSet, index: range.startIndex).count + numDigitsInEnteredString
+                let numDigitsInEnteredString = string.charactersInSet(CharacterSet.decimalDigits).count
+                numDigits = currentText.charactersInSetBeforeIndex(characterSet, index: range.lowerBound).count + numDigitsInEnteredString
             }
         } else {
             numDigits = 1
@@ -147,45 +147,48 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         // If characters are removed, edit the range to make sure to ignore any non-digits (e.g., ',').
         var range = range
         if wasTextDeleted {
+            let x = range.lowerBound..<range.upperBound
+            range.upperBound
             let length = range.length
-            while currentText.substringWithRange(range).charactersInSet(NSCharacterSet.decimalDigitCharacterSet()).count < length {
-                if range.startIndex == currentText.startIndex {
+            while currentText.substring(with: range).charactersInSet(CharacterSet.decimalDigits).count < length {
+                if range.lowerBound == currentText.startIndex {
                     break
                 }
 
-                let startIndex = range.startIndex.predecessor()
+                let startIndex = <#T##Collection corresponding to your index##Collection#>.index(before: range.startIndex)
                 range = startIndex..<range.endIndex
             }
         }
 
-        var replacedText = currentText.stringByReplacingCharactersInRange(range, withString: string)
+        var replacedText = currentText.replacingCharacters(in: range, with: string)
         if replacedText == "" {
             return true
         }
 
-        replacedText = digitExpression.stringByReplacingMatchesInString(replacedText, options: [], range: replacedText.range(), withTemplate: "")
+        replacedText = digitExpression.stringByReplacingMatches(in: replacedText, options: [], range: replacedText.range(), withTemplate: "")
 
         var number = NSDecimalNumber(string: replacedText)
-        if number.isNaN() {
+        // MARK: ???
+        if number == NSDecimalNumber.notANumber {
             // If the new text can't be parsed, only let the user edit if characters are being removed.
             return wasTextDeleted
         }
 
-        if let match = LionheartCurrencyTextField.decimalPointRegularExpression.firstMatchInString(replacedText, options: [], range: replacedText.range()) {
+        if let match = LionheartCurrencyTextField.decimalPointRegularExpression.firstMatch(in: replacedText, options: [], range: replacedText.range()) {
             let numbersAfterDecimal = match.range.length - 1
             currencyFormatter.minimumFractionDigits = min(2, numbersAfterDecimal)
 
             // If there are more than two digits after the decimal point, move the decimal place.
             // MARK: TODO Make this configurable.
             if numbersAfterDecimal > 2 {
-                number = number.decimalNumberByMultiplyingByPowerOf10(Int16(numbersAfterDecimal) - 2)
+                number = number.multiplying(byPowerOf10: Int16(numbersAfterDecimal) - 2)
             }
         } else {
             currencyFormatter.minimumFractionDigits = 0
         }
 
         // If the text can't be formatted as currency, just let the user edit it.
-        guard var formattedText = currencyFormatter.stringFromNumber(number) else {
+        guard var formattedText = currencyFormatter.string(from: number) else {
             return true
         }
 
@@ -205,7 +208,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
 
         if wasTextDeleted {
             // If text is deleted, we want to count characters going backwards.
-            characters = formattedText.utf16.reverse()
+            characters = formattedText.utf16.reversed()
         } else {
             characters = formattedText.utf16.map { $0 }
         }
@@ -215,7 +218,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
                 break
             }
 
-            if characterSet.characterIsMember(character) {
+            if characterSet.contains(UnicodeScalar(character)!) {
                 numDigitsEncountered += 1
             }
 
@@ -224,23 +227,23 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
 
         let _start: UITextPosition?
         if wasTextDeleted {
-            _start = positionFromPosition(endOfDocument, offset: -numCharactersEncountered+range.length)
+            _start = position(from: endOfDocument, offset: -numCharactersEncountered+range.length)
         } else {
-            _start = positionFromPosition(beginningOfDocument, offset: numCharactersEncountered)
+            _start = position(from: beginningOfDocument, offset: numCharactersEncountered)
         }
 
         guard let start = _start,
-            let end = positionFromPosition(start, offset: 0) else {
+            let end = position(from: start, offset: 0) else {
                 return false
         }
 
         // If we have a valid start and end position, we set the selected text range.
-        selectedTextRange = textRangeFromPosition(start, toPosition: end)
+        selectedTextRange = textRange(from: start, to: end)
         return false
     }
 
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        if !(passthroughDelegate?.textField?(textField, shouldChangeCharactersInRange: range, replacementString: string) ?? true) {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if !(passthroughDelegate?.textField?(textField, shouldChangeCharactersIn: range, replacementString: string) ?? true) {
             return false
         }
 
@@ -254,19 +257,19 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
 
     // MARK: - Default UITextFieldDelegate Implementation
 
-    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
 
-    func textFieldDidBeginEditing(textField: UITextField) {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
         passthroughDelegate?.textFieldDidBeginEditing?(textField)
     }
 
-    func textFieldShouldEndEditing(textField: UITextField) -> Bool {
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
 
-    func textFieldDidEndEditing(textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         passthroughDelegate?.textFieldDidEndEditing?(textField)
 
         guard let _text = text else {
@@ -274,17 +277,17 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         }
 
         let range = _text.range()
-        let replacedText = LionheartCurrencyTextField.digitRegularExpression.stringByReplacingMatchesInString(_text, options: [], range: range, withTemplate: "")
+        let replacedText = LionheartCurrencyTextField.digitRegularExpression.stringByReplacingMatches(in: _text, options: [], range: range, withTemplate: "")
         let value = NSDecimalNumber(string: replacedText)
 
-        text = currencyFormatter.stringFromNumber(value)
+        text = currencyFormatter.string(from: value)
     }
     
-    func textFieldShouldClear(textField: UITextField) -> Bool {
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldClear?(textField) ?? true
     }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldReturn?(textField) ?? true
     }
 }
