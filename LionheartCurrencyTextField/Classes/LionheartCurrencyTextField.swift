@@ -16,7 +16,7 @@
 
 import LionheartExtensions
 
-extension String {
+public extension String {
     func charactersInSetBeforeIndex(_ characterSet: CharacterSet, index: Index) -> [UInt16] {
         return substring(to: index).unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
@@ -28,16 +28,14 @@ extension String {
     func charactersInSet(_ characterSet: CharacterSet) -> [UInt16] {
         return unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
-}
 
-extension Range where Bound: Integer {
-    var length: Bound.Stride {
-        return lowerBound.distance(to: upperBound)
+    func lengthOfRange(range: Range<Index>) -> String.IndexDistance {
+        return distance(from: range.lowerBound, to: range.upperBound)
     }
 }
 
-class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFieldDelegate {
-    static var identifier = "CurrencyTextFieldIdentifier"
+public class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFieldDelegate {
+    public static var identifier = "CurrencyTextFieldIdentifier"
 
     weak fileprivate var passthroughDelegate: UITextFieldDelegate?
 
@@ -70,7 +68,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         }
     }
 
-    override var delegate: UITextFieldDelegate? {
+    override public var delegate: UITextFieldDelegate? {
         didSet {
             if delegate !== self {
                 passthroughDelegate = delegate
@@ -94,7 +92,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         super.init(frame: frame)
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 
@@ -131,11 +129,11 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         // Remove all non-digits or periods from the replacement string.
         let string = digitExpression.stringByReplacingMatches(in: string, options: [], range: string.range(), withTemplate: "")
 
-        let wasTextDeleted = string.length < range.length
+        let wasTextDeleted = string.length < string.lengthOfRange(range: range)
         let numDigits: Int
         if currentText.length > 0 {
             if wasTextDeleted {
-                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: <#T##String.CharacterView corresponding to your index##String.CharacterView#>.index(range.lowerBound, offsetBy: 1)).count
+                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: string.characters.index(after: range.lowerBound)).count
             } else {
                 let numDigitsInEnteredString = string.charactersInSet(CharacterSet.decimalDigits).count
                 numDigits = currentText.charactersInSetBeforeIndex(characterSet, index: range.lowerBound).count + numDigitsInEnteredString
@@ -147,16 +145,14 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         // If characters are removed, edit the range to make sure to ignore any non-digits (e.g., ',').
         var range = range
         if wasTextDeleted {
-            let x = range.lowerBound..<range.upperBound
-            range.upperBound
-            let length = range.length
+            let length = string.lengthOfRange(range: range)
             while currentText.substring(with: range).charactersInSet(CharacterSet.decimalDigits).count < length {
                 if range.lowerBound == currentText.startIndex {
                     break
                 }
 
-                let startIndex = <#T##Collection corresponding to your index##Collection#>.index(before: range.startIndex)
-                range = startIndex..<range.endIndex
+                let startIndex = string.characters.index(before: range.lowerBound)
+                range = startIndex..<range.upperBound
             }
         }
 
@@ -227,7 +223,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
 
         let _start: UITextPosition?
         if wasTextDeleted {
-            _start = position(from: endOfDocument, offset: -numCharactersEncountered+range.length)
+            _start = position(from: endOfDocument, offset: -numCharactersEncountered+string.lengthOfRange(range: range))
         } else {
             _start = position(from: beginningOfDocument, offset: numCharactersEncountered)
         }
@@ -242,7 +238,7 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         return false
     }
 
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if !(passthroughDelegate?.textField?(textField, shouldChangeCharactersIn: range, replacementString: string) ?? true) {
             return false
         }
@@ -257,19 +253,19 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
 
     // MARK: - Default UITextFieldDelegate Implementation
 
-    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
 
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    public func textFieldDidBeginEditing(_ textField: UITextField) {
         passthroughDelegate?.textFieldDidBeginEditing?(textField)
     }
 
-    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+    public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
 
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    public func textFieldDidEndEditing(_ textField: UITextField) {
         passthroughDelegate?.textFieldDidEndEditing?(textField)
 
         guard let _text = text else {
@@ -283,11 +279,11 @@ class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFi
         text = currencyFormatter.string(from: value)
     }
     
-    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+    public func textFieldShouldClear(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldClear?(textField) ?? true
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldReturn?(textField) ?? true
     }
 }
