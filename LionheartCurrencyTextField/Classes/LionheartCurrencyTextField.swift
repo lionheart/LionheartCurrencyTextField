@@ -29,13 +29,13 @@ public extension String {
         return unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
 
-    func lengthOfRange(range: Range<Index>) -> String.IndexDistance {
+    func lengthOfRange(_ range: Range<Index>) -> String.IndexDistance {
         return distance(from: range.lowerBound, to: range.upperBound)
     }
 }
 
-public class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFieldDelegate {
-    public static var identifier = "CurrencyTextFieldIdentifier"
+open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UITextFieldDelegate {
+    open static var identifier = "CurrencyTextFieldIdentifier"
 
     weak fileprivate var passthroughDelegate: UITextFieldDelegate?
 
@@ -63,12 +63,12 @@ public class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, U
         didSet {
             guard let locale = locale else { return }
 
-            currencyFormatter.currencyCode = (locale as NSLocale).object(forKey: NSLocale.Key.currencyCode) as? String
-            currencyFormatter.currencySymbol = (locale as NSLocale).object(forKey: NSLocale.Key.currencySymbol) as? String
+            currencyFormatter.currencyCode = (locale as NSLocale).object(forKey: Locale.Key.currencyCode) as? String
+            currencyFormatter.currencySymbol = (locale as NSLocale).object(forKey: Locale.Key.currencySymbol) as? String
         }
     }
 
-    override public var delegate: UITextFieldDelegate? {
+    override open var delegate: UITextFieldDelegate? {
         didSet {
             if delegate !== self {
                 passthroughDelegate = delegate
@@ -238,7 +238,7 @@ public class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, U
         return false
     }
 
-    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    open func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if !(passthroughDelegate?.textField?(textField, shouldChangeCharactersIn: range, replacementString: string) ?? true) {
             return false
         }
@@ -253,19 +253,19 @@ public class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, U
 
     // MARK: - Default UITextFieldDelegate Implementation
 
-    public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+    open func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
 
-    public func textFieldDidBeginEditing(_ textField: UITextField) {
+    open func textFieldDidBeginEditing(_ textField: UITextField) {
         passthroughDelegate?.textFieldDidBeginEditing?(textField)
     }
 
-    public func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+    open func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldEndEditing?(textField) ?? true
     }
 
-    public func textFieldDidEndEditing(_ textField: UITextField) {
+    open func textFieldDidEndEditing(_ textField: UITextField) {
         passthroughDelegate?.textFieldDidEndEditing?(textField)
 
         guard let _text = text else {
@@ -279,11 +279,11 @@ public class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, U
         text = currencyFormatter.string(from: value)
     }
     
-    public func textFieldShouldClear(_ textField: UITextField) -> Bool {
+    open func textFieldShouldClear(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldClear?(textField) ?? true
     }
     
-    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    open func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return passthroughDelegate?.textFieldShouldReturn?(textField) ?? true
     }
 }
