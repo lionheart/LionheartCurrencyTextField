@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32AE41342E18F15AE1BEB069 /* Pods_LionheartCurrencyTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659C0C26DBD383BCFEAA84DB /* Pods_LionheartCurrencyTextField_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7344DB5163258BEFECA87B87 /* Pods_LionheartCurrencyTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF1F6EC31109504ED9CEEBD /* Pods_LionheartCurrencyTextField_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4DF1F6EC31109504ED9CEEBD /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionheartCurrencyTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFA70E862A877D263F30167 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4E492154A99CB8DF2B1C148C /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LionheartCurrencyTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionheartCurrencyTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,11 +39,10 @@
 		607FACE51AFB9204008FA782 /* LionheartCurrencyTextField_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionheartCurrencyTextField_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		659C0C26DBD383BCFEAA84DB /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionheartCurrencyTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C3C0E4BBE21BC5092DC1D3 /* LionheartCurrencyTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LionheartCurrencyTextField.podspec; path = ../LionheartCurrencyTextField.podspec; sourceTree = "<group>"; };
-		90CEFF3F3FD4172179795CAF /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD42504767CA304F5E9DD8EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C58ECB34AFE47CB693E6FC17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F6FD17682AEFFCD0014CEEB3 /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7344DB5163258BEFECA87B87 /* Pods_LionheartCurrencyTextField_Example.framework in Frameworks */,
+				32AE41342E18F15AE1BEB069 /* Pods_LionheartCurrencyTextField_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 				607FACD21AFB9204008FA782 /* Example for LionheartCurrencyTextField */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				B82D8F04DE68AFDAF95A91ED /* Pods */,
-				BF3762F009A8EA7069FFB427 /* Frameworks */,
+				F5355AEFA8250C77E393F67D /* Pods */,
+				DE03BFBEC6DAE71D98E033CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,21 +134,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B82D8F04DE68AFDAF95A91ED /* Pods */ = {
+		DE03BFBEC6DAE71D98E033CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				90CEFF3F3FD4172179795CAF /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */,
-				F6FD17682AEFFCD0014CEEB3 /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BF3762F009A8EA7069FFB427 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4DF1F6EC31109504ED9CEEBD /* Pods_LionheartCurrencyTextField_Example.framework */,
+				659C0C26DBD383BCFEAA84DB /* Pods_LionheartCurrencyTextField_Example.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5355AEFA8250C77E393F67D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA70E862A877D263F30167 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */,
+				4E492154A99CB8DF2B1C148C /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField_Example" */;
 			buildPhases = (
-				092748A1F4550669407C6E43 /* [CP] Check Pods Manifest.lock */,
+				76DA67F3D43CC57071AA2EF9 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7F6D3DC094EAF7FCB5FCFCA3 /* [CP] Embed Pods Frameworks */,
-				489810B1BF52E1BFAE534EF9 /* [CP] Copy Pods Resources */,
+				D20EAF844176621D794E8818 /* [CP] Embed Pods Frameworks */,
+				DF623AC91BA8778D3CBC3E81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,7 +255,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		092748A1F4550669407C6E43 /* [CP] Check Pods Manifest.lock */ = {
+		76DA67F3D43CC57071AA2EF9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,22 +270,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		489810B1BF52E1BFAE534EF9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F6D3DC094EAF7FCB5FCFCA3 /* [CP] Embed Pods Frameworks */ = {
+		D20EAF844176621D794E8818 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,6 +283,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF623AC91BA8778D3CBC3E81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -439,7 +439,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90CEFF3F3FD4172179795CAF /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */;
+			baseConfigurationReference = 2CFA70E862A877D263F30167 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -456,7 +456,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6FD17682AEFFCD0014CEEB3 /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */;
+			baseConfigurationReference = 4E492154A99CB8DF2B1C148C /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

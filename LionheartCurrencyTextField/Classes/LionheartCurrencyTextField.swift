@@ -62,9 +62,8 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
     var locale: Locale? {
         didSet {
             guard let locale = locale else { return }
-
-            currencyFormatter.currencyCode = (locale as NSLocale).object(forKey: Locale.Key.currencyCode) as? String
-            currencyFormatter.currencySymbol = (locale as NSLocale).object(forKey: Locale.Key.currencySymbol) as? String
+            currencyFormatter.currencyCode = locale.currencyCode
+            currencyFormatter.currencySymbol = locale.currencySymbol
         }
     }
 
@@ -129,7 +128,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         // Remove all non-digits or periods from the replacement string.
         let string = digitExpression.stringByReplacingMatches(in: string, options: [], range: string.range(), withTemplate: "")
 
-        let wasTextDeleted = string.length < string.lengthOfRange(range: range)
+        let wasTextDeleted = string.length < string.lengthOfRange(range)
         let numDigits: Int
         if currentText.length > 0 {
             if wasTextDeleted {
@@ -145,7 +144,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         // If characters are removed, edit the range to make sure to ignore any non-digits (e.g., ',').
         var range = range
         if wasTextDeleted {
-            let length = string.lengthOfRange(range: range)
+            let length = string.lengthOfRange(range)
             while currentText.substring(with: range).charactersInSet(CharacterSet.decimalDigits).count < length {
                 if range.lowerBound == currentText.startIndex {
                     break
@@ -223,7 +222,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
 
         let _start: UITextPosition?
         if wasTextDeleted {
-            _start = position(from: endOfDocument, offset: -numCharactersEncountered+string.lengthOfRange(range: range))
+            _start = position(from: endOfDocument, offset: -numCharactersEncountered+string.lengthOfRange(range))
         } else {
             _start = position(from: beginningOfDocument, offset: numCharactersEncountered)
         }
