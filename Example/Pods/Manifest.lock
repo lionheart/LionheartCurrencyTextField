@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LionheartCurrencyTextField: ed824349c416ff53b9f621680a5625eb7085e4ef
-  LionheartExtensions: da105f6a63b97b4810edc3b1dcf807bcf1d3c0ce
+  LionheartExtensions: 71d45d91e492dd090b2e8c73fd002a04c327648d
 
 PODFILE CHECKSUM: b642cb7bc1bbe94e9aaf3165496daa08f94af280
 
-COCOAPODS: 1.1.0.beta.2
+COCOAPODS: 1.1.0.rc.2
