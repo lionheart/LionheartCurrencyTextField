@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013D191C6B08D9A4A5DE05F9765F4B71 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A7142B4AD11A1301DE15278D4E809 /* Array.swift */; };
-		21093EAE39D6432724AEBDA9B1777A97 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD929DEE50CA15C0DDF81E93BA1769D /* UIWindow.swift */; };
-		2722BF5465D5832371EDDAA45824B154 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A639148A163C7C6DACE58BB75F26755E /* UIFont.swift */; };
-		29A434BA4E92BB4515606F7CC42B90A3 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DDC3709087A7260A5F9043BEB5CE3D /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028683ACC71580FD6D1CDA802B5389A5 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C2418D45B150B58BC448EC0E5E923 /* Optional.swift */; };
+		0EA2E58AE386C1E767179236D3FEEF46 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD71B89248B26ECEEC801363554351 /* UIAlertController.swift */; };
+		16B2A7658537988FA2BBDB35E07D1A76 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16099E20BA5619F69A2A281DF04D91E /* UIScreen.swift */; };
+		257D24A42E4D7CAD2C19B46B8D73B8A6 /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068831C0F75F79CAB4E479795D37D4A8 /* NSURLSession.swift */; };
+		29A434BA4E92BB4515606F7CC42B90A3 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E796CD80AD54F6A715EC8A45F64653B /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D26AC8384B61F0E9D73FC09D6F1AC8D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02897F82E5D19F07607DAF761A18978E /* File.swift */; };
 		2E4B3D801594B5DD61C6D4738CB45B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */; };
-		3F8F8E6B41A8E801D60F754BE8516D0E /* NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75BED8785A1891D4DB1BA38DFD27447 /* NSIndexPath.swift */; };
-		412E49F53C08D45CF38949C90D81369D /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2474BF271F2CED39B8D8C083277AB61 /* UIScreen.swift */; };
-		43BD78E6A273571AB603DE793CDFB51C /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A35D362BD9BCDC2E8D054A2F903D69C /* NSURLSession.swift */; };
-		4EC99D89783F9CF2EDC22D5EAE9E8F06 /* UIMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF278992A6540E801F38559FD0B6763 /* UIMultilineLabel.swift */; };
-		595FDAED3A63247656AED64AF46A4B70 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A094631F22BBCD5360176389967E1F9E /* UIViewController.swift */; };
-		597A89D1D69EC18B937A7467723C7902 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F566D5BD058F5707ECBB8C62D4248E /* Optional.swift */; };
-		6139E2639463DEB59F865D5C59ADE9AB /* NSDecimalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C4E25C17A6CD18CF3FE348B2BE9205 /* NSDecimalNumber.swift */; };
-		63F4D8480A1A96B66EF7A58B56ABF0EF /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B1AF9EDAE098724563958AF168C91 /* UIDevice.swift */; };
-		6D6F616937B4533B69E8BC759EB7A5D6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF2338A7608E670A011DECB7353394 /* String.swift */; };
-		844472D49FE09FF5A381DEC2BF3DE34A /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EED8F1590A70C3427BCE7442C4C9AC4 /* LionheartCurrencyTextField.swift */; };
-		88B665BD82D083296A37D7DD7DE12A97 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA18B9B84EB2A6DBE4A4CB29F8C1F5 /* Functional.swift */; };
-		8DB78D3AA7EC1B86DDDF67A9E974AF3A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848640D372787726CD5F7005852F238 /* UIColor.swift */; };
-		9836149EF72B64B5F4C231590C0DF734 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88927242B79BAF8593E3ADE9152A2FAA /* Any.swift */; };
-		9E013330A22B1CE546152315A5B0BB83 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE96E638C4D21BB44272350DFC18CE /* UIAlertController.swift */; };
-		9FCF1BC3AA7D1546EF57F8EBF18485AB /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C722FFDDAF2FF361C386F89A927E4DA /* UIView.swift */; };
+		3FFF0F8A02D7032F4A7C4C1BBC4C2E7B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202407AF843CCFDB54E704C4A6CAD6C5 /* String.swift */; };
+		42ECC6D4C991F0270C1E78C7F3C42988 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187BFF4EAA93339911E2E78F7AAF3B4 /* UIColor.swift */; };
+		528B5E75465F8630B96AEDA0EBA60940 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C67DDDBB429B69BE302C263850F227 /* LionheartExtensions-dummy.m */; };
+		585E1C1667BA701F6A0506A6DC4360F4 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101B22F8084B8433535D1CC4D910E17 /* UIImage.swift */; };
+		58E365D9A5776ED089456EF9E6CE39A5 /* NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A06D084A123CA711B98183449E4A97 /* NSIndexPath.swift */; };
+		5CEC53EAC862012FCA433D1DA96376D6 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739B378A4B3ECA2E267688194090EC5 /* UIWindow.swift */; };
+		60960BFB1763FF1366AEFEA7783B4BE0 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95A27F5AE36C8197F15635166230CA5 /* Array.swift */; };
+		6A26AEFD822E9F3436CE780C653454F3 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3600C532001C83C0440A4D04D61A51 /* Any.swift */; };
+		71A552735D5B50665B1A80736020F299 /* NSRegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13120165DAE8B796E079705116E416DF /* NSRegularExpression.swift */; };
+		844472D49FE09FF5A381DEC2BF3DE34A /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C39FA0E9BF52687DA64CBE0CD9BD51 /* LionheartCurrencyTextField.swift */; };
+		8651B213FEE04F94E9BCC07A79D871A3 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD91CC5D4E949B12E5DB6CE6A22AFA5A /* Int.swift */; };
+		8CF7226405D5CEE610987CEA39D04081 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977285692872EE34FB122D44B6F9C6F8 /* Functional.swift */; };
+		A37185C3E73CD5E58D28E2D5248287C0 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3A81B736CB07107A4D7225A9A6A39 /* UITextField.swift */; };
 		AACFC1E40D00E64CE23AF390109A5A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */; };
-		B03E427122403F4EBDF0E35294EEC16C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB4DEA76DF589ECAB2A5A616FCF3A6 /* UIImage.swift */; };
-		BEF1CCB5EF6D62DB4925201F589FD5C8 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0EF5BEE8C8656A6A8DE6B8596FCB78 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80A8E894021D71227E6B8EBA1C1E755 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675DA8C7C18E970F2D39318CEDC7621A /* UIView.swift */; };
+		B97C8D91F9B236408ED2ACF7FACB0582 /* UIMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B045AF54098DB279EF288AC8BDB34B0 /* UIMultilineLabel.swift */; };
+		BEF1CCB5EF6D62DB4925201F589FD5C8 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779171F4EBA1B9296844BFC5A188337 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF197AD680B8D35CD5503462C9A922E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */; };
-		BFF50EC2E95FBB03CFA5B95143CCCB0C /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5708455216092541359A6AF1872D9ED1 /* LionheartCurrencyTextField-dummy.m */; };
-		C840425FABA635C5B1C75E9A9A7A62AB /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 924A7A54F8DB46C337E13EE4A3CB5809 /* LionheartExtensions-dummy.m */; };
-		C8FABCF8FAE8F463A6B1F3452D752D85 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15C296C6645646D1F98890FA6CA9DB /* UITextField.swift */; };
-		CC7BDC7179046FEB17C1B9B9494F6CE0 /* NSRegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ECDE4E160507A97544A34029DA259A /* NSRegularExpression.swift */; };
+		BFF50EC2E95FBB03CFA5B95143CCCB0C /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */; };
+		C427EC58D4FD9034F88E1A7C41E410C8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77E6316C4F819A2D22072EAEB650838 /* UIViewController.swift */; };
+		CBCF65CA2C187BCA1BFD254728C3E76A /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6862289F623FF0E7B96713B7589C79 /* Async.swift */; };
 		CD4464B84709D97E130BECF7B68DCFE1 /* Pods-LionheartCurrencyTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D20D5DFBEC987FE891BD84030DF11202 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85D91A17BECFC21AAB8615A092C3492 /* File.swift */; };
+		CD848BB68FBA2F277BACCF5513B2160E /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433BE0C94B32E2451A898927AA5272F /* NSDate.swift */; };
+		E55DEDDD9EAAA4B2156508A82927E00C /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116985B1B42616689D27E9AFFE6462B1 /* UIFont.swift */; };
 		E847F2421BDC250A1067E9CD1CC0CF2D /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */; };
 		EC5F6C2B797A5B12906FFC39C5C8B744 /* Pods-LionheartCurrencyTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */; };
-		FE81FC883A4D64DD8923FCC53B2E8BF1 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9F21BD608B156EBCEA8CEC36C455D /* Int.swift */; };
+		F7390925137E1ED773B473728452F0D5 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C18CD0A5E355A99CE733988D274CF8 /* UIDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,57 +68,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01349B32E7AADA42D4EE4B6BC28DD8EA /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
 		017FBD4FF4F1A67C2A68B9157A669AF5 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		04CB4DEA76DF589ECAB2A5A616FCF3A6 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		04F566D5BD058F5707ECBB8C62D4248E /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
-		08109EBA6E2FEE317C9542F755085757 /* LionheartCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LionheartCurrencyTextField.modulemap; sourceTree = "<group>"; };
-		1C722FFDDAF2FF361C386F89A927E4DA /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		1EE9F21BD608B156EBCEA8CEC36C455D /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
-		1EED8F1590A70C3427BCE7442C4C9AC4 /* LionheartCurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LionheartCurrencyTextField.swift; sourceTree = "<group>"; };
-		1F57F4D27EFF42F50C43F6424D368BC5 /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
-		1FEF2338A7608E670A011DECB7353394 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		02897F82E5D19F07607DAF761A18978E /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
+		068831C0F75F79CAB4E479795D37D4A8 /* NSURLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLSession.swift; path = Pod/Classes/Core/NSURLSession.swift; sourceTree = "<group>"; };
+		09A06D084A123CA711B98183449E4A97 /* NSIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSIndexPath.swift; path = Pod/Classes/Core/NSIndexPath.swift; sourceTree = "<group>"; };
+		116985B1B42616689D27E9AFFE6462B1 /* UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFont.swift; path = Pod/Classes/Core/UIFont.swift; sourceTree = "<group>"; };
+		13120165DAE8B796E079705116E416DF /* NSRegularExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRegularExpression.swift; path = Pod/Classes/Core/NSRegularExpression.swift; sourceTree = "<group>"; };
 		201D957F0B8ED37CCD272B3D09783FD2 /* LionheartCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27C4E25C17A6CD18CF3FE348B2BE9205 /* NSDecimalNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSDecimalNumber.swift; sourceTree = "<group>"; };
-		2BF278992A6540E801F38559FD0B6763 /* UIMultilineLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIMultilineLabel.swift; sourceTree = "<group>"; };
+		202407AF843CCFDB54E704C4A6CAD6C5 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Pod/Classes/Core/String.swift; sourceTree = "<group>"; };
+		23C18CD0A5E355A99CE733988D274CF8 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = Pod/Classes/Core/UIDevice.swift; sourceTree = "<group>"; };
+		27C39FA0E9BF52687DA64CBE0CD9BD51 /* LionheartCurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LionheartCurrencyTextField.swift; sourceTree = "<group>"; };
+		2B045AF54098DB279EF288AC8BDB34B0 /* UIMultilineLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIMultilineLabel.swift; path = Pod/Classes/Core/UIMultilineLabel.swift; sourceTree = "<group>"; };
 		2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40ECDE4E160507A97544A34029DA259A /* NSRegularExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSRegularExpression.swift; sourceTree = "<group>"; };
-		44538EE2682FDD60DC37335BE4D42A69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3600C532001C83C0440A4D04D61A51 /* Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Any.swift; path = Pod/Classes/Core/Any.swift; sourceTree = "<group>"; };
 		4D09782A4083E5873FE2838DDCDCAD0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E0B1AF9EDAE098724563958AF168C91 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		4EB1AD6D4836FA37B9649AC69AFE8830 /* Pods-LionheartCurrencyTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LionheartCurrencyTextField_Example.modulemap"; sourceTree = "<group>"; };
 		5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LionheartCurrencyTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		5708455216092541359A6AF1872D9ED1 /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
 		59CB077247D225DB65A27E59CEAFCEB5 /* Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A1AC53BB1CB90815496FAB2B691A4A3 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
-		6CAE96E638C4D21BB44272350DFC18CE /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
-		7DD929DEE50CA15C0DDF81E93BA1769D /* UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		5B8E6122AE0A43796C2D7DE832B23844 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C60AA67BE52180192789B50377EF3FB /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
+		5E796CD80AD54F6A715EC8A45F64653B /* LionheartCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		675DA8C7C18E970F2D39318CEDC7621A /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Pod/Classes/Core/UIView.swift; sourceTree = "<group>"; };
+		6779171F4EBA1B9296844BFC5A188337 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
+		6C8C2418D45B150B58BC448EC0E5E923 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Pod/Classes/Core/Optional.swift; sourceTree = "<group>"; };
+		6F6862289F623FF0E7B96713B7589C79 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Pod/Classes/Core/Async.swift; sourceTree = "<group>"; };
 		80CD5B8FCE38250882D32098351E0452 /* Pods-LionheartCurrencyTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		85DDC3709087A7260A5F9043BEB5CE3D /* LionheartCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		8433BE0C94B32E2451A898927AA5272F /* NSDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDate.swift; path = Pod/Classes/Core/NSDate.swift; sourceTree = "<group>"; };
 		86F9D156417CD92CD6E1F7CA8B47C9C4 /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionheartCurrencyTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88927242B79BAF8593E3ADE9152A2FAA /* Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
-		88E22B0D8A9224314D47E0E611C3AAEB /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
-		8A35D362BD9BCDC2E8D054A2F903D69C /* NSURLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSURLSession.swift; sourceTree = "<group>"; };
-		8E15C296C6645646D1F98890FA6CA9DB /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
-		924A7A54F8DB46C337E13EE4A3CB5809 /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959583F0BFE1BA1B202B629F0B4DE23F /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		977DCA6C60AE0339EA5E14A97A83701F /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
-		A094631F22BBCD5360176389967E1F9E /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		A639148A163C7C6DACE58BB75F26755E /* UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		977285692872EE34FB122D44B6F9C6F8 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		97D3A81B736CB07107A4D7225A9A6A39 /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Pod/Classes/Core/UITextField.swift; sourceTree = "<group>"; };
+		983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		994364378162800F1180E9C2C3B1D2AE /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
 		A78744885693823B7FFD2AA0DCF1ED0B /* Pods-LionheartCurrencyTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A85D91A17BECFC21AAB8615A092C3492 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A95A27F5AE36C8197F15635166230CA5 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Pod/Classes/Core/Array.swift; sourceTree = "<group>"; };
 		AF6A17C053EF585300637B684802D981 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2474BF271F2CED39B8D8C083277AB61 /* UIScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
-		C0D44ED6BE395249357A8FB4E1B7A598 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0252572607C59AF2EEB7BDB107F8947 /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		B45E7574ACEEEDC10B7D98F834E1AA4E /* LionheartCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LionheartCurrencyTextField.modulemap; sourceTree = "<group>"; };
+		B4C67DDDBB429B69BE302C263850F227 /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
+		BD91CC5D4E949B12E5DB6CE6A22AFA5A /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = Pod/Classes/Core/Int.swift; sourceTree = "<group>"; };
+		C16099E20BA5619F69A2A281DF04D91E /* UIScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScreen.swift; path = Pod/Classes/Core/UIScreen.swift; sourceTree = "<group>"; };
+		C739B378A4B3ECA2E267688194090EC5 /* UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIWindow.swift; path = Pod/Classes/Core/UIWindow.swift; sourceTree = "<group>"; };
+		C77E6316C4F819A2D22072EAEB650838 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Pod/Classes/Core/UIViewController.swift; sourceTree = "<group>"; };
 		CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LionheartCurrencyTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		CF4A7142B4AD11A1301DE15278D4E809 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		DB08A482C997F07609E2BF943FFB7256 /* Pods-LionheartCurrencyTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC0EF5BEE8C8656A6A8DE6B8596FCB78 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
-		E848640D372787726CD5F7005852F238 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		EE1C5C22BA43DFA6128DF031E3F34AF6 /* LionheartCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartCurrencyTextField.xcconfig; sourceTree = "<group>"; };
-		F5BA18B9B84EB2A6DBE4A4CB29F8C1F5 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
-		F75BED8785A1891D4DB1BA38DFD27447 /* NSIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSIndexPath.swift; sourceTree = "<group>"; };
+		DC59D1CBD29AEA984521E7AF54B33E43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E187BFF4EAA93339911E2E78F7AAF3B4 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Pod/Classes/Core/UIColor.swift; sourceTree = "<group>"; };
+		E31FD39B73C43C6A6732791C879C9FEE /* LionheartCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartCurrencyTextField.xcconfig; sourceTree = "<group>"; };
+		F101B22F8084B8433535D1CC4D910E17 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Pod/Classes/Core/UIImage.swift; sourceTree = "<group>"; };
+		F4BD71B89248B26ECEEC801363554351 /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertController.swift; path = Pod/Classes/Core/UIAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A5DD307579173285639670E2F9BBB6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27C39FA0E9BF52687DA64CBE0CD9BD51 /* LionheartCurrencyTextField.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0EC6EC425AA753BFE6E914BAE54C8B54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC59D1CBD29AEA984521E7AF54B33E43 /* Info.plist */,
+				5C60AA67BE52180192789B50377EF3FB /* LionheartExtensions.modulemap */,
+				01349B32E7AADA42D4EE4B6BC28DD8EA /* LionheartExtensions.xcconfig */,
+				B4C67DDDBB429B69BE302C263850F227 /* LionheartExtensions-dummy.m */,
+				994364378162800F1180E9C2C3B1D2AE /* LionheartExtensions-prefix.pch */,
+				6779171F4EBA1B9296844BFC5A188337 /* LionheartExtensions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LionheartExtensions";
+			sourceTree = "<group>";
+		};
 		1E654D9DFCCA00E916B68085B8A71D6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +183,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36D3D30F22CE9230D9CD37351410A748 /* LionheartCurrencyTextField */ = {
+		2A1746A7EFD7784304870BEAB2E8E1BD /* LionheartCurrencyTextField */ = {
 			isa = PBXGroup;
 			children = (
-				68EBF9F96E97BE4AF73DB1937A80712A /* Classes */,
+				04A5DD307579173285639670E2F9BBB6 /* Classes */,
 			);
 			path = LionheartCurrencyTextField;
+			sourceTree = "<group>";
+		};
+		45BD7923E47B539CE3F299328E4D4BB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C197E0B212E3B62DDC5EDADC9CE80271 /* LionheartCurrencyTextField */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4B20C097C7B920B33E060A891931963A /* iOS */ = {
@@ -175,43 +207,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		585D7E4F6675788BAF9149369A75F2C0 /* Core */ = {
+		6151C045C3F75A758F513CDD95813290 /* LionheartExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				F25EEE631CADD8B1CD0B97196FFC79D3 /* Pod */,
+				AD7DAAA2A37B4EE6BF1C63A81E02602C /* Core */,
+				0EC6EC425AA753BFE6E914BAE54C8B54 /* Support Files */,
 			);
-			name = Core;
+			path = LionheartExtensions;
 			sourceTree = "<group>";
 		};
-		61BFDD8AD110287E4C20E696A476A52B /* Support Files */ = {
+		6764F249B3281D5DC658E0FBE62DA6F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44538EE2682FDD60DC37335BE4D42A69 /* Info.plist */,
-				08109EBA6E2FEE317C9542F755085757 /* LionheartCurrencyTextField.modulemap */,
-				EE1C5C22BA43DFA6128DF031E3F34AF6 /* LionheartCurrencyTextField.xcconfig */,
-				5708455216092541359A6AF1872D9ED1 /* LionheartCurrencyTextField-dummy.m */,
-				88E22B0D8A9224314D47E0E611C3AAEB /* LionheartCurrencyTextField-prefix.pch */,
-				85DDC3709087A7260A5F9043BEB5CE3D /* LionheartCurrencyTextField-umbrella.h */,
+				6151C045C3F75A758F513CDD95813290 /* LionheartExtensions */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LionheartCurrencyTextField";
-			sourceTree = "<group>";
-		};
-		68EBF9F96E97BE4AF73DB1937A80712A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1EED8F1590A70C3427BCE7442C4C9AC4 /* LionheartCurrencyTextField.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		73B3FF2D16934915A6A1ADC2524E2813 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				904FCDD237983BF3BE78E7BAD1C3051C /* LionheartCurrencyTextField */,
-				8ED71D2AC7F3B5C0022693411D493515 /* LionheartExtensions */,
-			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7D6D16C1F4A1EDCD008FD88470A79830 /* Frameworks */ = {
@@ -227,68 +237,12 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				73B3FF2D16934915A6A1ADC2524E2813 /* Development Pods */,
+				45BD7923E47B539CE3F299328E4D4BB9 /* Development Pods */,
 				7D6D16C1F4A1EDCD008FD88470A79830 /* Frameworks */,
+				6764F249B3281D5DC658E0FBE62DA6F0 /* Pods */,
 				1E654D9DFCCA00E916B68085B8A71D6F /* Products */,
 				A5300BFE0E04758C8940CBA2E6885553 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8E76015B92E654C0752CC49237697AD0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A85D91A17BECFC21AAB8615A092C3492 /* File.swift */,
-				F5BA18B9B84EB2A6DBE4A4CB29F8C1F5 /* Functional.swift */,
-				9DE98F5C2949387598FDA128EBAFB23F /* Core */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		8ED71D2AC7F3B5C0022693411D493515 /* LionheartExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				585D7E4F6675788BAF9149369A75F2C0 /* Core */,
-				DC4B74420CAC8E57237854928818061C /* Support Files */,
-			);
-			name = LionheartExtensions;
-			path = ../../../LionheartExtensions;
-			sourceTree = "<group>";
-		};
-		904FCDD237983BF3BE78E7BAD1C3051C /* LionheartCurrencyTextField */ = {
-			isa = PBXGroup;
-			children = (
-				36D3D30F22CE9230D9CD37351410A748 /* LionheartCurrencyTextField */,
-				61BFDD8AD110287E4C20E696A476A52B /* Support Files */,
-			);
-			name = LionheartCurrencyTextField;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9DE98F5C2949387598FDA128EBAFB23F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				88927242B79BAF8593E3ADE9152A2FAA /* Any.swift */,
-				CF4A7142B4AD11A1301DE15278D4E809 /* Array.swift */,
-				1EE9F21BD608B156EBCEA8CEC36C455D /* Int.swift */,
-				27C4E25C17A6CD18CF3FE348B2BE9205 /* NSDecimalNumber.swift */,
-				F75BED8785A1891D4DB1BA38DFD27447 /* NSIndexPath.swift */,
-				40ECDE4E160507A97544A34029DA259A /* NSRegularExpression.swift */,
-				8A35D362BD9BCDC2E8D054A2F903D69C /* NSURLSession.swift */,
-				04F566D5BD058F5707ECBB8C62D4248E /* Optional.swift */,
-				1FEF2338A7608E670A011DECB7353394 /* String.swift */,
-				6CAE96E638C4D21BB44272350DFC18CE /* UIAlertController.swift */,
-				E848640D372787726CD5F7005852F238 /* UIColor.swift */,
-				4E0B1AF9EDAE098724563958AF168C91 /* UIDevice.swift */,
-				A639148A163C7C6DACE58BB75F26755E /* UIFont.swift */,
-				04CB4DEA76DF589ECAB2A5A616FCF3A6 /* UIImage.swift */,
-				2BF278992A6540E801F38559FD0B6763 /* UIMultilineLabel.swift */,
-				B2474BF271F2CED39B8D8C083277AB61 /* UIScreen.swift */,
-				8E15C296C6645646D1F98890FA6CA9DB /* UITextField.swift */,
-				1C722FFDDAF2FF361C386F89A927E4DA /* UIView.swift */,
-				A094631F22BBCD5360176389967E1F9E /* UIViewController.swift */,
-				7DD929DEE50CA15C0DDF81E93BA1769D /* UIWindow.swift */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		A1034F86F319D130B24FCF8A9C04680F /* Pods-LionheartCurrencyTextField_Example */ = {
@@ -317,26 +271,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DC4B74420CAC8E57237854928818061C /* Support Files */ = {
+		AD7DAAA2A37B4EE6BF1C63A81E02602C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C0D44ED6BE395249357A8FB4E1B7A598 /* Info.plist */,
-				977DCA6C60AE0339EA5E14A97A83701F /* LionheartExtensions.modulemap */,
-				6A1AC53BB1CB90815496FAB2B691A4A3 /* LionheartExtensions.xcconfig */,
-				924A7A54F8DB46C337E13EE4A3CB5809 /* LionheartExtensions-dummy.m */,
-				1F57F4D27EFF42F50C43F6424D368BC5 /* LionheartExtensions-prefix.pch */,
-				DC0EF5BEE8C8656A6A8DE6B8596FCB78 /* LionheartExtensions-umbrella.h */,
+				3E3600C532001C83C0440A4D04D61A51 /* Any.swift */,
+				A95A27F5AE36C8197F15635166230CA5 /* Array.swift */,
+				6F6862289F623FF0E7B96713B7589C79 /* Async.swift */,
+				02897F82E5D19F07607DAF761A18978E /* File.swift */,
+				977285692872EE34FB122D44B6F9C6F8 /* Functional.swift */,
+				BD91CC5D4E949B12E5DB6CE6A22AFA5A /* Int.swift */,
+				8433BE0C94B32E2451A898927AA5272F /* NSDate.swift */,
+				09A06D084A123CA711B98183449E4A97 /* NSIndexPath.swift */,
+				13120165DAE8B796E079705116E416DF /* NSRegularExpression.swift */,
+				068831C0F75F79CAB4E479795D37D4A8 /* NSURLSession.swift */,
+				6C8C2418D45B150B58BC448EC0E5E923 /* Optional.swift */,
+				202407AF843CCFDB54E704C4A6CAD6C5 /* String.swift */,
+				F4BD71B89248B26ECEEC801363554351 /* UIAlertController.swift */,
+				E187BFF4EAA93339911E2E78F7AAF3B4 /* UIColor.swift */,
+				23C18CD0A5E355A99CE733988D274CF8 /* UIDevice.swift */,
+				116985B1B42616689D27E9AFFE6462B1 /* UIFont.swift */,
+				F101B22F8084B8433535D1CC4D910E17 /* UIImage.swift */,
+				2B045AF54098DB279EF288AC8BDB34B0 /* UIMultilineLabel.swift */,
+				C16099E20BA5619F69A2A281DF04D91E /* UIScreen.swift */,
+				97D3A81B736CB07107A4D7225A9A6A39 /* UITextField.swift */,
+				675DA8C7C18E970F2D39318CEDC7621A /* UIView.swift */,
+				C77E6316C4F819A2D22072EAEB650838 /* UIViewController.swift */,
+				C739B378A4B3ECA2E267688194090EC5 /* UIWindow.swift */,
 			);
-			name = "Support Files";
-			path = "../LionheartCurrencyTextField/Example/Pods/Target Support Files/LionheartExtensions";
+			name = Core;
 			sourceTree = "<group>";
 		};
-		F25EEE631CADD8B1CD0B97196FFC79D3 /* Pod */ = {
+		C197E0B212E3B62DDC5EDADC9CE80271 /* LionheartCurrencyTextField */ = {
 			isa = PBXGroup;
 			children = (
-				8E76015B92E654C0752CC49237697AD0 /* Classes */,
+				2A1746A7EFD7784304870BEAB2E8E1BD /* LionheartCurrencyTextField */,
+				EF89257AF85605650DC8B782BF9C14CA /* Support Files */,
 			);
-			path = Pod;
+			name = LionheartCurrencyTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EF89257AF85605650DC8B782BF9C14CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B8E6122AE0A43796C2D7DE832B23844 /* Info.plist */,
+				B45E7574ACEEEDC10B7D98F834E1AA4E /* LionheartCurrencyTextField.modulemap */,
+				E31FD39B73C43C6A6732791C879C9FEE /* LionheartCurrencyTextField.xcconfig */,
+				983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */,
+				B0252572607C59AF2EEB7BDB107F8947 /* LionheartCurrencyTextField-prefix.pch */,
+				5E796CD80AD54F6A715EC8A45F64653B /* LionheartCurrencyTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LionheartCurrencyTextField";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC072B8240BD01F6CE260C22634F4520 /* Build configuration list for PBXNativeTarget "LionheartExtensions" */;
 			buildPhases = (
-				A3B9B33BADC89D9BD5EDCBAD428CE90D /* Sources */,
+				41718A725E5DE559F9346C9C4F6B7974 /* Sources */,
 				138342FB7D3A3CBC5EBB77CA84FCA0FE /* Frameworks */,
 				9574EC6A09685443777C51B2EDE99D62 /* Headers */,
 			);
@@ -452,33 +438,34 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A3B9B33BADC89D9BD5EDCBAD428CE90D /* Sources */ = {
+		41718A725E5DE559F9346C9C4F6B7974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9836149EF72B64B5F4C231590C0DF734 /* Any.swift in Sources */,
-				013D191C6B08D9A4A5DE05F9765F4B71 /* Array.swift in Sources */,
-				D20D5DFBEC987FE891BD84030DF11202 /* File.swift in Sources */,
-				88B665BD82D083296A37D7DD7DE12A97 /* Functional.swift in Sources */,
-				FE81FC883A4D64DD8923FCC53B2E8BF1 /* Int.swift in Sources */,
-				C840425FABA635C5B1C75E9A9A7A62AB /* LionheartExtensions-dummy.m in Sources */,
-				6139E2639463DEB59F865D5C59ADE9AB /* NSDecimalNumber.swift in Sources */,
-				3F8F8E6B41A8E801D60F754BE8516D0E /* NSIndexPath.swift in Sources */,
-				CC7BDC7179046FEB17C1B9B9494F6CE0 /* NSRegularExpression.swift in Sources */,
-				43BD78E6A273571AB603DE793CDFB51C /* NSURLSession.swift in Sources */,
-				597A89D1D69EC18B937A7467723C7902 /* Optional.swift in Sources */,
-				6D6F616937B4533B69E8BC759EB7A5D6 /* String.swift in Sources */,
-				9E013330A22B1CE546152315A5B0BB83 /* UIAlertController.swift in Sources */,
-				8DB78D3AA7EC1B86DDDF67A9E974AF3A /* UIColor.swift in Sources */,
-				63F4D8480A1A96B66EF7A58B56ABF0EF /* UIDevice.swift in Sources */,
-				2722BF5465D5832371EDDAA45824B154 /* UIFont.swift in Sources */,
-				B03E427122403F4EBDF0E35294EEC16C /* UIImage.swift in Sources */,
-				4EC99D89783F9CF2EDC22D5EAE9E8F06 /* UIMultilineLabel.swift in Sources */,
-				412E49F53C08D45CF38949C90D81369D /* UIScreen.swift in Sources */,
-				C8FABCF8FAE8F463A6B1F3452D752D85 /* UITextField.swift in Sources */,
-				9FCF1BC3AA7D1546EF57F8EBF18485AB /* UIView.swift in Sources */,
-				595FDAED3A63247656AED64AF46A4B70 /* UIViewController.swift in Sources */,
-				21093EAE39D6432724AEBDA9B1777A97 /* UIWindow.swift in Sources */,
+				6A26AEFD822E9F3436CE780C653454F3 /* Any.swift in Sources */,
+				60960BFB1763FF1366AEFEA7783B4BE0 /* Array.swift in Sources */,
+				CBCF65CA2C187BCA1BFD254728C3E76A /* Async.swift in Sources */,
+				2D26AC8384B61F0E9D73FC09D6F1AC8D /* File.swift in Sources */,
+				8CF7226405D5CEE610987CEA39D04081 /* Functional.swift in Sources */,
+				8651B213FEE04F94E9BCC07A79D871A3 /* Int.swift in Sources */,
+				528B5E75465F8630B96AEDA0EBA60940 /* LionheartExtensions-dummy.m in Sources */,
+				CD848BB68FBA2F277BACCF5513B2160E /* NSDate.swift in Sources */,
+				58E365D9A5776ED089456EF9E6CE39A5 /* NSIndexPath.swift in Sources */,
+				71A552735D5B50665B1A80736020F299 /* NSRegularExpression.swift in Sources */,
+				257D24A42E4D7CAD2C19B46B8D73B8A6 /* NSURLSession.swift in Sources */,
+				028683ACC71580FD6D1CDA802B5389A5 /* Optional.swift in Sources */,
+				3FFF0F8A02D7032F4A7C4C1BBC4C2E7B /* String.swift in Sources */,
+				0EA2E58AE386C1E767179236D3FEEF46 /* UIAlertController.swift in Sources */,
+				42ECC6D4C991F0270C1E78C7F3C42988 /* UIColor.swift in Sources */,
+				F7390925137E1ED773B473728452F0D5 /* UIDevice.swift in Sources */,
+				E55DEDDD9EAAA4B2156508A82927E00C /* UIFont.swift in Sources */,
+				585E1C1667BA701F6A0506A6DC4360F4 /* UIImage.swift in Sources */,
+				B97C8D91F9B236408ED2ACF7FACB0582 /* UIMultilineLabel.swift in Sources */,
+				16B2A7658537988FA2BBDB35E07D1A76 /* UIScreen.swift in Sources */,
+				A37185C3E73CD5E58D28E2D5248287C0 /* UITextField.swift in Sources */,
+				B80A8E894021D71227E6B8EBA1C1E755 /* UIView.swift in Sources */,
+				C427EC58D4FD9034F88E1A7C41E410C8 /* UIViewController.swift in Sources */,
+				5CEC53EAC862012FCA433D1DA96376D6 /* UIWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +512,7 @@
 /* Begin XCBuildConfiguration section */
 		450DC36988880B6D80853538A9C70476 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE1C5C22BA43DFA6128DF031E3F34AF6 /* LionheartCurrencyTextField.xcconfig */;
+			baseConfigurationReference = E31FD39B73C43C6A6732791C879C9FEE /* LionheartCurrencyTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -557,7 +544,7 @@
 		};
 		5072E84BF76CD1032642A1428938F5C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A1AC53BB1CB90815496FAB2B691A4A3 /* LionheartExtensions.xcconfig */;
+			baseConfigurationReference = 01349B32E7AADA42D4EE4B6BC28DD8EA /* LionheartExtensions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -668,7 +655,7 @@
 		};
 		78167866CD804B76BD60D030FDA3C8FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE1C5C22BA43DFA6128DF031E3F34AF6 /* LionheartCurrencyTextField.xcconfig */;
+			baseConfigurationReference = E31FD39B73C43C6A6732791C879C9FEE /* LionheartCurrencyTextField.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -701,7 +688,7 @@
 		};
 		9F7E910CDF4A2CA8B73DA3F2EE739089 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A1AC53BB1CB90815496FAB2B691A4A3 /* LionheartExtensions.xcconfig */;
+			baseConfigurationReference = 01349B32E7AADA42D4EE4B6BC28DD8EA /* LionheartExtensions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
