@@ -275,6 +275,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         let replacedText = LionheartCurrencyTextField.digitRegularExpression.stringByReplacingMatches(in: _text, options: [], range: range, withTemplate: "")
         let value = NSDecimalNumber(string: replacedText)
 
+        currencyFormatter.minimumFractionDigits = 2
         text = currencyFormatter.string(from: value)
     }
     
