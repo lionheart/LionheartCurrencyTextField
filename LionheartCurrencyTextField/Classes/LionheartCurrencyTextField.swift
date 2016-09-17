@@ -87,7 +87,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         delegate = self
     }
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
 
@@ -97,7 +97,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
 
     // MARK: -
 
-    var currencyValue: NSDecimalNumber? {
+    public var currencyValue: NSDecimalNumber? {
         set {
             text = newValue.flatMap { currencyFormatter.string(from: $0) }
         }
