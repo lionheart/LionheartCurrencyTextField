@@ -17,8 +17,8 @@
 		259A7DB59405F902E561E25C3414E6F3 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730789706EEC2F62BFB36F18ED820A3 /* UIWindow.swift */; };
 		262E388F5692E1B220EAE8DB5D0D3D3D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C75A977B52F41417B89DB37323A1CF /* UIView.swift */; };
 		29A434BA4E92BB4515606F7CC42B90A3 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E796CD80AD54F6A715EC8A45F64653B /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E4B3D801594B5DD61C6D4738CB45B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */; };
 		3D152D1300784A433E5F32F7C4C352EE /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D34748356F2C1EC6A050266DE1AC8A7 /* UIImage.swift */; };
+		7B23FD0B3887DB322EAD063357DD4BA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */; };
 		7F78FD5E09F97A5FE717548969635E86 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1BE9123581BE3E0FB6717E6612AE8 /* Array.swift */; };
 		7F8E34D00CA77DA5C5B73F7F7A724856 /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBF02BD31BC20F6A096954FCA1EBAA /* NSURLSession.swift */; };
 		844472D49FE09FF5A381DEC2BF3DE34A /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C39FA0E9BF52687DA64CBE0CD9BD51 /* LionheartCurrencyTextField.swift */; };
@@ -28,18 +28,18 @@
 		959D606FEBF5414EE8974F0B9D029D24 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B66ECD5749B8A8C19AD88C5C9EA4E5 /* UIDevice.swift */; };
 		A03D0BC9449AC26FCA154F1F699DA7B7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CF5F8ED0DFC4CFAE591D1DFAE1837C /* File.swift */; };
 		A9A74A527F81A0662F2E10DADB6F9502 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F6C425051F0C3AEFD91EFEE904F86 /* UIFont.swift */; };
-		AACFC1E40D00E64CE23AF390109A5A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */; };
 		BEBD63B8773D6B591DDDE74451EE1219 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53BA6DB3A06A54DCEC0CAFEE9416ED /* Optional.swift */; };
 		BEF1CCB5EF6D62DB4925201F589FD5C8 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 933C9730BA7CEC48DBA26DCFEE449026 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF197AD680B8D35CD5503462C9A922E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */; };
 		BFF50EC2E95FBB03CFA5B95143CCCB0C /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */; };
 		C3691A02B234990C4D916811FE6AD331 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C42D3B702D86B4BC828FE4947D6A45C /* UITextField.swift */; };
 		CC596C1723140825A180335AEF898824 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE9D8426711F412E51DB9FB39AB84E /* Int.swift */; };
 		CD4464B84709D97E130BECF7B68DCFE1 /* Pods-LionheartCurrencyTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEB25F064FAEAFAEABADCA29ACB1AF16 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC29ACB1F23A7955370A89151FEDC5A /* UIScreen.swift */; };
+		DC7CA51CD03CFC99E123EB6CE589C5E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */; };
 		E847F2421BDC250A1067E9CD1CC0CF2D /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */; };
 		EC5F6C2B797A5B12906FFC39C5C8B744 /* Pods-LionheartCurrencyTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */; };
 		F60E70F58A0F87E86A0F92FA15596BF4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0558242E3FBE6F1F89FA775A24757 /* String.swift */; };
+		FBBE17EC11C4A77AEAB651F502695D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,6 @@
 		27C75A977B52F41417B89DB37323A1CF /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Pod/Classes/Core/UIView.swift; sourceTree = "<group>"; };
 		29659B033EE543A29F4D1EBABC987461 /* UIMultilineLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIMultilineLabel.swift; path = Pod/Classes/Core/UIMultilineLabel.swift; sourceTree = "<group>"; };
 		2B41B9CCED579334294C3666E12991F7 /* NSRegularExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRegularExpression.swift; path = Pod/Classes/Core/NSRegularExpression.swift; sourceTree = "<group>"; };
-		2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2F53BA6DB3A06A54DCEC0CAFEE9416ED /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Pod/Classes/Core/Optional.swift; sourceTree = "<group>"; };
 		3EA2236B36010816F29CD91A00CC563E /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
 		43CF5F8ED0DFC4CFAE591D1DFAE1837C /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
@@ -102,6 +101,7 @@
 		9730789706EEC2F62BFB36F18ED820A3 /* UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIWindow.swift; path = Pod/Classes/Core/UIWindow.swift; sourceTree = "<group>"; };
 		983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
 		A78744885693823B7FFD2AA0DCF1ED0B /* Pods-LionheartCurrencyTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A919B5A5DBFEF55BE4C26C6EF2CDC1C9 /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertController.swift; path = Pod/Classes/Core/UIAlertController.swift; sourceTree = "<group>"; };
 		AF6A17C053EF585300637B684802D981 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0252572607C59AF2EEB7BDB107F8947 /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AACFC1E40D00E64CE23AF390109A5A14 /* Foundation.framework in Frameworks */,
+				DC7CA51CD03CFC99E123EB6CE589C5E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF197AD680B8D35CD5503462C9A922E9 /* Foundation.framework in Frameworks */,
+				7B23FD0B3887DB322EAD063357DD4BA2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E4B3D801594B5DD61C6D4738CB45B55 /* Foundation.framework in Frameworks */,
+				FBBE17EC11C4A77AEAB651F502695D58 /* Foundation.framework in Frameworks */,
 				E847F2421BDC250A1067E9CD1CC0CF2D /* LionheartExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,10 +212,10 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4B20C097C7B920B33E060A891931963A /* iOS */ = {
+		4FBEA775DE9510DF30D301642A23ABD6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2E56ECC7B648876B10E7D6F2AEBA00DB /* Foundation.framework */,
+				A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */,
-				4B20C097C7B920B33E060A891931963A /* iOS */,
+				4FBEA775DE9510DF30D301642A23ABD6 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
