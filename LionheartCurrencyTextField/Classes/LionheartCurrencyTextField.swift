@@ -103,7 +103,11 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         }
 
         get {
-            return NSDecimalNumber(string: text)
+            guard let text = text, let number = currencyFormatter.number(from: text) else {
+                return nil
+            }
+
+            return NSDecimalNumber(decimal: number.decimalValue)
         }
     }
 
