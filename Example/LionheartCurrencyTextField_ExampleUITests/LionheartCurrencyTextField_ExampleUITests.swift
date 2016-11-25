@@ -14,10 +14,23 @@
 //  limitations under the License.
 //
 
+import XCTest
 
-import UIKit
+class LionheartCurrencyTextField_ExampleUITests: XCTestCase {
+    override func setUp() {
+        super.setUp()
 
-class ViewController: UIViewController {
+        continueAfterFailure = false
+        XCUIApplication().launch()
+    }
+    
+    func testExample() {
+        
+        let app = XCUIApplication()
+        let textField = app.children(matching: .window).element(boundBy: 0).otherElements.children(matching: .textField).element
+        textField.tap()
+        textField.typeText("0.0123456")
 
+        XCTAssertEqual(textField.value as! String, "$1,234.56")
+    }
 }
-
