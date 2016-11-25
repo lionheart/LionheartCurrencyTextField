@@ -38,6 +38,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
     open static var identifier = "CurrencyTextFieldIdentifier"
 
     weak fileprivate var passthroughDelegate: UITextFieldDelegate?
+    var decimalPlaces: Int = 2
 
     static let digitRegularExpression: NSRegularExpression = {
         return try! NSRegularExpression(pattern: "[^\\d\\.]", options: [])
@@ -77,22 +78,29 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
     }
 
     convenience init() {
-        self.init(locale: Locale.current)
+        self.init(locale: Locale.current, decimalPlaces: 2)
     }
 
-    convenience init(locale theLocale: Locale) {
+    convenience init(locale theLocale: Locale, decimalPlaces: Int) {
         self.init(frame: .zero)
 
+        self.decimalPlaces = decimalPlaces
         locale = theLocale
         delegate = self
     }
 
     override public init(frame: CGRect) {
         super.init(frame: frame)
+
+        locale = nil
+        delegate = self
     }
 
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+
+        locale = nil
+        delegate = self
     }
 
     // MARK: -
@@ -175,12 +183,11 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
 
         if let match = LionheartCurrencyTextField.decimalPointRegularExpression.firstMatch(in: replacedText, options: [], range: replacedText.range()) {
             let numbersAfterDecimal = match.range.length - 1
-            currencyFormatter.minimumFractionDigits = min(2, numbersAfterDecimal)
+            currencyFormatter.minimumFractionDigits = min(decimalPlaces, numbersAfterDecimal)
 
-            // If there are more than two digits after the decimal point, move the decimal place.
-            // MARK: TODO Make this configurable.
-            if numbersAfterDecimal > 2 {
-                number = number.multiplying(byPowerOf10: Int16(numbersAfterDecimal) - 2)
+            // If there are more than N digits after the decimal point, move the decimal place.
+            if numbersAfterDecimal > decimalPlaces {
+                number = number.multiplying(byPowerOf10: Int16(numbersAfterDecimal) - decimalPlaces)
             }
         } else {
             currencyFormatter.minimumFractionDigits = 0
@@ -279,7 +286,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         let replacedText = LionheartCurrencyTextField.digitRegularExpression.stringByReplacingMatches(in: _text, options: [], range: range, withTemplate: "")
         let value = NSDecimalNumber(string: replacedText)
 
-        currencyFormatter.minimumFractionDigits = 2
+        currencyFormatter.minimumFractionDigits = decimalPlaces
         text = currencyFormatter.string(from: value)
     }
     
