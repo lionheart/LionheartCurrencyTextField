@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LionheartCurrencyTextField'
-  s.version          =  "1.0.7"
+  s.version          =  "1.1.0"
   s.summary          = 'A text field that formats currency values'
 
   s.description      = <<-DESC
