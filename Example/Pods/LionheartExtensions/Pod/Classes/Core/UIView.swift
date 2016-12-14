@@ -17,6 +17,8 @@
 
 import Foundation
 
+public typealias LayoutDictionary = [String: Any]
+
 /**
  Auto Layout and general utility methods for `UIView`.
  
@@ -49,9 +51,11 @@ public extension UIView {
     func centerOnXAxis(width: CGFloat? = nil) {
         centerXAnchor.constraint(equalTo: (superview?.centerXAnchor)!).isActive = true
 
-        if let width = width {
-            setWidth(width)
+        guard let width = width else {
+            return
         }
+
+        setWidth(width)
     }
 
     /**
@@ -65,9 +69,11 @@ public extension UIView {
     func centerOnYAxis(height: CGFloat? = nil) {
         centerYAnchor.constraint(equalTo: (superview?.centerYAnchor)!).isActive = true
 
-        if let height = height {
-            setHeight(height)
+        guard let height = height else {
+            return
         }
+
+        setHeight(height)
     }
 
     /**
@@ -112,11 +118,13 @@ public extension UIView {
 
     @available(iOS 9, *)
     func fillHorizontalMarginsOfSuperview(margin: CGFloat = 0) {
-        if let superview = superview {
-            let margins = superview.layoutMarginsGuide
-            leftAnchor.constraint(equalTo: margins.leftAnchor, constant: margin).isActive = true
-            rightAnchor.constraint(equalTo: margins.rightAnchor, constant: -margin).isActive = true
+        guard let superview = superview else {
+            return
         }
+
+        let margins = superview.layoutMarginsGuide
+        leftAnchor.constraint(equalTo: margins.leftAnchor, constant: margin).isActive = true
+        rightAnchor.constraint(equalTo: margins.rightAnchor, constant: -margin).isActive = true
     }
 
     /**
@@ -153,10 +161,12 @@ public extension UIView {
      */
     @available(iOS 9, *)
     func fillWidthOfSuperview(margin: CGFloat) {
-        if let superview = superview {
-            leftAnchor.constraint(equalTo: superview.leftAnchor, constant: margin).isActive = true
-            rightAnchor.constraint(equalTo: superview.rightAnchor, constant: -margin).isActive = true
+        guard let superview = superview else {
+            return
         }
+
+        leftAnchor.constraint(equalTo: superview.leftAnchor, constant: margin).isActive = true
+        rightAnchor.constraint(equalTo: superview.rightAnchor, constant: -margin).isActive = true
     }
 
     /**
@@ -169,10 +179,12 @@ public extension UIView {
      */
     @available(iOS 9, *)
     func fillHeightOfSuperview(margin: CGFloat) {
-        if let superview = superview {
-            topAnchor.constraint(equalTo: superview.topAnchor, constant: margin).isActive = true
-            bottomAnchor.constraint(equalTo: superview.bottomAnchor, constant: -margin).isActive = true
+        guard let superview = superview else {
+            return
         }
+
+        topAnchor.constraint(equalTo: superview.topAnchor, constant: margin).isActive = true
+        bottomAnchor.constraint(equalTo: superview.bottomAnchor, constant: -margin).isActive = true
     }
 
     /**
@@ -223,11 +235,8 @@ public extension UIView {
      - date: February 17, 2016
      */
     @discardableResult
-    func addVisualFormatConstraints(_ format: String, metrics: [String: AnyObject]? = nil) -> [NSLayoutConstraint] {
-        let views = [
-            "view": self,
-        ]
-
+    func addVisualFormatConstraints(_ format: String, metrics: LayoutDictionary? = nil) -> [NSLayoutConstraint] {
+        let views = ["view": self]
         return UIView.addVisualFormatConstraints(format, metrics: metrics, views: views)
     }
 
@@ -242,7 +251,7 @@ public extension UIView {
      - date: February 17, 2016
      */
     @discardableResult
-    class func addVisualFormatConstraints(_ format: String, metrics: [String: AnyObject]? = nil, views: [String: AnyObject]) -> [NSLayoutConstraint] {
+    class func addVisualFormatConstraints(_ format: String, metrics: LayoutDictionary? = nil, views: LayoutDictionary) -> [NSLayoutConstraint] {
         let options = NSLayoutFormatOptions(rawValue: 0)
         let constraints = NSLayoutConstraint.constraints(withVisualFormat: format, options: options, metrics: metrics, views: views)
 
@@ -259,7 +268,7 @@ public extension UIView {
     - copyright: ©2016 Lionheart Software LLC
     - date: February 17, 2016
     */
-    func distanceToPoint(_ point: CGPoint) -> Float {
+    func distance(toPoint point: CGPoint) -> Float {
         if frame.contains(point) {
             return 0
         }
@@ -295,7 +304,7 @@ public extension UIView {
     - copyright: ©2016 Lionheart Software LLC
     - date: March 9, 2016
     */
-    func centerRect() -> CGRect {
+    var centerRect: CGRect {
         return CGRect(x: center.x, y: center.y, width: 1, height: 1)
     }
 
@@ -325,10 +334,8 @@ public extension UIView {
     func descendantViewsOfType<T>(passingTest test: (T) -> Bool = { _ in true }) -> [T] {
         var views: [T] = []
         for view in subviews {
-            if let view = view as? T {
-                if test(view) {
-                    views.append(view)
-                }
+            if let view = view as? T, test(view) {
+                views.append(view)
             }
 
             views.append(contentsOf: view.descendantViewsOfType(passingTest: test))
@@ -345,8 +352,7 @@ public extension UIView {
      - date: March 9, 2016
      */
     func lastDescendantViewOfType<T>(passingTest test: (T) -> Bool = { i in true }) -> T? {
-        let views: [T] = descendantViewsOfType(passingTest: test)
-        return views.last
+        return descendantViewsOfType(passingTest: test).last
     }
 }
 

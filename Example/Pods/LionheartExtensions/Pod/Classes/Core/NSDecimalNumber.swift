@@ -35,21 +35,6 @@ public func -(lhs: NSDecimalNumber, rhs: NSDecimalNumber) -> NSDecimalNumber {
     return lhs.subtracting(rhs)
 }
 
-public func +=(lhs: NSDecimalNumber, rhs: NSDecimalNumber) {
-    var lhs = lhs
-    lhs = lhs + rhs
-}
-
-public func -=(lhs: NSDecimalNumber, rhs: NSDecimalNumber) {
-    var lhs = lhs
-    lhs = lhs - rhs
-}
-
-public func *=(lhs: NSDecimalNumber, rhs: NSDecimalNumber) {
-    var lhs = lhs
-    lhs = lhs * rhs
-}
-
 public func *(lhs: NSDecimalNumber, rhs: NSDecimalNumber) -> NSDecimalNumber {
     return lhs.multiplying(by: rhs)
 }
@@ -60,4 +45,22 @@ public func /(lhs: NSDecimalNumber, rhs: NSDecimalNumber) -> NSDecimalNumber {
 
 public func ^(lhs: NSDecimalNumber, rhs: Int) -> NSDecimalNumber {
     return lhs.raising(toPower: rhs)
+}
+
+// MARK: - Assignment
+
+public func +=(lhs: inout NSDecimalNumber, rhs: NSDecimalNumber) {
+    lhs = lhs + rhs
+}
+
+public func -=(lhs: inout NSDecimalNumber, rhs: NSDecimalNumber) {
+    lhs = lhs - rhs
+}
+
+public func *=(lhs: inout NSDecimalNumber, rhs: NSDecimalNumber) {
+    lhs = lhs * rhs
+}
+
+public func /=(lhs: inout NSDecimalNumber, rhs: NSDecimalNumber) {
+    lhs = lhs / rhs
 }

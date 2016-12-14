@@ -42,17 +42,18 @@ public protocol LHSStringType {
      - copyright: ©2016 Lionheart Software LLC
      - date: February 17, 2016
      */
-    func range() -> NSRange
+    var range: NSRange { get }
 
-    func stringByLowercasingFirstLetter() -> String
-    func stringByUppercasingFirstLetter() -> String
-    func stringByTrimmingString(_ string: String) -> String
-    func stringByReplacingSpacesWithDashes() -> String
-    func stringByConvertingToNamingFormat(_ naming: VariableNamingFormat) -> String
+    var stringByLowercasingFirstLetter: String { get }
+    var stringByUppercasingFirstLetter: String { get }
+    var stringByReplacingSpacesWithDashes: String { get }
+
+    func stringByTrimming(string: String) -> String
+    func stringByConverting(toNamingFormat naming: VariableNamingFormat) -> String
 }
 
 public protocol LHSURLStringType {
-    func URLEncodedString() -> String?
+    var URLEncodedString: String? { get }
 }
 
 extension String: LHSStringType, LHSURLStringType {}
@@ -68,14 +69,13 @@ public extension String {
      - copyright: ©2016 Lionheart Software LLC
      - date: February 17, 2016
      */
-    func range() -> NSRange {
+    var range: NSRange {
         return NSMakeRange(0, characters.count)
     }
 
     func toRange(_ range: NSRange) -> Range<String.Index> {
         let start = characters.index(startIndex, offsetBy: range.location)
         let end = characters.index(start, offsetBy: range.length)
-
         return start..<end
     }
 
@@ -84,68 +84,66 @@ public extension String {
     }
 
     mutating func trim(_ string: String) {
-        self = self.stringByTrimmingString(string)
+        self = self.stringByTrimming(string: string)
     }
 
     mutating func URLEncode() {
-        if let string = URLEncodedString() {
+        if let string = URLEncodedString {
             self = string
         }
     }
 
     mutating func replaceSpacesWithDashes() {
-        self = stringByReplacingSpacesWithDashes()
+        self = stringByReplacingSpacesWithDashes
     }
 
     mutating func replaceCapitalsWithUnderscores() {
-        self = stringByConvertingToNamingFormat(.underscores)
+        self = stringByConverting(toNamingFormat: .underscores)
     }
 
-    func stringByLowercasingFirstLetter() -> String {
+    var stringByLowercasingFirstLetter: String {
         let start = characters.index(after: startIndex)
         return substring(to: start).lowercased() + substring(with: start..<endIndex)
     }
 
-    func stringByUppercasingFirstLetter() -> String {
+    var stringByUppercasingFirstLetter: String {
         let start = characters.index(after: startIndex)
         return substring(to: start).uppercased() + substring(with: start..<endIndex)
     }
 
-    func stringByTrimmingString(_ string: String) -> String {
-        return self.trimmingCharacters(in: CharacterSet(charactersIn: string))
+    public func stringByTrimming(string: String) -> String {
+        return trimmingCharacters(in: CharacterSet(charactersIn: string))
     }
 
-    func URLEncodedString() -> String? {
-        if let string = addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) {
-            return string
-        }
-        else {
+    var URLEncodedString: String? {
+        guard let string = addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed) else {
             return nil
         }
+
+        return string
     }
 
-    func stringByReplacingSpacesWithDashes() -> String {
+    var stringByReplacingSpacesWithDashes: String {
         let regexOptions = NSRegularExpression.Options()
         let regex = try! NSRegularExpression(pattern: "[ ]", options: regexOptions)
-        return regex.stringByReplacingMatches(in: self, options: NSRegularExpression.MatchingOptions(), range: range(), withTemplate: "-").lowercased() as String
+        return regex.stringByReplacingMatches(in: self, options: NSRegularExpression.MatchingOptions(), range: range, withTemplate: "-").lowercased()
     }
-
     
-    func stringByConvertingToNamingFormat(_ naming: VariableNamingFormat) -> String {
+    func stringByConverting(toNamingFormat naming: VariableNamingFormat) -> String {
         switch naming {
         case .underscores:
             let regex = try! NSRegularExpression(pattern: "([A-Z]+)", options: NSRegularExpression.Options())
             let string = NSMutableString(string: self)
-            regex.replaceMatches(in: string, options: NSRegularExpression.MatchingOptions(), range: range(), withTemplate: "_$0")
-            let newString = string.stringByTrimmingString("_").lowercased()
+            regex.replaceMatches(in: string, options: [], range: range, withTemplate: "_$0")
+            let newString = string.stringByTrimming(string: "_").lowercased()
             if hasPrefix("_") {
                 return "_" + newString
-            }
-            else {
+            } else {
                 return newString
             }
 
         case .camelCase:
+            // MARK: TODO
             fatalError()
 
         case .pascalCase:
@@ -154,13 +152,11 @@ public extension String {
             for character in characters {
                 if character == "_" {
                     uppercaseNextCharacter = true
-                }
-                else {
+                } else {
                     if uppercaseNextCharacter {
                         result += String(character).uppercased()
                         uppercaseNextCharacter = false
-                    }
-                    else {
+                    } else {
                         character.write(to: &result)
                     }
                 }
@@ -169,15 +165,13 @@ public extension String {
         }
     }
 
-    mutating func convertToNamingFormat(_ naming: VariableNamingFormat) {
-        self = stringByConvertingToNamingFormat(naming)
+    mutating func convert(toNamingFormat naming: VariableNamingFormat) {
+        self = stringByConverting(toNamingFormat: naming)
     }
 
-    func isComposedOfCharactersInSet(_ characterSet: CharacterSet) -> Bool {
-        for scalar in unicodeScalars {
-            if !characterSet.contains(UnicodeScalar(scalar.value)!) {
-                return false
-            }
+    func isComposedOf(charactersInSet characterSet: CharacterSet) -> Bool {
+        for scalar in unicodeScalars where !characterSet.contains(UnicodeScalar(scalar.value)!) {
+            return false
         }
 
         return true
@@ -193,32 +187,28 @@ public extension NSString {
      - copyright: ©2016 Lionheart Software LLC
      - date: February 17, 2016
      */
-    func range() -> NSRange {
-        return String(self).range()
-    }
-    
-    func slugify() {
-        return String(self).slugify()
+    var range: NSRange {
+        return String(self).range
     }
 
-    func stringByLowercasingFirstLetter() -> String {
-        return String(self).stringByLowercasingFirstLetter()
+    var stringByLowercasingFirstLetter: String {
+        return String(self).stringByLowercasingFirstLetter
     }
 
-    func stringByUppercasingFirstLetter() -> String {
-        return String(self).stringByLowercasingFirstLetter()
+    var stringByUppercasingFirstLetter: String {
+        return String(self).stringByLowercasingFirstLetter
     }
 
-    func stringByReplacingSpacesWithDashes() -> String {
-        return String(self).stringByReplacingSpacesWithDashes()
+    var stringByReplacingSpacesWithDashes: String {
+        return String(self).stringByReplacingSpacesWithDashes
     }
 
-    func stringByConvertingToNamingFormat(_ naming: VariableNamingFormat) -> String {
-        return String(self).stringByConvertingToNamingFormat(naming)
+    public func stringByConverting(toNamingFormat naming: VariableNamingFormat) -> String {
+        return String(self).stringByConverting(toNamingFormat: naming)
     }
 
-    func stringByTrimmingString(_ string: String) -> String {
-        return String(self).stringByTrimmingString(string)
+    func stringByTrimming(string: String) -> String {
+        return String(self).stringByTrimming(string: string)
     }
 }
 
@@ -231,46 +221,46 @@ public extension NSAttributedString {
      - copyright: ©2016 Lionheart Software LLC
      - date: February 17, 2016
      */
-    func range() -> NSRange {
-        return String(describing: self).range()
+    var range: NSRange {
+        return string.range
     }
 
-    func stringByLowercasingFirstLetter() -> String {
-        return String(describing: self).stringByLowercasingFirstLetter()
+    var stringByLowercasingFirstLetter: String {
+        return string.stringByLowercasingFirstLetter
     }
 
-    func stringByUppercasingFirstLetter() -> String {
-        return String(describing: self).stringByLowercasingFirstLetter()
+    var stringByUppercasingFirstLetter: String {
+        return string.stringByLowercasingFirstLetter
     }
 
-    func stringByReplacingSpacesWithDashes() -> String {
-        return String(describing: self).stringByReplacingSpacesWithDashes()
+    var stringByReplacingSpacesWithDashes: String {
+        return string.stringByReplacingSpacesWithDashes
     }
 
-    func stringByConvertingToNamingFormat(_ naming: VariableNamingFormat) -> String {
-        return String(describing: self).stringByConvertingToNamingFormat(.underscores)
+    func stringByConverting(toNamingFormat naming: VariableNamingFormat) -> String {
+        return string.stringByConverting(toNamingFormat: .underscores)
     }
 
-    func stringByTrimmingString(_ string: String) -> String {
-        return String(describing: self).stringByTrimmingString(string)
+    func stringByTrimming(string stringToTrim: String) -> String {
+        return string.stringByTrimming(string: stringToTrim)
     }
 }
 
 public extension NSMutableAttributedString {
-    func addStringWithAttributes(_ string: String, attributes: [String: AnyObject]) {
+    func addString(withAttributes string: String, attributes: [String: Any]) {
         let attributedString = NSAttributedString(string: string, attributes: attributes)
         append(attributedString)
     }
     
-    func addAttribute(_ name: String, value: AnyObject) {
-        addAttribute(name, value: value, range: range())
+    func addAttribute(_ name: String, value: Any) {
+        addAttribute(name, value: value, range: range)
     }
     
-    func addAttributes(_ attributes: [String: AnyObject]) {
-        addAttributes(attributes, range: range())
+    func addAttributes(_ attributes: [String: Any]) {
+        addAttributes(attributes, range: range)
     }
     
     func removeAttribute(_ name: String) {
-        removeAttribute(name, range: range())
+        removeAttribute(name, range: range)
     }
 }
