@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -56,7 +56,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "378B39831DE9012700022BC5"
+               BlueprintIdentifier = "378B39911DE9016000022BC5"
                BuildableName = "LionheartCurrencyTextField_ExampleUITests.xctest"
                BlueprintName = "LionheartCurrencyTextField_ExampleUITests"
                ReferencedContainer = "container:LionheartCurrencyTextField.xcodeproj">

@@ -191,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					378B39911DE9016000022BC5 = {
@@ -505,6 +505,7 @@
 				378B399B1DE9016000022BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LionheartCurrencyTextField" */ = {
 			isa = XCConfigurationList;
