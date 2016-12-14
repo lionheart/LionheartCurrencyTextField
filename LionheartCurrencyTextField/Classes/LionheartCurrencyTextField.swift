@@ -130,7 +130,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         let digitExpression = LionheartCurrencyTextField.digitRegularExpression
 
         // Remove all non-digits or periods from the replacement string.
-        let string = digitExpression.stringByReplacingMatches(in: string, options: [], range: string.range(), withTemplate: "")
+        let string = digitExpression.stringByReplacingMatches(in: string, options: [], range: string.range, withTemplate: "")
 
         let wasTextDeleted = string.length < string.lengthOfRange(range)
         let numDigits: Int
@@ -164,7 +164,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
             return true
         }
 
-        replacedText = digitExpression.stringByReplacingMatches(in: replacedText, options: [], range: replacedText.range(), withTemplate: "")
+        replacedText = digitExpression.stringByReplacingMatches(in: replacedText, options: [], range: replacedText.range, withTemplate: "")
 
         var number = NSDecimalNumber(string: replacedText)
         // MARK: ???
@@ -173,7 +173,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
             return wasTextDeleted
         }
 
-        if let match = LionheartCurrencyTextField.decimalPointRegularExpression.firstMatch(in: replacedText, options: [], range: replacedText.range()) {
+        if let match = LionheartCurrencyTextField.decimalPointRegularExpression.firstMatch(in: replacedText, options: [], range: replacedText.range) {
             let numbersAfterDecimal = match.range.length - 1
             currencyFormatter.minimumFractionDigits = min(2, numbersAfterDecimal)
 
@@ -275,7 +275,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
             return
         }
 
-        let range = _text.range()
+        let range = _text.range
         let replacedText = LionheartCurrencyTextField.digitRegularExpression.stringByReplacingMatches(in: _text, options: [], range: range, withTemplate: "")
         let value = NSDecimalNumber(string: replacedText)
 

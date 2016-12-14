@@ -21,7 +21,7 @@ See the GitHub project for more details.
     'SWIFT_VERSION' => '3.0'
   }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.3'
   s.source_files = 'LionheartCurrencyTextField/Classes/**/*'
-  s.dependency 'LionheartExtensions', '~> 2.0'
+  s.dependency 'LionheartExtensions', '~> 3.0'
 end
