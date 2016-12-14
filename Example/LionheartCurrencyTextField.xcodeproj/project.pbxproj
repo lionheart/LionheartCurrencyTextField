@@ -192,7 +192,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "Lionheart Software LLC";
 				TargetAttributes = {
 					378B39911DE9016000022BC5 = {
 						CreatedOnToolsVersion = 8.1;
