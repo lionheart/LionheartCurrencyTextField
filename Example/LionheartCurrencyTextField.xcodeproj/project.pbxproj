@@ -8,26 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		32AE41342E18F15AE1BEB069 /* Pods_LionheartCurrencyTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659C0C26DBD383BCFEAA84DB /* Pods_LionheartCurrencyTextField_Example.framework */; };
+		378B39951DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B39941DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		378B39971DE9016000022BC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = LionheartCurrencyTextField;
+			remoteInfo = LionheartCurrencyTextField_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2CFA70E862A877D263F30167 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		378B39921DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionheartCurrencyTextField_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378B39941DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionheartCurrencyTextField_ExampleUITests.swift; sourceTree = "<group>"; };
+		378B39961DE9016000022BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E492154A99CB8DF2B1C148C /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LionheartCurrencyTextField_Example/Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LionheartCurrencyTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionheartCurrencyTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,9 +39,6 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* LionheartCurrencyTextField_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionheartCurrencyTextField_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		659C0C26DBD383BCFEAA84DB /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionheartCurrencyTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C3C0E4BBE21BC5092DC1D3 /* LionheartCurrencyTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LionheartCurrencyTextField.podspec; path = ../LionheartCurrencyTextField.podspec; sourceTree = "<group>"; };
 		BD42504767CA304F5E9DD8EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -46,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		378B398F1DE9016000022BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,22 +61,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		378B39931DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				378B39941DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.swift */,
+				378B39961DE9016000022BC5 /* Info.plist */,
+			);
+			path = LionheartCurrencyTextField_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for LionheartCurrencyTextField */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				378B39931DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				F5355AEFA8250C77E393F67D /* Pods */,
 				DE03BFBEC6DAE71D98E033CD /* Frameworks */,
@@ -80,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* LionheartCurrencyTextField_Example.app */,
-				607FACE51AFB9204008FA782 /* LionheartCurrencyTextField_Tests.xctest */,
+				378B39921DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,23 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +146,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		378B39911DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378B39991DE9016000022BC5 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField_ExampleUITests" */;
+			buildPhases = (
+				378B398E1DE9016000022BC5 /* Sources */,
+				378B398F1DE9016000022BC5 /* Frameworks */,
+				378B39901DE9016000022BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378B39981DE9016000022BC5 /* PBXTargetDependency */,
+			);
+			name = LionheartCurrencyTextField_ExampleUITests;
+			productName = LionheartCurrencyTextField_ExampleUITests;
+			productReference = 378B39921DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		607FACCF1AFB9204008FA782 /* LionheartCurrencyTextField_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField_Example" */;
@@ -174,43 +184,24 @@
 			productReference = 607FACD01AFB9204008FA782 /* LionheartCurrencyTextField_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* LionheartCurrencyTextField_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField_Tests" */;
-			buildPhases = (
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = LionheartCurrencyTextField_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* LionheartCurrencyTextField_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					378B39911DE9016000022BC5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0800;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 63553QQ62F;
-						LastSwiftMigration = 0800;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -228,12 +219,19 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* LionheartCurrencyTextField_Example */,
-				607FACE41AFB9204008FA782 /* LionheartCurrencyTextField_Tests */,
+				378B39911DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		378B39901DE9016000022BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,13 +239,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +293,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		378B398E1DE9016000022BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378B39951DE9016000022BC5 /* LionheartCurrencyTextField_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,21 +310,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		378B39981DE9016000022BC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* LionheartCurrencyTextField_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			targetProxy = 378B39971DE9016000022BC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,6 +340,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		378B399A1DE9016000022BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 63553QQ62F;
+				INFOPLIST_FILE = LionheartCurrencyTextField_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lionheartsw.LionheartCurrencyTextField-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LionheartCurrencyTextField_Example;
+			};
+			name = Debug;
+		};
+		378B399B1DE9016000022BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 63553QQ62F;
+				INFOPLIST_FILE = LionheartCurrencyTextField_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lionheartsw.LionheartCurrencyTextField-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LionheartCurrencyTextField_Example;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -468,45 +495,17 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 63553QQ62F;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 63553QQ62F;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		378B39991DE9016000022BC5 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378B399A1DE9016000022BC5 /* Debug */,
+				378B399B1DE9016000022BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "LionheartCurrencyTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -521,15 +520,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
