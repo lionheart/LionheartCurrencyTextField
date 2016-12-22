@@ -140,11 +140,11 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         // Remove all non-digits or periods from the replacement string.
         let string = digitExpression.stringByReplacingMatches(in: string, options: [], range: string.range, withTemplate: "")
 
-        let wasTextDeleted = string.length < string.lengthOfRange(range)
+        let wasTextDeleted = string.length < currentText.lengthOfRange(range)
         let numDigits: Int
         if currentText.length > 0 {
             if wasTextDeleted {
-                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: string.characters.index(after: range.lowerBound)).count
+                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: currentText.characters.index(after: range.lowerBound)).count
             } else {
                 let numDigitsInEnteredString = string.charactersInSet(CharacterSet.decimalDigits).count
                 numDigits = currentText.charactersInSetBeforeIndex(characterSet, index: range.lowerBound).count + numDigitsInEnteredString
@@ -156,13 +156,13 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         // If characters are removed, edit the range to make sure to ignore any non-digits (e.g., ',').
         var range = range
         if wasTextDeleted {
-            let length = string.lengthOfRange(range)
+            let length = currentText.lengthOfRange(range)
             while currentText.substring(with: range).charactersInSet(CharacterSet.decimalDigits).count < length {
                 if range.lowerBound == currentText.startIndex {
                     break
                 }
 
-                let startIndex = string.characters.index(before: range.lowerBound)
+                let startIndex = currentText.characters.index(before: range.lowerBound)
                 range = startIndex..<range.upperBound
             }
         }
@@ -233,7 +233,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
 
         let _start: UITextPosition?
         if wasTextDeleted {
-            _start = position(from: endOfDocument, offset: -numCharactersEncountered+string.lengthOfRange(range))
+            _start = position(from: endOfDocument, offset: -numCharactersEncountered+currentText.lengthOfRange(range))
         } else {
             _start = position(from: beginningOfDocument, offset: numCharactersEncountered)
         }
