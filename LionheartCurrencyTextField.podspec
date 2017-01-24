@@ -23,5 +23,5 @@ See the GitHub project for more details.
 
   s.ios.deployment_target = '9.3'
   s.source_files = 'LionheartCurrencyTextField/Classes/**/*'
-  s.dependency 'LionheartExtensions', '~> 3.0'
+  s.dependency 'LionheartExtensions', '~> 3.3'
 end
