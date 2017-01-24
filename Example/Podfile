@@ -6,6 +6,6 @@ project 'LionheartCurrencyTextField.xcodeproj'
 use_frameworks!
 
 target 'LionheartCurrencyTextField_Example' do
-  pod 'LionheartExtensions', '~> 3.0'
+  pod 'LionheartExtensions', '~> 3.3'
   pod 'LionheartCurrencyTextField', :path => '../'
 end
