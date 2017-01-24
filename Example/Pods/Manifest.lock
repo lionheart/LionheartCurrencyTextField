@@ -1,22 +1,22 @@
 PODS:
-  - LionheartCurrencyTextField (1.0.7):
-    - LionheartExtensions (~> 3.0)
-  - LionheartExtensions (3.0.0):
-    - LionheartExtensions/Core (= 3.0.0)
-  - LionheartExtensions/Core (3.0.0)
+  - LionheartCurrencyTextField (2.0.2):
+    - LionheartExtensions (~> 3.3)
+  - LionheartExtensions (3.3.0):
+    - LionheartExtensions/Core (= 3.3.0)
+  - LionheartExtensions/Core (3.3.0)
 
 DEPENDENCIES:
   - LionheartCurrencyTextField (from `../`)
-  - LionheartExtensions (~> 3.0)
+  - LionheartExtensions (~> 3.3)
 
 EXTERNAL SOURCES:
   LionheartCurrencyTextField:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LionheartCurrencyTextField: 95eb50a03184d3c7dd316522d0da3f3345a96f26
-  LionheartExtensions: 65a479e218ec025a3d7af7c8414d365094d7a6a0
+  LionheartCurrencyTextField: fc2a0674c9e279215bba7d846bf53d047310f540
+  LionheartExtensions: 5a0e5851f0f6fe08a03944e45c992347d17a8c07
 
-PODFILE CHECKSUM: 853d610d7e4b0c45fcf612f0b63a7210c9ca57a9
+PODFILE CHECKSUM: fd00b838ea578e79a6e648d3a234bd15df2ac62b
 
 COCOAPODS: 1.1.1
