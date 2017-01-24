@@ -7,39 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082C75313667E182A2C4CE016356306E /* NSRegularExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B41B9CCED579334294C3666E12991F7 /* NSRegularExpression.swift */; };
-		09722EFFC394E03249311C7315184B26 /* NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F7E345FC7DB4F9B45A4A3400777FEB /* NSIndexPath.swift */; };
-		28748BC4FD76456DEFAAFEAF6D4C3773 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 933C9730BA7CEC48DBA26DCFEE449026 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36B3A2661CFE737161ED91937C192944 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7390D9BEFF9ECFF2D2DAA94A974CE23 /* Any.swift */; };
-		407E5C5330DE57D2F408C10C66C02E96 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CF5F8ED0DFC4CFAE591D1DFAE1837C /* File.swift */; };
-		4219F85AB7448DDFBD50037596B1E489 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B304081BF86E48776DF17B4DFB4CE0 /* LionheartExtensions-dummy.m */; };
-		4AF2B69DEA18EEE4006A768F319150AF /* UIMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29659B033EE543A29F4D1EBABC987461 /* UIMultilineLabel.swift */; };
+		02945EECB537E299459AA48AFA004BA1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E659ABAAE1B6978255A80BF00DCA8B1 /* File.swift */; };
+		070CE626AB2CD7FC918A616D68306897 /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD8C095368820505CD878D371B995B /* ColorRepresentation.swift */; };
+		24D609754812CD5C3CA585076E57FA08 /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B46A9F2351640E95CBD7C72C547340 /* NSDecimalNumber+LionheartExtensions.swift */; };
+		28748BC4FD76456DEFAAFEAF6D4C3773 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BE9E23C98F3F119F0EEF340AC9B12D /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEEDD6E9E593C2FC16538DEF6D92113 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0519AE57FA3E35E63FAA35D9CC6FA4A /* UIPrintPageRenderer+LionheartExtensions.swift */; };
+		349EBE456B4A7ED3954F3B49735DF2B9 /* UIAlertController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540466C78B11AF8FF9DBE20B8FF27821 /* UIAlertController+LionheartExtensions.swift */; };
+		3D8BEFC560A57B95F4F3191BBA0FF654 /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1548A8DD66C5A2899F6ADB0AC0EBBB /* Summable.swift */; };
+		4179A7B3F52CA4514BDFF4EF64BD98B2 /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B67E77985742A89046E4430975F8B8 /* UIWindow+LionheartExtensions.swift */; };
 		52E9CCC704F0E29F51E0232C1F91DEF3 /* Pods-LionheartCurrencyTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */; };
-		5453154C4B7FB106EC203EA449F1D2AA /* NSDecimalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73DA9B0F880576FD3C01DE833CA2316 /* NSDecimalNumber.swift */; };
-		57D86CA912AA54451A31348DCAAB6DF8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C42D3B702D86B4BC828FE4947D6A45C /* UITextField.swift */; };
-		5DDE8F571D9623AF0F948278A87ED9A3 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE9D8426711F412E51DB9FB39AB84E /* Int.swift */; };
+		690C13D56C4AF372603E8CA0134E605D /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAEF995776C04A9B2259844B8B7F52 /* UIColor+LionheartExtensions.swift */; };
+		6BF439428A4DC4C304C5A89644603CA7 /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0E41DB6820E9FFAF0830C9D1B1DF2 /* UIScreen+LionheartExtensions.swift */; };
+		6CC7E15DDFB5915BD51A5BAD4E49ED33 /* UIMultilineLabel+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD530B29B732D9D995B1E6D6FC3E9CA /* UIMultilineLabel+LionheartExtensions.swift */; };
 		6F5ED355F6DBCF507EEFCB35F5A81F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */; };
-		70D3DCE38285C2DB471E812A5E1F3C2A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D34748356F2C1EC6A050266DE1AC8A7 /* UIImage.swift */; };
 		733C59FDAB59739EAA6D6A5518B1AB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */; };
-		8D78E8E31644694C04FB501A8E33B9BE /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B66ECD5749B8A8C19AD88C5C9EA4E5 /* UIDevice.swift */; };
-		966BA0BF9D584A16F34F06B412279CF2 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6098E51BA465CC95182B368EE5EDB95 /* Functional.swift */; };
-		9A7D805188190FB385733F26098215BD /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730789706EEC2F62BFB36F18ED820A3 /* UIWindow.swift */; };
+		9BCC25CB80BD7F4BCDAFA648F8DECA2E /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2683B8D7DA7637C75BF43F2B5877F24 /* UIFont+LionheartExtensions.swift */; };
 		9D1DE6F4C6C42855737703A57647B193 /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */; };
+		9DF1F4F1A851447AD26B5C8BD6697797 /* UIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64563C6B1862D26754813864CED2B1E /* UIImage+LionheartExtensions.swift */; };
+		A2409B92A83FB7A472D855B89908788C /* NSRegularExpression+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAB8B7837B8FCF35C5CC8844BF5FFD /* NSRegularExpression+LionheartExtensions.swift */; };
+		A305FA372CB255282DD66BB3B16C8E2B /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AFAC3F3C0FC3AD6F38B0A9655C772E /* String+LionheartExtensions.swift */; };
 		A7D1B1735D953F24529AFA9E72587117 /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C39FA0E9BF52687DA64CBE0CD9BD51 /* LionheartCurrencyTextField.swift */; };
-		AAECE01F123AB9145C2EAF42A38FFA28 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC29ACB1F23A7955370A89151FEDC5A /* UIScreen.swift */; };
-		AC92F64061F4435FAC29B1BA58271A5B /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919B5A5DBFEF55BE4C26C6EF2CDC1C9 /* UIAlertController.swift */; };
-		AD5DF2BFE317AC27CDE9DAF2C73A5880 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53BA6DB3A06A54DCEC0CAFEE9416ED /* Optional.swift */; };
+		A8C4915A0B5A419B8F92D02FB36A3D77 /* Any+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95A8E353ABA8599B466C87F0BBF0BB /* Any+LionheartExtensions.swift */; };
+		ACEA5CA19AACC2D1F6D8F6122D485FED /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD0AF11EED1170BA8F8BF8473067F9 /* UITextField+LionheartExtensions.swift */; };
+		B0FB278983270DC6363B769A3CDCAABC /* NSURLSession+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50F5BE27B4262ED76CFFC05B39C881 /* NSURLSession+LionheartExtensions.swift */; };
+		B4DC8868EEC04461D95D5BFF068D4C78 /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F5E1956C0F8555810530536691853 /* Optional+LionheartExtensions.swift */; };
 		B692FA20FC193C4614CB04D3B7DE6682 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E796CD80AD54F6A715EC8A45F64653B /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA8B708A5A90042767DC39EA1440302 /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D7E9C63EA837B100AE2C3312191E8 /* UIDevice+LionheartExtensions.swift */; };
 		BD2864855F699BE022014B08EBA5AE37 /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */; };
-		C14DD44B8C1D1EEAFDB31A8E48C5D629 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0558242E3FBE6F1F89FA775A24757 /* String.swift */; };
+		BF161A831DDADCDE5988FADB00728286 /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E02F1865035D30CC4D90BB4A6BDE85 /* UIView+LionheartExtensions.swift */; };
 		CA8B567AB3BF6EAA5D8D4A1FF8D3BDDB /* Pods-LionheartCurrencyTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAF9CF40FAED2488F3544E1F0D4D765F /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD13B0160D5C3F37516062A86BB281 /* UIViewController.swift */; };
-		CE0C9D085F0DC41D493D7A9C4A400AC7 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F6C425051F0C3AEFD91EFEE904F86 /* UIFont.swift */; };
-		D6ADDFABEF58D2F6CFA3B52939360E4F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1BE9123581BE3E0FB6717E6612AE8 /* Array.swift */; };
+		CD0CBAB1014CD9B2E5D5E3C2FBC278CF /* NSIndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF49CB4D289D893B97F5279E365984D /* NSIndexPath+LionheartExtensions.swift */; };
+		CE97B3B84E11C8F3EB46AA6EDE14E3AD /* UIViewController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992B4D8BD8082B5FD4510617EA442AC /* UIViewController+LionheartExtensions.swift */; };
+		D420E679AEEDE477CFE81B3E1635180B /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8235202614E3E8475481CDE9E2D2F7 /* LionheartExtensions-dummy.m */; };
+		DBC17E4B57FEE6ACAE0724FE57FB5E95 /* Int+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BAA269E4B0DD444E56B41FC5A61D1 /* Int+LionheartExtensions.swift */; };
 		DF961F4FACAE44F394F72C524351A81C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */; };
-		DFE31078662B2250BF3F5D05A805AC06 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C75A977B52F41417B89DB37323A1CF /* UIView.swift */; };
-		E25EFC773933F8093CC5CF997E65132F /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBF02BD31BC20F6A096954FCA1EBAA /* NSURLSession.swift */; };
-		FD9B0D25ADD0FB4B30FE5444A09113E6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413CCC3F851FC05B7F2D5288DC7C7FD /* UIColor.swift */; };
+		E3AD948C0D42D6CCD8292095D58C4FB9 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2302F3EEB5C71112FA3A5D688214D /* Functional.swift */; };
+		F017C766DACADFDBF458A9B2BCFF9F98 /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D1B5D98350EF8DD02F4AE97B442778 /* Array+LionheartExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,56 +71,59 @@
 
 /* Begin PBXFileReference section */
 		017FBD4FF4F1A67C2A68B9157A669AF5 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		05AE9D8426711F412E51DB9FB39AB84E /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = Pod/Classes/Core/Int.swift; sourceTree = "<group>"; };
-		0C42D3B702D86B4BC828FE4947D6A45C /* UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextField.swift; path = Pod/Classes/Core/UITextField.swift; sourceTree = "<group>"; };
+		06F0E41DB6820E9FFAF0830C9D1B1DF2 /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		1BD530B29B732D9D995B1E6D6FC3E9CA /* UIMultilineLabel+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIMultilineLabel+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIMultilineLabel+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		1FCF778F21B9D51055CA3B0B7DF43344 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDD8C095368820505CD878D371B995B /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
 		201D957F0B8ED37CCD272B3D09783FD2 /* LionheartCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartCurrencyTextField.framework; path = LionheartCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24CBF02BD31BC20F6A096954FCA1EBAA /* NSURLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLSession.swift; path = Pod/Classes/Core/NSURLSession.swift; sourceTree = "<group>"; };
-		279586AC826D6D5E276746A89716AE5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C39FA0E9BF52687DA64CBE0CD9BD51 /* LionheartCurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LionheartCurrencyTextField.swift; sourceTree = "<group>"; };
-		27C75A977B52F41417B89DB37323A1CF /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Pod/Classes/Core/UIView.swift; sourceTree = "<group>"; };
-		29659B033EE543A29F4D1EBABC987461 /* UIMultilineLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIMultilineLabel.swift; path = Pod/Classes/Core/UIMultilineLabel.swift; sourceTree = "<group>"; };
-		2B41B9CCED579334294C3666E12991F7 /* NSRegularExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRegularExpression.swift; path = Pod/Classes/Core/NSRegularExpression.swift; sourceTree = "<group>"; };
-		2F53BA6DB3A06A54DCEC0CAFEE9416ED /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Pod/Classes/Core/Optional.swift; sourceTree = "<group>"; };
-		3EA2236B36010816F29CD91A00CC563E /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
-		43CF5F8ED0DFC4CFAE591D1DFAE1837C /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
-		48DD49E4AD42B60FC7378F4870DEC49A /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
-		4AC29ACB1F23A7955370A89151FEDC5A /* UIScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScreen.swift; path = Pod/Classes/Core/UIScreen.swift; sourceTree = "<group>"; };
+		3E95A8E353ABA8599B466C87F0BBF0BB /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		3F7BAA269E4B0DD444E56B41FC5A61D1 /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		43E02F1865035D30CC4D90BB4A6BDE85 /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		4D09782A4083E5873FE2838DDCDCAD0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB1AD6D4836FA37B9649AC69AFE8830 /* Pods-LionheartCurrencyTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LionheartCurrencyTextField_Example.modulemap"; sourceTree = "<group>"; };
+		52AFAC3F3C0FC3AD6F38B0A9655C772E /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		52B67E77985742A89046E4430975F8B8 /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		540466C78B11AF8FF9DBE20B8FF27821 /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LionheartCurrencyTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		59CB077247D225DB65A27E59CEAFCEB5 /* Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B8E6122AE0A43796C2D7DE832B23844 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BE1BE9123581BE3E0FB6717E6612AE8 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Pod/Classes/Core/Array.swift; sourceTree = "<group>"; };
-		5D34748356F2C1EC6A050266DE1AC8A7 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Pod/Classes/Core/UIImage.swift; sourceTree = "<group>"; };
+		5DF49CB4D289D893B97F5279E365984D /* NSIndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSIndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSIndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		5E796CD80AD54F6A715EC8A45F64653B /* LionheartCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
-		5FAD13B0160D5C3F37516062A86BB281 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Pod/Classes/Core/UIViewController.swift; sourceTree = "<group>"; };
+		72DD0AF11EED1170BA8F8BF8473067F9 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		74BAEF995776C04A9B2259844B8B7F52 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		758D7E9C63EA837B100AE2C3312191E8 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		79F2302F3EEB5C71112FA3A5D688214D /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		7E659ABAAE1B6978255A80BF00DCA8B1 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
 		80CD5B8FCE38250882D32098351E0452 /* Pods-LionheartCurrencyTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		81B304081BF86E48776DF17B4DFB4CE0 /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
 		86F9D156417CD92CD6E1F7CA8B47C9C4 /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LionheartCurrencyTextField_Example.framework; path = "Pods-LionheartCurrencyTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		933C9730BA7CEC48DBA26DCFEE449026 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
+		8ABAB8B7837B8FCF35C5CC8844BF5FFD /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		902D66F533D5F5C225C9ABEAB7DCF787 /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959583F0BFE1BA1B202B629F0B4DE23F /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9730789706EEC2F62BFB36F18ED820A3 /* UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIWindow.swift; path = Pod/Classes/Core/UIWindow.swift; sourceTree = "<group>"; };
+		97D1B5D98350EF8DD02F4AE97B442778 /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		983D333822EC368E18EAB4F1497027BE /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		9B8235202614E3E8475481CDE9E2D2F7 /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
+		A2683B8D7DA7637C75BF43F2B5877F24 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		A78744885693823B7FFD2AA0DCF1ED0B /* Pods-LionheartCurrencyTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A87913B263F0C0A93C8CE34C6DD60364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A919B5A5DBFEF55BE4C26C6EF2CDC1C9 /* UIAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertController.swift; path = Pod/Classes/Core/UIAlertController.swift; sourceTree = "<group>"; };
+		A8B46A9F2351640E95CBD7C72C547340 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A992B4D8BD8082B5FD4510617EA442AC /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		AF6A17C053EF585300637B684802D981 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartExtensions.framework; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0252572607C59AF2EEB7BDB107F8947 /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		B3E16FB4093472D7D244912F3CE451B2 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
 		B45E7574ACEEEDC10B7D98F834E1AA4E /* LionheartCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionheartCurrencyTextField.modulemap; sourceTree = "<group>"; };
-		B6098E51BA465CC95182B368EE5EDB95 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
-		C6F7E345FC7DB4F9B45A4A3400777FEB /* NSIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSIndexPath.swift; path = Pod/Classes/Core/NSIndexPath.swift; sourceTree = "<group>"; };
-		C8B66ECD5749B8A8C19AD88C5C9EA4E5 /* UIDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDevice.swift; path = Pod/Classes/Core/UIDevice.swift; sourceTree = "<group>"; };
+		B46F5E1956C0F8555810530536691853 /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		B874D622424D60FCD7B6340B69D00EA2 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
+		C64563C6B1862D26754813864CED2B1E /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LionheartCurrencyTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		D413CCC3F851FC05B7F2D5288DC7C7FD /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Pod/Classes/Core/UIColor.swift; sourceTree = "<group>"; };
-		D57F6C425051F0C3AEFD91EFEE904F86 /* UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFont.swift; path = Pod/Classes/Core/UIFont.swift; sourceTree = "<group>"; };
+		CD50F5BE27B4262ED76CFFC05B39C881 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		D0519AE57FA3E35E63FAA35D9CC6FA4A /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		DB08A482C997F07609E2BF943FFB7256 /* Pods-LionheartCurrencyTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E31FD39B73C43C6A6732791C879C9FEE /* LionheartCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartCurrencyTextField.xcconfig; sourceTree = "<group>"; };
-		E73DA9B0F880576FD3C01DE833CA2316 /* NSDecimalNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumber.swift; path = Pod/Classes/Core/NSDecimalNumber.swift; sourceTree = "<group>"; };
-		F59625F86C247B44E27296A7948BA46F /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
-		F7390D9BEFF9ECFF2D2DAA94A974CE23 /* Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Any.swift; path = Pod/Classes/Core/Any.swift; sourceTree = "<group>"; };
-		FCF0558242E3FBE6F1F89FA775A24757 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Pod/Classes/Core/String.swift; sourceTree = "<group>"; };
+		ED1548A8DD66C5A2899F6ADB0AC0EBBB /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
+		F3BE9E23C98F3F119F0EEF340AC9B12D /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,16 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		0D3930C08343E285885317EE3AF1F7E8 /* LionheartExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				655965988BC57FAD3F6B5E50D097DBD3 /* Core */,
+				4359ACC804802244E7F794C432220C5E /* Support Files */,
+			);
+			name = LionheartExtensions;
+			path = LionheartExtensions;
+			sourceTree = "<group>";
+		};
 		1E654D9DFCCA00E916B68085B8A71D6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,33 +193,18 @@
 			path = LionheartCurrencyTextField;
 			sourceTree = "<group>";
 		};
-		33A3727DE7416D71D05212AAF68FC0AB /* Core */ = {
+		4359ACC804802244E7F794C432220C5E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7390D9BEFF9ECFF2D2DAA94A974CE23 /* Any.swift */,
-				5BE1BE9123581BE3E0FB6717E6612AE8 /* Array.swift */,
-				43CF5F8ED0DFC4CFAE591D1DFAE1837C /* File.swift */,
-				B6098E51BA465CC95182B368EE5EDB95 /* Functional.swift */,
-				05AE9D8426711F412E51DB9FB39AB84E /* Int.swift */,
-				E73DA9B0F880576FD3C01DE833CA2316 /* NSDecimalNumber.swift */,
-				C6F7E345FC7DB4F9B45A4A3400777FEB /* NSIndexPath.swift */,
-				2B41B9CCED579334294C3666E12991F7 /* NSRegularExpression.swift */,
-				24CBF02BD31BC20F6A096954FCA1EBAA /* NSURLSession.swift */,
-				2F53BA6DB3A06A54DCEC0CAFEE9416ED /* Optional.swift */,
-				FCF0558242E3FBE6F1F89FA775A24757 /* String.swift */,
-				A919B5A5DBFEF55BE4C26C6EF2CDC1C9 /* UIAlertController.swift */,
-				D413CCC3F851FC05B7F2D5288DC7C7FD /* UIColor.swift */,
-				C8B66ECD5749B8A8C19AD88C5C9EA4E5 /* UIDevice.swift */,
-				D57F6C425051F0C3AEFD91EFEE904F86 /* UIFont.swift */,
-				5D34748356F2C1EC6A050266DE1AC8A7 /* UIImage.swift */,
-				29659B033EE543A29F4D1EBABC987461 /* UIMultilineLabel.swift */,
-				4AC29ACB1F23A7955370A89151FEDC5A /* UIScreen.swift */,
-				0C42D3B702D86B4BC828FE4947D6A45C /* UITextField.swift */,
-				27C75A977B52F41417B89DB37323A1CF /* UIView.swift */,
-				5FAD13B0160D5C3F37516062A86BB281 /* UIViewController.swift */,
-				9730789706EEC2F62BFB36F18ED820A3 /* UIWindow.swift */,
+				1FCF778F21B9D51055CA3B0B7DF43344 /* Info.plist */,
+				B874D622424D60FCD7B6340B69D00EA2 /* LionheartExtensions.modulemap */,
+				B3E16FB4093472D7D244912F3CE451B2 /* LionheartExtensions.xcconfig */,
+				9B8235202614E3E8475481CDE9E2D2F7 /* LionheartExtensions-dummy.m */,
+				902D66F533D5F5C225C9ABEAB7DCF787 /* LionheartExtensions-prefix.pch */,
+				F3BE9E23C98F3F119F0EEF340AC9B12D /* LionheartExtensions-umbrella.h */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "../Target Support Files/LionheartExtensions";
 			sourceTree = "<group>";
 		};
 		45BD7923E47B539CE3F299328E4D4BB9 /* Development Pods */ = {
@@ -222,10 +223,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		655965988BC57FAD3F6B5E50D097DBD3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E95A8E353ABA8599B466C87F0BBF0BB /* Any+LionheartExtensions.swift */,
+				97D1B5D98350EF8DD02F4AE97B442778 /* Array+LionheartExtensions.swift */,
+				1FDD8C095368820505CD878D371B995B /* ColorRepresentation.swift */,
+				7E659ABAAE1B6978255A80BF00DCA8B1 /* File.swift */,
+				79F2302F3EEB5C71112FA3A5D688214D /* Functional.swift */,
+				3F7BAA269E4B0DD444E56B41FC5A61D1 /* Int+LionheartExtensions.swift */,
+				A8B46A9F2351640E95CBD7C72C547340 /* NSDecimalNumber+LionheartExtensions.swift */,
+				5DF49CB4D289D893B97F5279E365984D /* NSIndexPath+LionheartExtensions.swift */,
+				8ABAB8B7837B8FCF35C5CC8844BF5FFD /* NSRegularExpression+LionheartExtensions.swift */,
+				CD50F5BE27B4262ED76CFFC05B39C881 /* NSURLSession+LionheartExtensions.swift */,
+				B46F5E1956C0F8555810530536691853 /* Optional+LionheartExtensions.swift */,
+				52AFAC3F3C0FC3AD6F38B0A9655C772E /* String+LionheartExtensions.swift */,
+				ED1548A8DD66C5A2899F6ADB0AC0EBBB /* Summable.swift */,
+				540466C78B11AF8FF9DBE20B8FF27821 /* UIAlertController+LionheartExtensions.swift */,
+				74BAEF995776C04A9B2259844B8B7F52 /* UIColor+LionheartExtensions.swift */,
+				758D7E9C63EA837B100AE2C3312191E8 /* UIDevice+LionheartExtensions.swift */,
+				A2683B8D7DA7637C75BF43F2B5877F24 /* UIFont+LionheartExtensions.swift */,
+				C64563C6B1862D26754813864CED2B1E /* UIImage+LionheartExtensions.swift */,
+				1BD530B29B732D9D995B1E6D6FC3E9CA /* UIMultilineLabel+LionheartExtensions.swift */,
+				D0519AE57FA3E35E63FAA35D9CC6FA4A /* UIPrintPageRenderer+LionheartExtensions.swift */,
+				06F0E41DB6820E9FFAF0830C9D1B1DF2 /* UIScreen+LionheartExtensions.swift */,
+				72DD0AF11EED1170BA8F8BF8473067F9 /* UITextField+LionheartExtensions.swift */,
+				43E02F1865035D30CC4D90BB4A6BDE85 /* UIView+LionheartExtensions.swift */,
+				A992B4D8BD8082B5FD4510617EA442AC /* UIViewController+LionheartExtensions.swift */,
+				52B67E77985742A89046E4430975F8B8 /* UIWindow+LionheartExtensions.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		6764F249B3281D5DC658E0FBE62DA6F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D127F76D00D5F7325C93376AB80306E3 /* LionheartExtensions */,
+				0D3930C08343E285885317EE3AF1F7E8 /* LionheartExtensions */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -287,16 +320,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D127F76D00D5F7325C93376AB80306E3 /* LionheartExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				33A3727DE7416D71D05212AAF68FC0AB /* Core */,
-				FDB3BDF2E7A22E5318964E7382DF9C01 /* Support Files */,
-			);
-			name = LionheartExtensions;
-			path = LionheartExtensions;
-			sourceTree = "<group>";
-		};
 		EF89257AF85605650DC8B782BF9C14CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,20 +332,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LionheartCurrencyTextField";
-			sourceTree = "<group>";
-		};
-		FDB3BDF2E7A22E5318964E7382DF9C01 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				279586AC826D6D5E276746A89716AE5D /* Info.plist */,
-				48DD49E4AD42B60FC7378F4870DEC49A /* LionheartExtensions.modulemap */,
-				3EA2236B36010816F29CD91A00CC563E /* LionheartExtensions.xcconfig */,
-				81B304081BF86E48776DF17B4DFB4CE0 /* LionheartExtensions-dummy.m */,
-				F59625F86C247B44E27296A7948BA46F /* LionheartExtensions-prefix.pch */,
-				933C9730BA7CEC48DBA26DCFEE449026 /* LionheartExtensions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LionheartExtensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +386,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E6F32AF6F6CE0F6A516561CC69CFCEA /* Build configuration list for PBXNativeTarget "LionheartExtensions" */;
 			buildPhases = (
-				3CDE545309864FD3E2197630285DC537 /* Sources */,
+				B16A95CB494A0B1FB12DDC70A7B788BD /* Sources */,
 				6622DC27BCB48EE66D31A3C43F7F6739 /* Frameworks */,
 				40E9C356D311715F5BE031BBE5E4EECD /* Headers */,
 			);
@@ -446,33 +455,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CDE545309864FD3E2197630285DC537 /* Sources */ = {
+		B16A95CB494A0B1FB12DDC70A7B788BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B3A2661CFE737161ED91937C192944 /* Any.swift in Sources */,
-				D6ADDFABEF58D2F6CFA3B52939360E4F /* Array.swift in Sources */,
-				407E5C5330DE57D2F408C10C66C02E96 /* File.swift in Sources */,
-				966BA0BF9D584A16F34F06B412279CF2 /* Functional.swift in Sources */,
-				5DDE8F571D9623AF0F948278A87ED9A3 /* Int.swift in Sources */,
-				4219F85AB7448DDFBD50037596B1E489 /* LionheartExtensions-dummy.m in Sources */,
-				5453154C4B7FB106EC203EA449F1D2AA /* NSDecimalNumber.swift in Sources */,
-				09722EFFC394E03249311C7315184B26 /* NSIndexPath.swift in Sources */,
-				082C75313667E182A2C4CE016356306E /* NSRegularExpression.swift in Sources */,
-				E25EFC773933F8093CC5CF997E65132F /* NSURLSession.swift in Sources */,
-				AD5DF2BFE317AC27CDE9DAF2C73A5880 /* Optional.swift in Sources */,
-				C14DD44B8C1D1EEAFDB31A8E48C5D629 /* String.swift in Sources */,
-				AC92F64061F4435FAC29B1BA58271A5B /* UIAlertController.swift in Sources */,
-				FD9B0D25ADD0FB4B30FE5444A09113E6 /* UIColor.swift in Sources */,
-				8D78E8E31644694C04FB501A8E33B9BE /* UIDevice.swift in Sources */,
-				CE0C9D085F0DC41D493D7A9C4A400AC7 /* UIFont.swift in Sources */,
-				70D3DCE38285C2DB471E812A5E1F3C2A /* UIImage.swift in Sources */,
-				4AF2B69DEA18EEE4006A768F319150AF /* UIMultilineLabel.swift in Sources */,
-				AAECE01F123AB9145C2EAF42A38FFA28 /* UIScreen.swift in Sources */,
-				57D86CA912AA54451A31348DCAAB6DF8 /* UITextField.swift in Sources */,
-				DFE31078662B2250BF3F5D05A805AC06 /* UIView.swift in Sources */,
-				CAF9CF40FAED2488F3544E1F0D4D765F /* UIViewController.swift in Sources */,
-				9A7D805188190FB385733F26098215BD /* UIWindow.swift in Sources */,
+				A8C4915A0B5A419B8F92D02FB36A3D77 /* Any+LionheartExtensions.swift in Sources */,
+				F017C766DACADFDBF458A9B2BCFF9F98 /* Array+LionheartExtensions.swift in Sources */,
+				070CE626AB2CD7FC918A616D68306897 /* ColorRepresentation.swift in Sources */,
+				02945EECB537E299459AA48AFA004BA1 /* File.swift in Sources */,
+				E3AD948C0D42D6CCD8292095D58C4FB9 /* Functional.swift in Sources */,
+				DBC17E4B57FEE6ACAE0724FE57FB5E95 /* Int+LionheartExtensions.swift in Sources */,
+				D420E679AEEDE477CFE81B3E1635180B /* LionheartExtensions-dummy.m in Sources */,
+				24D609754812CD5C3CA585076E57FA08 /* NSDecimalNumber+LionheartExtensions.swift in Sources */,
+				CD0CBAB1014CD9B2E5D5E3C2FBC278CF /* NSIndexPath+LionheartExtensions.swift in Sources */,
+				A2409B92A83FB7A472D855B89908788C /* NSRegularExpression+LionheartExtensions.swift in Sources */,
+				B0FB278983270DC6363B769A3CDCAABC /* NSURLSession+LionheartExtensions.swift in Sources */,
+				B4DC8868EEC04461D95D5BFF068D4C78 /* Optional+LionheartExtensions.swift in Sources */,
+				A305FA372CB255282DD66BB3B16C8E2B /* String+LionheartExtensions.swift in Sources */,
+				3D8BEFC560A57B95F4F3191BBA0FF654 /* Summable.swift in Sources */,
+				349EBE456B4A7ED3954F3B49735DF2B9 /* UIAlertController+LionheartExtensions.swift in Sources */,
+				690C13D56C4AF372603E8CA0134E605D /* UIColor+LionheartExtensions.swift in Sources */,
+				BCA8B708A5A90042767DC39EA1440302 /* UIDevice+LionheartExtensions.swift in Sources */,
+				9BCC25CB80BD7F4BCDAFA648F8DECA2E /* UIFont+LionheartExtensions.swift in Sources */,
+				9DF1F4F1A851447AD26B5C8BD6697797 /* UIImage+LionheartExtensions.swift in Sources */,
+				6CC7E15DDFB5915BD51A5BAD4E49ED33 /* UIMultilineLabel+LionheartExtensions.swift in Sources */,
+				2EEEDD6E9E593C2FC16538DEF6D92113 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */,
+				6BF439428A4DC4C304C5A89644603CA7 /* UIScreen+LionheartExtensions.swift in Sources */,
+				ACEA5CA19AACC2D1F6D8F6122D485FED /* UITextField+LionheartExtensions.swift in Sources */,
+				BF161A831DDADCDE5988FADB00728286 /* UIView+LionheartExtensions.swift in Sources */,
+				CE97B3B84E11C8F3EB46AA6EDE14E3AD /* UIViewController+LionheartExtensions.swift in Sources */,
+				4179A7B3F52CA4514BDFF4EF64BD98B2 /* UIWindow+LionheartExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,39 +521,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09A247399A5CD6BC7BF27FCBB0C986F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA2236B36010816F29CD91A00CC563E /* LionheartExtensions.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LionheartExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -654,38 +633,6 @@
 			};
 			name = Release;
 		};
-		8151A2CC3590FDFBA42C7DD5E5516B97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA2236B36010816F29CD91A00CC563E /* LionheartExtensions.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LionheartExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -726,6 +673,39 @@
 			};
 			name = Release;
 		};
+		A528E589A8D46A8EED8E7D9AF345D7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E16FB4093472D7D244912F3CE451B2 /* LionheartExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LionheartExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E3C2325201338E54870DCEA364F1E5EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 959583F0BFE1BA1B202B629F0B4DE23F /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */;
@@ -755,6 +735,38 @@
 				PRODUCT_NAME = Pods_LionheartCurrencyTextField_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5DEB4DF10B690579C862B4151A15BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E16FB4093472D7D244912F3CE451B2 /* LionheartExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LionheartExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -809,8 +821,8 @@
 		4E6F32AF6F6CE0F6A516561CC69CFCEA /* Build configuration list for PBXNativeTarget "LionheartExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09A247399A5CD6BC7BF27FCBB0C986F9 /* Debug */,
-				8151A2CC3590FDFBA42C7DD5E5516B97 /* Release */,
+				A528E589A8D46A8EED8E7D9AF345D7D4 /* Debug */,
+				E5DEB4DF10B690579C862B4151A15BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
