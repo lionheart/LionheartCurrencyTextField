@@ -176,7 +176,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
 
         var number = NSDecimalNumber(string: replacedText)
         // MARK: ???
-        if number == NSDecimalNumber.notANumber {
+        if number == .notANumber {
             // If the new text can't be parsed, only let the user edit if characters are being removed.
             return wasTextDeleted
         }
