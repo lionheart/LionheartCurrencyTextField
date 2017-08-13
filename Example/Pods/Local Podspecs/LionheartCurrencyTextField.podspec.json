@@ -25,7 +25,7 @@
   "source_files": "LionheartCurrencyTextField/Classes/**/*",
   "dependencies": {
     "LionheartExtensions": [
-      "~> 3.3"
+
     ]
   }
 }
