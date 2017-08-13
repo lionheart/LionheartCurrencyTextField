@@ -85,17 +85,15 @@ public extension UIImage {
     func image(withColor color: UIColor) -> UIImage? {
         let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
         UIGraphicsBeginImageContextWithOptions(size, false, scale)
-        guard let context = UIGraphicsGetCurrentContext() else {
-            return nil
+        guard let context = UIGraphicsGetCurrentContext(),
+            let cgImage = cgImage else {
+                return nil
         }
 
         context.translateBy(x: 0, y: size.height)
         context.scaleBy(x: 1.0, y: -1.0)
         context.setBlendMode(.normal)
-
-        // MARK: TODO !!!
-        // Was: CGContextClipToMask(context, rect, CGImage)
-//        context.clip(to: rect, mask: CGImage.self)
+        context.clip(to: rect, mask: cgImage)
         color.setFill()
         context.fill(rect)
         let image = UIGraphicsGetImageFromCurrentImageContext()
@@ -170,17 +168,17 @@ public extension UIImage {
             
             switch UIApplication.shared.statusBarOrientation {
             case .landscapeLeft:
-                context.rotate(by: CGFloat(M_PI_2))
+                context.rotate(by: .pi / 2)
                 context.translateBy(x: 0, y: -imageSize.width)
                 break
                 
             case .landscapeRight:
-                context.rotate(by: -CGFloat(M_PI_2))
+                context.rotate(by: -.pi / 2)
                 context.translateBy(x: -imageSize.height, y: 0)
                 break
                 
             case .portraitUpsideDown:
-                context.rotate(by: CGFloat(M_PI))
+                context.rotate(by: .pi)
                 context.translateBy(x: -imageSize.width, y: -imageSize.height)
                 break
                 
@@ -247,5 +245,39 @@ public extension UIImage {
             // MARK: TODO, the cast to NSError? doesn't look pretty
             completion(success, error as NSError?)
         }
+    }
+
+    var averageColor: UIColor? {
+        guard let ciImage = CIImage(image: self) else {
+            return nil
+        }
+
+        let parameters = [
+            kCIInputImageKey: ciImage,
+            kCIInputExtentKey: CIVector(cgRect: ciImage.extent)
+        ]
+
+        let image = ciImage.applyingFilter("CIAreaAverage", withInputParameters: parameters)
+        guard let (r, g, b, a) = image.rgbValues(atPoint: CGPoint(x: 0, y: 0)) else {
+            return nil
+        }
+
+        return UIColor(.RGBA(Int(r), Int(g), Int(b), Float(a) / 255.0))
+    }
+
+    func resizedImage(withScale: Float) -> UIImage? {
+        let _size = size.applying(CGAffineTransform(scaleX: scale, y: scale))
+        let hasAlpha = false
+
+        UIGraphicsBeginImageContextWithOptions(_size, !hasAlpha, 0)
+
+        guard let image = UIGraphicsGetImageFromCurrentImageContext() else {
+            return nil
+        }
+
+        image.draw(in: CGRect(origin: .zero, size: _size))
+        let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return scaledImage
     }
 }

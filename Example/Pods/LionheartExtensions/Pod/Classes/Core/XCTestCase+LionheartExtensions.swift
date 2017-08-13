@@ -1,5 +1,5 @@
 //
-//  Copyright 2016 Lionheart Software LLC
+//  Copyright 2017 Lionheart Software LLC
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -15,12 +15,3 @@
 //
 //
 
-import Foundation
-
-public func ==(tuple: (Int, Int), indexPath: IndexPath) -> Bool {
-    return indexPath.section == tuple.0 && indexPath.row == tuple.1
-}
-
-public func ==(indexPath: IndexPath, tuple: (Int, Int)) -> Bool {
-    return indexPath.section == tuple.0 && indexPath.row == tuple.1
-}
