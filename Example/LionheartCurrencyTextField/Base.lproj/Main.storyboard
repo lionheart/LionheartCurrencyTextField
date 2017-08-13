@@ -22,18 +22,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter currency here!" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vYd-Zu-AoS" customClass="LionheartCurrencyTextField" customModule="LionheartCurrencyTextField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vYd-Zu-AoS" customClass="LionheartCurrencyTextField" customModule="LionheartCurrencyTextField">
                                 <rect key="frame" x="16" y="269" width="288" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LionheartCurrencyTextField" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRz-er-eDm">
+                                <rect key="frame" x="54.5" y="218" width="211" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vYd-Zu-AoS" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.9" id="3cQ-f2-PVB"/>
+                            <constraint firstItem="oRz-er-eDm" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="BTA-CK-msZ"/>
                             <constraint firstItem="vYd-Zu-AoS" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="bkP-4q-Eyo"/>
                             <constraint firstItem="vYd-Zu-AoS" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="faC-Zv-Xbs"/>
+                            <constraint firstItem="vYd-Zu-AoS" firstAttribute="top" secondItem="oRz-er-eDm" secondAttribute="bottom" constant="30" id="uAj-H9-x98"/>
                         </constraints>
                     </view>
                 </viewController>
