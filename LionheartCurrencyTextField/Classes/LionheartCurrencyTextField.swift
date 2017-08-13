@@ -187,7 +187,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
 
             // If there are more than N digits after the decimal point, move the decimal place.
             if numbersAfterDecimal > decimalPlaces {
-                number = number.multiplying(byPowerOf10: Int16(numbersAfterDecimal) - decimalPlaces)
+                number = number.multiplying(byPowerOf10: Int16(numbersAfterDecimal) - Int16(decimalPlaces))
             }
         } else {
             currencyFormatter.minimumFractionDigits = 0
