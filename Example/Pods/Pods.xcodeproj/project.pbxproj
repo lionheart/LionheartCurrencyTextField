@@ -7,45 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014F16918A6D3D4193F16489332092A2 /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191EACF24141C13975A43F3716EEBB3 /* UIDevice+LionheartExtensions.swift */; };
 		016A2360190F9573A87028E3CD04F890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */; };
+		0293097990FEC017D07781035747D9BC /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2320379EE41BFE9EE17E7EFEC1627A54 /* UIDevice+LionheartExtensions.swift */; };
 		033097CD6D74E0162248D11FCB51316A /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DDBE67622333C1080544E3FBA932B7 /* LionheartCurrencyTextField-dummy.m */; };
+		05F96F004F3203819F53FC0E03CC7ADD /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4EE6B15C6D4A93E3F60B875B6294D1 /* Array+LionheartExtensions.swift */; };
 		0E7913C6E1BB1432D0D184EA0299F133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */; };
-		182010C4BEE7A57DF4D469EAC24F7B2F /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA684926324E4D3F16F122652549C9E /* UIView+LionheartExtensions.swift */; };
-		187C5833E2EA038B0A175A147C4A1EA8 /* UIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5002395240925CD8CD2E7661C996023 /* UIImage+LionheartExtensions.swift */; };
-		19829604798158A6894974B8600BB561 /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8D67697B6B18B1D77653F74B3E3A0 /* Optional+LionheartExtensions.swift */; };
-		26BC31A5A93EA114EEA029D7D977B4D0 /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBE7FF2466339EB2459D110DAF756 /* UIWindow+LionheartExtensions.swift */; };
-		28748BC4FD76456DEFAAFEAF6D4C3773 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC7CA5BE7E6A1BFC429577021525212 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D664A1BE2C9C9EA9C5DFBE9BD253FBB /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C077AE7579EBD9985E8DE7EA913BB /* String+LionheartExtensions.swift */; };
-		318434D7A204C9E7BBA704EE70DB77DD /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34633B45434412CA27D948F6808ADC /* Functional.swift */; };
-		3C8FD3AF82DCBC1547E84C4851869607 /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD658FA040C8B63EDB6F59352EAC073 /* NSDecimalNumber+LionheartExtensions.swift */; };
-		439960432676BE0199FAD141BBE59B25 /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4B50C1B006CF2DEF3B8D58ADCD4B2 /* Summable.swift */; };
-		4A55B4CB029FC3D9D463438FE781DD0D /* UIAlertController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6E19C0BB5DA3E66BD0B7CCA21BB4A /* UIAlertController+LionheartExtensions.swift */; };
-		4C198D30CA95BA424546725EAEF9D55F /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F53671881B91DFF0F70EBD189A1722 /* UIPrintPageRenderer+LionheartExtensions.swift */; };
+		247A39EA6B166E58FFFC15AD86EDF23F /* UIViewController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B883DA187DC8B955F040F0E9A8FC66A5 /* UIViewController+LionheartExtensions.swift */; };
+		28748BC4FD76456DEFAAFEAF6D4C3773 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0C1D0043DD78E872148AF23DCDDACC /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CF372CCACE75DFBECCF390E993A245 /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03981DB9B578F60A306CF12152FAD639 /* ColorRepresentation.swift */; };
+		4373F8E792B4D7D65C0D856F5F503DC8 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72DFBCF60145F6D2B3D0A57CC76D743 /* LionheartExtensions-dummy.m */; };
+		483F326C62D6178E7645845B886C4465 /* FileManager+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB22025E17FB9BA0C8FD375890640A3 /* FileManager+LionheartExtensions.swift */; };
+		4E6721DD05505C94EA2461697AE4ADF6 /* XCTestCase+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A545A7BD08171E734F0246C3425C1 /* XCTestCase+LionheartExtensions.swift */; };
 		52E9CCC704F0E29F51E0232C1F91DEF3 /* Pods-LionheartCurrencyTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */; };
-		5483610F759DFD4325317ECE13BD163E /* Any+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F6723A764D62CA5BE37B7DE868CCF /* Any+LionheartExtensions.swift */; };
-		6361B95A2138D1C688EF885DA50C4A96 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A03B000B7161968EEAD7A176ADBC6 /* File.swift */; };
-		8119E7583540A5C6B4A2B68AECA84945 /* NSURLSession+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8774488E5251EF627BA3CADB389A8 /* NSURLSession+LionheartExtensions.swift */; };
-		8C0E185E53B7DAC411940119E60231B9 /* NSRegularExpression+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6802D6D357D1F5C754653090CCCDAF /* NSRegularExpression+LionheartExtensions.swift */; };
-		910F214B90637EF107F4A79EC04F47DE /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149C8E808AF15BBDEAC49BDE643911E /* LionheartExtensions-dummy.m */; };
-		913C0475EEC55F9CFC8A2DA9C251B1DB /* XCTestCase+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1DA9ED3521A173FED6ADD4D34771A /* XCTestCase+LionheartExtensions.swift */; };
-		9D052A9D3F16BB85715FD826F9E34F96 /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F1A5F66FADD4B6AF3755BBE36353E /* UIScreen+LionheartExtensions.swift */; };
+		5E4709E2C28D39877D04FF38A8215A9B /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE652DADA368F08E0E82D24634621C8 /* UIView+LionheartExtensions.swift */; };
+		5EF5176CEE634CEEEF64722548ED5A82 /* NSRegularExpression+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB29AC2AAD0D863591B274B5F285BE3 /* NSRegularExpression+LionheartExtensions.swift */; };
+		60183D906D4589EDB81A3EF36D7A539D /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D1F8358EF2F43A2B3C17C488422B14 /* UITextField+LionheartExtensions.swift */; };
+		66EE30495B27224527BD01C8711D8BD5 /* IndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242F810D78FD5B6B7D7B666BDEEC2A99 /* IndexPath+LionheartExtensions.swift */; };
+		6856B00A2BF8A6B7F14E9AD4C58591A9 /* Any+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D7BC45347499A9CF247F9901B18247 /* Any+LionheartExtensions.swift */; };
+		68B20E92617322829ABFA60A769FE86C /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A30B026DB6DDBA812D5C31ADE7FA5B0 /* UIFont+LionheartExtensions.swift */; };
+		6A5E06838B2206FA01EEDC600D6DB108 /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDEB08AC3CF607DD6554BF328D656F9 /* UIColor+LionheartExtensions.swift */; };
+		70D550A2A03D9304449E095CF0C0D219 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C6A3A323A70DB41C8F6F8180BCEBF8 /* File.swift */; };
+		82D28C3700BC05995DD3CB5FB76C175B /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0A4C825653E3174E08029EE22F10B /* Summable.swift */; };
+		843C414EACFFD14046D8B3E92EEEFD43 /* UIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219ED80964F7E6191E8D7A628036D39 /* UIImage+LionheartExtensions.swift */; };
+		86977225D40167EE333BE82D005E8523 /* UIMultilineLabel+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2208A663033F18E800F51B761F52F /* UIMultilineLabel+LionheartExtensions.swift */; };
+		8DFE11C65C6BA6A5C1FE66E89BB851C8 /* DateFormatter+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1260F259CD4250C3676CD856F7C98 /* DateFormatter+LionheartExtensions.swift */; };
+		9863CBE627ED9B3BFA62E3CC0FD69740 /* NSURLSession+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224B1771E791B468F774851DA0FC4CE /* NSURLSession+LionheartExtensions.swift */; };
+		996FFF2E82B518A157F5385210455F22 /* Bundle+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A3AF01A098B9B3217F4CD2C26E4FA /* Bundle+LionheartExtensions.swift */; };
+		9AAD78B34345820510CD15FBBAB5ABEB /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49844B0697B4BE19CD9EFE5B7758F5A8 /* UIScreen+LionheartExtensions.swift */; };
 		9D1DE6F4C6C42855737703A57647B193 /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */; };
-		B50442E7B66816C498B3D3D48206571A /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF76497C7713D80AD7AB5AD7386B72 /* Array+LionheartExtensions.swift */; };
+		AE02E9C0E1835E6C533B0ED58675F94A /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259643E7B1AA579DE74DAEF0A777804 /* Optional+LionheartExtensions.swift */; };
+		B20925B19973A3E85010EEBEA9228123 /* CIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE83E25214D12243C00EFB9096346EB /* CIImage+LionheartExtensions.swift */; };
+		B529254224FEE16638830E2394AA9D59 /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B4F0F6132BF9C0EAD0EB92E95155E /* NSDecimalNumber+LionheartExtensions.swift */; };
 		B692FA20FC193C4614CB04D3B7DE6682 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C23E0DA5776B3BD25D1D13E9D32DCB /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B90F18588CEB73C45A54BBC057ECB62F /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67890E51A7219AAB7EA3E96772626AD3 /* UIColor+LionheartExtensions.swift */; };
-		B9785AE999B5D1A5F136038B0BED1777 /* CIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91984E1EEB0BFB251338B3B47F7D3AA6 /* CIImage+LionheartExtensions.swift */; };
-		BD1E885D9DE9A5A83166C10585173290 /* IndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FE259ED44CCF18D5C9D43B8970E06 /* IndexPath+LionheartExtensions.swift */; };
-		C1B588AABB8FDB8D3B70F27B096F9084 /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6137F0C05C9DB5E41D7C02B7512825E /* UIFont+LionheartExtensions.swift */; };
-		C71BA6B0F51B191EAA6C46414333B5BC /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E007DF0504CE3A4C303CC63AA9FF213 /* ColorRepresentation.swift */; };
+		B83A3B3E90845761A077BA513DA765A5 /* UIAlertController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4557F4DAEAFC313500A3F18406545665 /* UIAlertController+LionheartExtensions.swift */; };
+		C1CCAD2066E5646B39A55421CB6C93F5 /* Int+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162177858323028669552A7F013086DA /* Int+LionheartExtensions.swift */; };
+		C237EAD1C93115A8D56E1802AC44C748 /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BA73842D153CB10F5BA314558065F9 /* String+LionheartExtensions.swift */; };
 		CA720B1FCFC38945FA17797C05CF1C26 /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AFC09C6EF47DAF4E32B358B0B82B7 /* LionheartCurrencyTextField.swift */; };
 		CA8B567AB3BF6EAA5D8D4A1FF8D3BDDB /* Pods-LionheartCurrencyTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6801ED4CFE49D8015015DAF64068CC0 /* UIMultilineLabel+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F335D96043D0688581A05F4E7BFC15C /* UIMultilineLabel+LionheartExtensions.swift */; };
 		D789F12017C057B597707555F027B35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */; };
-		DBDEAB493136133CE4CBD697D728DB6F /* FileManager+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3006B22B5C1FADD68CEB099394E71C9C /* FileManager+LionheartExtensions.swift */; };
-		DE406BBCA02B2539B4B04124C742D9F5 /* Int+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42720EB6E8542DF4B3B4CBCF0754CB2D /* Int+LionheartExtensions.swift */; };
-		EA17C21625C5E90CD847439F016B8F2F /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43FA4EA66AF507F2906C68253E1DB0 /* UITextField+LionheartExtensions.swift */; };
-		F1E1BB839F094620A0C6DF55F861151F /* UIViewController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474FC7434C8B0B20BEB0632E9442095 /* UIViewController+LionheartExtensions.swift */; };
+		E96658E18A9411FECD867247F2CF6895 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2E387C8FAF61D8FB39195A5FA81A1 /* Functional.swift */; };
+		EA8D04534D256CD33BFBAF298A421C12 /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97455A13428AF65F1AF1F5F25365C788 /* UIWindow+LionheartExtensions.swift */; };
+		FA2E1830D81F2B995F0F9BACFCAFC883 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B877B5CC2A244B6B87F40072CDA7298 /* UIPrintPageRenderer+LionheartExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,62 +76,64 @@
 
 /* Begin PBXFileReference section */
 		017FBD4FF4F1A67C2A68B9157A669AF5 /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		074A03B000B7161968EEAD7A176ADBC6 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
-		081369CFF2E7729C655DD2B59065A915 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
-		1C34633B45434412CA27D948F6808ADC /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
-		1CB8D67697B6B18B1D77653F74B3E3A0 /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		1F335D96043D0688581A05F4E7BFC15C /* UIMultilineLabel+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIMultilineLabel+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIMultilineLabel+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		03981DB9B578F60A306CF12152FAD639 /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
+		098B4F0F6132BF9C0EAD0EB92E95155E /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		0AB29AC2AAD0D863591B274B5F285BE3 /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		162177858323028669552A7F013086DA /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		201D957F0B8ED37CCD272B3D09783FD2 /* LionheartCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartCurrencyTextField.framework; path = LionheartCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		263F1A5F66FADD4B6AF3755BBE36353E /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		2320379EE41BFE9EE17E7EFEC1627A54 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		242F810D78FD5B6B7D7B666BDEEC2A99 /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		24BA73842D153CB10F5BA314558065F9 /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		275ABE84A58A94B89C2EB0BDC900CD6E /* LionheartCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionheartCurrencyTextField.modulemap; sourceTree = "<group>"; };
 		2A6AFC09C6EF47DAF4E32B358B0B82B7 /* LionheartCurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LionheartCurrencyTextField.swift; path = LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift; sourceTree = "<group>"; };
-		3006B22B5C1FADD68CEB099394E71C9C /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		32F500510A37A99266F2D9E73D22B8C0 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
-		3474FC7434C8B0B20BEB0632E9442095 /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		34D6E19C0BB5DA3E66BD0B7CCA21BB4A /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		42720EB6E8542DF4B3B4CBCF0754CB2D /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		495FE259ED44CCF18D5C9D43B8970E06 /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		4ACBBE7FF2466339EB2459D110DAF756 /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		2A8A3AF01A098B9B3217F4CD2C26E4FA /* Bundle+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+LionheartExtensions.swift"; path = "Pod/Classes/Core/Bundle+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		2B877B5CC2A244B6B87F40072CDA7298 /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		3F0C1D0043DD78E872148AF23DCDDACC /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
+		4557F4DAEAFC313500A3F18406545665 /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		49844B0697B4BE19CD9EFE5B7758F5A8 /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		4D09782A4083E5873FE2838DDCDCAD0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E007DF0504CE3A4C303CC63AA9FF213 /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
+		4DE2208A663033F18E800F51B761F52F /* UIMultilineLabel+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIMultilineLabel+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIMultilineLabel+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		4EB1AD6D4836FA37B9649AC69AFE8830 /* Pods-LionheartCurrencyTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LionheartCurrencyTextField_Example.modulemap"; sourceTree = "<group>"; };
+		4FE83E25214D12243C00EFB9096346EB /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		5259643E7B1AA579DE74DAEF0A777804 /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		5682B52D439586E75561DB8745350225 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LionheartCurrencyTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		59CB077247D225DB65A27E59CEAFCEB5 /* Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63A4B50C1B006CF2DEF3B8D58ADCD4B2 /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
-		67890E51A7219AAB7EA3E96772626AD3 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		6A29AECFE3FFAD7798C019532198DD74 /* LionheartCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartCurrencyTextField.xcconfig; sourceTree = "<group>"; };
-		7149C8E808AF15BBDEAC49BDE643911E /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
-		73A1DA9ED3521A173FED6ADD4D34771A /* XCTestCase+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTestCase+LionheartExtensions.swift"; path = "Pod/Classes/Core/XCTestCase+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		6A30B026DB6DDBA812D5C31ADE7FA5B0 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		714A3391E367C1F8CC7F672063EA915A /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
 		7B6BDBD4664F99D380375E2939AFFB8A /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
 		80CD5B8FCE38250882D32098351E0452 /* Pods-LionheartCurrencyTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		83F3F614B0A72E0E9A512D62362C21E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F9D156417CD92CD6E1F7CA8B47C9C4 /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LionheartCurrencyTextField_Example.framework; path = "Pods-LionheartCurrencyTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88F53671881B91DFF0F70EBD189A1722 /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9191EACF24141C13975A43F3716EEBB3 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		91984E1EEB0BFB251338B3B47F7D3AA6 /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		92AF76497C7713D80AD7AB5AD7386B72 /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		8E6E5E4118E710BED83696E287178193 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		952C077AE7579EBD9985E8DE7EA913BB /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959583F0BFE1BA1B202B629F0B4DE23F /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9C43FA4EA66AF507F2906C68253E1DB0 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		A5002395240925CD8CD2E7661C996023 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		A6137F0C05C9DB5E41D7C02B7512825E /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		97455A13428AF65F1AF1F5F25365C788 /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A224B1771E791B468F774851DA0FC4CE /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		A78744885693823B7FFD2AA0DCF1ED0B /* Pods-LionheartCurrencyTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AA6802D6D357D1F5C754653090CCCDAF /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		ACD658FA040C8B63EDB6F59352EAC073 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A9D0A4C825653E3174E08029EE22F10B /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
 		AF6A17C053EF585300637B684802D981 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartExtensions.framework; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DDBE67622333C1080544E3FBA932B7 /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		B3D1F8358EF2F43A2B3C17C488422B14 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		B4C23E0DA5776B3BD25D1D13E9D32DCB /* LionheartCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
-		BEA684926324E4D3F16F122652549C9E /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		B883DA187DC8B955F040F0E9A8FC66A5 /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		C01F0AF7C715982298F52AE06C96F8EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C1260F259CD4250C3676CD856F7C98 /* DateFormatter+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+LionheartExtensions.swift"; path = "Pod/Classes/Core/DateFormatter+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		C3C6A3A323A70DB41C8F6F8180BCEBF8 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
+		C4B9DE896D9FFBC6208CBD55121A8FC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D7BC45347499A9CF247F9901B18247 /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		CCF7598D0CABAC4A4EC54352D2E5B04A /* Pods-LionheartCurrencyTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LionheartCurrencyTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		CFD2E387C8FAF61D8FB39195A5FA81A1 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		D4405C3FB59C673CEECE1327EFC6871E /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
+		D72DFBCF60145F6D2B3D0A57CC76D743 /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
+		D82A545A7BD08171E734F0246C3425C1 /* XCTestCase+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTestCase+LionheartExtensions.swift"; path = "Pod/Classes/Core/XCTestCase+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		DB08A482C997F07609E2BF943FFB7256 /* Pods-LionheartCurrencyTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD0F6723A764D62CA5BE37B7DE868CCF /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		DDDBDBB34F4FC6EB12E9C3A234053B7A /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
-		DEC7CA5BE7E6A1BFC429577021525212 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
-		F8B8774488E5251EF627BA3CADB389A8 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		DCE652DADA368F08E0E82D24634621C8 /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		DDB22025E17FB9BA0C8FD375890640A3 /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		E219ED80964F7E6191E8D7A628036D39 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		EEDEB08AC3CF607DD6554BF328D656F9 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		FD4EE6B15C6D4A93E3F60B875B6294D1 /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,41 +183,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3F92F27C299C4A3A53038E4A09B29AAE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				DD0F6723A764D62CA5BE37B7DE868CCF /* Any+LionheartExtensions.swift */,
-				92AF76497C7713D80AD7AB5AD7386B72 /* Array+LionheartExtensions.swift */,
-				91984E1EEB0BFB251338B3B47F7D3AA6 /* CIImage+LionheartExtensions.swift */,
-				4E007DF0504CE3A4C303CC63AA9FF213 /* ColorRepresentation.swift */,
-				074A03B000B7161968EEAD7A176ADBC6 /* File.swift */,
-				3006B22B5C1FADD68CEB099394E71C9C /* FileManager+LionheartExtensions.swift */,
-				1C34633B45434412CA27D948F6808ADC /* Functional.swift */,
-				495FE259ED44CCF18D5C9D43B8970E06 /* IndexPath+LionheartExtensions.swift */,
-				42720EB6E8542DF4B3B4CBCF0754CB2D /* Int+LionheartExtensions.swift */,
-				ACD658FA040C8B63EDB6F59352EAC073 /* NSDecimalNumber+LionheartExtensions.swift */,
-				AA6802D6D357D1F5C754653090CCCDAF /* NSRegularExpression+LionheartExtensions.swift */,
-				F8B8774488E5251EF627BA3CADB389A8 /* NSURLSession+LionheartExtensions.swift */,
-				1CB8D67697B6B18B1D77653F74B3E3A0 /* Optional+LionheartExtensions.swift */,
-				952C077AE7579EBD9985E8DE7EA913BB /* String+LionheartExtensions.swift */,
-				63A4B50C1B006CF2DEF3B8D58ADCD4B2 /* Summable.swift */,
-				34D6E19C0BB5DA3E66BD0B7CCA21BB4A /* UIAlertController+LionheartExtensions.swift */,
-				67890E51A7219AAB7EA3E96772626AD3 /* UIColor+LionheartExtensions.swift */,
-				9191EACF24141C13975A43F3716EEBB3 /* UIDevice+LionheartExtensions.swift */,
-				A6137F0C05C9DB5E41D7C02B7512825E /* UIFont+LionheartExtensions.swift */,
-				A5002395240925CD8CD2E7661C996023 /* UIImage+LionheartExtensions.swift */,
-				1F335D96043D0688581A05F4E7BFC15C /* UIMultilineLabel+LionheartExtensions.swift */,
-				88F53671881B91DFF0F70EBD189A1722 /* UIPrintPageRenderer+LionheartExtensions.swift */,
-				263F1A5F66FADD4B6AF3755BBE36353E /* UIScreen+LionheartExtensions.swift */,
-				9C43FA4EA66AF507F2906C68253E1DB0 /* UITextField+LionheartExtensions.swift */,
-				BEA684926324E4D3F16F122652549C9E /* UIView+LionheartExtensions.swift */,
-				3474FC7434C8B0B20BEB0632E9442095 /* UIViewController+LionheartExtensions.swift */,
-				4ACBBE7FF2466339EB2459D110DAF756 /* UIWindow+LionheartExtensions.swift */,
-				73A1DA9ED3521A173FED6ADD4D34771A /* XCTestCase+LionheartExtensions.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		45BD7923E47B539CE3F299328E4D4BB9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,7 +208,7 @@
 		6764F249B3281D5DC658E0FBE62DA6F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82A3C88FC58A31C04F94898AF04EB58D /* LionheartExtensions */,
+				81C0DB102F6D29EA01D27628EE4F095A /* LionheartExtensions */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -275,11 +244,11 @@
 			);
 			sourceTree = "<group>";
 		};
-		82A3C88FC58A31C04F94898AF04EB58D /* LionheartExtensions */ = {
+		81C0DB102F6D29EA01D27628EE4F095A /* LionheartExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				3F92F27C299C4A3A53038E4A09B29AAE /* Core */,
-				A22EF17DB61CA544B1FEBA9701244FF4 /* Support Files */,
+				E0F11EE749A8B05FA5CB36BECCBB6214 /* Core */,
+				F6ABBB41CFBC06885D40059928F12FE9 /* Support Files */,
 			);
 			name = LionheartExtensions;
 			path = LionheartExtensions;
@@ -303,26 +272,63 @@
 			path = "Target Support Files/Pods-LionheartCurrencyTextField_Example";
 			sourceTree = "<group>";
 		};
-		A22EF17DB61CA544B1FEBA9701244FF4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				83F3F614B0A72E0E9A512D62362C21E6 /* Info.plist */,
-				32F500510A37A99266F2D9E73D22B8C0 /* LionheartExtensions.modulemap */,
-				081369CFF2E7729C655DD2B59065A915 /* LionheartExtensions.xcconfig */,
-				7149C8E808AF15BBDEAC49BDE643911E /* LionheartExtensions-dummy.m */,
-				DDDBDBB34F4FC6EB12E9C3A234053B7A /* LionheartExtensions-prefix.pch */,
-				DEC7CA5BE7E6A1BFC429577021525212 /* LionheartExtensions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LionheartExtensions";
-			sourceTree = "<group>";
-		};
 		A5300BFE0E04758C8940CBA2E6885553 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				A1034F86F319D130B24FCF8A9C04680F /* Pods-LionheartCurrencyTextField_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0F11EE749A8B05FA5CB36BECCBB6214 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C9D7BC45347499A9CF247F9901B18247 /* Any+LionheartExtensions.swift */,
+				FD4EE6B15C6D4A93E3F60B875B6294D1 /* Array+LionheartExtensions.swift */,
+				2A8A3AF01A098B9B3217F4CD2C26E4FA /* Bundle+LionheartExtensions.swift */,
+				4FE83E25214D12243C00EFB9096346EB /* CIImage+LionheartExtensions.swift */,
+				03981DB9B578F60A306CF12152FAD639 /* ColorRepresentation.swift */,
+				C2C1260F259CD4250C3676CD856F7C98 /* DateFormatter+LionheartExtensions.swift */,
+				C3C6A3A323A70DB41C8F6F8180BCEBF8 /* File.swift */,
+				DDB22025E17FB9BA0C8FD375890640A3 /* FileManager+LionheartExtensions.swift */,
+				CFD2E387C8FAF61D8FB39195A5FA81A1 /* Functional.swift */,
+				242F810D78FD5B6B7D7B666BDEEC2A99 /* IndexPath+LionheartExtensions.swift */,
+				162177858323028669552A7F013086DA /* Int+LionheartExtensions.swift */,
+				098B4F0F6132BF9C0EAD0EB92E95155E /* NSDecimalNumber+LionheartExtensions.swift */,
+				0AB29AC2AAD0D863591B274B5F285BE3 /* NSRegularExpression+LionheartExtensions.swift */,
+				A224B1771E791B468F774851DA0FC4CE /* NSURLSession+LionheartExtensions.swift */,
+				5259643E7B1AA579DE74DAEF0A777804 /* Optional+LionheartExtensions.swift */,
+				24BA73842D153CB10F5BA314558065F9 /* String+LionheartExtensions.swift */,
+				A9D0A4C825653E3174E08029EE22F10B /* Summable.swift */,
+				4557F4DAEAFC313500A3F18406545665 /* UIAlertController+LionheartExtensions.swift */,
+				EEDEB08AC3CF607DD6554BF328D656F9 /* UIColor+LionheartExtensions.swift */,
+				2320379EE41BFE9EE17E7EFEC1627A54 /* UIDevice+LionheartExtensions.swift */,
+				6A30B026DB6DDBA812D5C31ADE7FA5B0 /* UIFont+LionheartExtensions.swift */,
+				E219ED80964F7E6191E8D7A628036D39 /* UIImage+LionheartExtensions.swift */,
+				4DE2208A663033F18E800F51B761F52F /* UIMultilineLabel+LionheartExtensions.swift */,
+				2B877B5CC2A244B6B87F40072CDA7298 /* UIPrintPageRenderer+LionheartExtensions.swift */,
+				49844B0697B4BE19CD9EFE5B7758F5A8 /* UIScreen+LionheartExtensions.swift */,
+				B3D1F8358EF2F43A2B3C17C488422B14 /* UITextField+LionheartExtensions.swift */,
+				DCE652DADA368F08E0E82D24634621C8 /* UIView+LionheartExtensions.swift */,
+				B883DA187DC8B955F040F0E9A8FC66A5 /* UIViewController+LionheartExtensions.swift */,
+				97455A13428AF65F1AF1F5F25365C788 /* UIWindow+LionheartExtensions.swift */,
+				D82A545A7BD08171E734F0246C3425C1 /* XCTestCase+LionheartExtensions.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F6ABBB41CFBC06885D40059928F12FE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9DE896D9FFBC6208CBD55121A8FC4 /* Info.plist */,
+				8E6E5E4118E710BED83696E287178193 /* LionheartExtensions.modulemap */,
+				D4405C3FB59C673CEECE1327EFC6871E /* LionheartExtensions.xcconfig */,
+				D72DFBCF60145F6D2B3D0A57CC76D743 /* LionheartExtensions-dummy.m */,
+				714A3391E367C1F8CC7F672063EA915A /* LionheartExtensions-prefix.pch */,
+				3F0C1D0043DD78E872148AF23DCDDACC /* LionheartExtensions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LionheartExtensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E6F32AF6F6CE0F6A516561CC69CFCEA /* Build configuration list for PBXNativeTarget "LionheartExtensions" */;
 			buildPhases = (
-				32C2A94F119519D3D71DFF5BC870945B /* Sources */,
+				381D8B93B08F6E5835EBB444AC281DC0 /* Sources */,
 				6622DC27BCB48EE66D31A3C43F7F6739 /* Frameworks */,
 				40E9C356D311715F5BE031BBE5E4EECD /* Headers */,
 			);
@@ -455,39 +461,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32C2A94F119519D3D71DFF5BC870945B /* Sources */ = {
+		381D8B93B08F6E5835EBB444AC281DC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5483610F759DFD4325317ECE13BD163E /* Any+LionheartExtensions.swift in Sources */,
-				B50442E7B66816C498B3D3D48206571A /* Array+LionheartExtensions.swift in Sources */,
-				B9785AE999B5D1A5F136038B0BED1777 /* CIImage+LionheartExtensions.swift in Sources */,
-				C71BA6B0F51B191EAA6C46414333B5BC /* ColorRepresentation.swift in Sources */,
-				6361B95A2138D1C688EF885DA50C4A96 /* File.swift in Sources */,
-				DBDEAB493136133CE4CBD697D728DB6F /* FileManager+LionheartExtensions.swift in Sources */,
-				318434D7A204C9E7BBA704EE70DB77DD /* Functional.swift in Sources */,
-				BD1E885D9DE9A5A83166C10585173290 /* IndexPath+LionheartExtensions.swift in Sources */,
-				DE406BBCA02B2539B4B04124C742D9F5 /* Int+LionheartExtensions.swift in Sources */,
-				910F214B90637EF107F4A79EC04F47DE /* LionheartExtensions-dummy.m in Sources */,
-				3C8FD3AF82DCBC1547E84C4851869607 /* NSDecimalNumber+LionheartExtensions.swift in Sources */,
-				8C0E185E53B7DAC411940119E60231B9 /* NSRegularExpression+LionheartExtensions.swift in Sources */,
-				8119E7583540A5C6B4A2B68AECA84945 /* NSURLSession+LionheartExtensions.swift in Sources */,
-				19829604798158A6894974B8600BB561 /* Optional+LionheartExtensions.swift in Sources */,
-				2D664A1BE2C9C9EA9C5DFBE9BD253FBB /* String+LionheartExtensions.swift in Sources */,
-				439960432676BE0199FAD141BBE59B25 /* Summable.swift in Sources */,
-				4A55B4CB029FC3D9D463438FE781DD0D /* UIAlertController+LionheartExtensions.swift in Sources */,
-				B90F18588CEB73C45A54BBC057ECB62F /* UIColor+LionheartExtensions.swift in Sources */,
-				014F16918A6D3D4193F16489332092A2 /* UIDevice+LionheartExtensions.swift in Sources */,
-				C1B588AABB8FDB8D3B70F27B096F9084 /* UIFont+LionheartExtensions.swift in Sources */,
-				187C5833E2EA038B0A175A147C4A1EA8 /* UIImage+LionheartExtensions.swift in Sources */,
-				D6801ED4CFE49D8015015DAF64068CC0 /* UIMultilineLabel+LionheartExtensions.swift in Sources */,
-				4C198D30CA95BA424546725EAEF9D55F /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */,
-				9D052A9D3F16BB85715FD826F9E34F96 /* UIScreen+LionheartExtensions.swift in Sources */,
-				EA17C21625C5E90CD847439F016B8F2F /* UITextField+LionheartExtensions.swift in Sources */,
-				182010C4BEE7A57DF4D469EAC24F7B2F /* UIView+LionheartExtensions.swift in Sources */,
-				F1E1BB839F094620A0C6DF55F861151F /* UIViewController+LionheartExtensions.swift in Sources */,
-				26BC31A5A93EA114EEA029D7D977B4D0 /* UIWindow+LionheartExtensions.swift in Sources */,
-				913C0475EEC55F9CFC8A2DA9C251B1DB /* XCTestCase+LionheartExtensions.swift in Sources */,
+				6856B00A2BF8A6B7F14E9AD4C58591A9 /* Any+LionheartExtensions.swift in Sources */,
+				05F96F004F3203819F53FC0E03CC7ADD /* Array+LionheartExtensions.swift in Sources */,
+				996FFF2E82B518A157F5385210455F22 /* Bundle+LionheartExtensions.swift in Sources */,
+				B20925B19973A3E85010EEBEA9228123 /* CIImage+LionheartExtensions.swift in Sources */,
+				36CF372CCACE75DFBECCF390E993A245 /* ColorRepresentation.swift in Sources */,
+				8DFE11C65C6BA6A5C1FE66E89BB851C8 /* DateFormatter+LionheartExtensions.swift in Sources */,
+				70D550A2A03D9304449E095CF0C0D219 /* File.swift in Sources */,
+				483F326C62D6178E7645845B886C4465 /* FileManager+LionheartExtensions.swift in Sources */,
+				E96658E18A9411FECD867247F2CF6895 /* Functional.swift in Sources */,
+				66EE30495B27224527BD01C8711D8BD5 /* IndexPath+LionheartExtensions.swift in Sources */,
+				C1CCAD2066E5646B39A55421CB6C93F5 /* Int+LionheartExtensions.swift in Sources */,
+				4373F8E792B4D7D65C0D856F5F503DC8 /* LionheartExtensions-dummy.m in Sources */,
+				B529254224FEE16638830E2394AA9D59 /* NSDecimalNumber+LionheartExtensions.swift in Sources */,
+				5EF5176CEE634CEEEF64722548ED5A82 /* NSRegularExpression+LionheartExtensions.swift in Sources */,
+				9863CBE627ED9B3BFA62E3CC0FD69740 /* NSURLSession+LionheartExtensions.swift in Sources */,
+				AE02E9C0E1835E6C533B0ED58675F94A /* Optional+LionheartExtensions.swift in Sources */,
+				C237EAD1C93115A8D56E1802AC44C748 /* String+LionheartExtensions.swift in Sources */,
+				82D28C3700BC05995DD3CB5FB76C175B /* Summable.swift in Sources */,
+				B83A3B3E90845761A077BA513DA765A5 /* UIAlertController+LionheartExtensions.swift in Sources */,
+				6A5E06838B2206FA01EEDC600D6DB108 /* UIColor+LionheartExtensions.swift in Sources */,
+				0293097990FEC017D07781035747D9BC /* UIDevice+LionheartExtensions.swift in Sources */,
+				68B20E92617322829ABFA60A769FE86C /* UIFont+LionheartExtensions.swift in Sources */,
+				843C414EACFFD14046D8B3E92EEEFD43 /* UIImage+LionheartExtensions.swift in Sources */,
+				86977225D40167EE333BE82D005E8523 /* UIMultilineLabel+LionheartExtensions.swift in Sources */,
+				FA2E1830D81F2B995F0F9BACFCAFC883 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */,
+				9AAD78B34345820510CD15FBBAB5ABEB /* UIScreen+LionheartExtensions.swift in Sources */,
+				60183D906D4589EDB81A3EF36D7A539D /* UITextField+LionheartExtensions.swift in Sources */,
+				5E4709E2C28D39877D04FF38A8215A9B /* UIView+LionheartExtensions.swift in Sources */,
+				247A39EA6B166E58FFFC15AD86EDF23F /* UIViewController+LionheartExtensions.swift in Sources */,
+				EA8D04534D256CD33BFBAF298A421C12 /* UIWindow+LionheartExtensions.swift in Sources */,
+				4E6721DD05505C94EA2461697AE4ADF6 /* XCTestCase+LionheartExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,7 +642,7 @@
 		};
 		B7B98C5DEDA0EE3FF7915ED49CED0711 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 081369CFF2E7729C655DD2B59065A915 /* LionheartExtensions.xcconfig */;
+			baseConfigurationReference = D4405C3FB59C673CEECE1327EFC6871E /* LionheartExtensions.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -792,7 +800,7 @@
 		};
 		FDBD87478953E5789CB0C8CFDBF2E133 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 081369CFF2E7729C655DD2B59065A915 /* LionheartExtensions.xcconfig */;
+			baseConfigurationReference = D4405C3FB59C673CEECE1327EFC6871E /* LionheartExtensions.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
