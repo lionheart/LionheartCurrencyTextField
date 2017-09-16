@@ -1,0 +1,124 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 20,
+      "symbol": "String.charactersInSetBeforeIndex(_:index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 24,
+      "symbol": "String.charactersInSetAfterIndex(_:index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 28,
+      "symbol": "String.charactersInSet(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 32,
+      "symbol": "String.lengthOfRange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 37,
+      "symbol": "LionheartCurrencyTextField",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 38,
+      "symbol": "LionheartCurrencyTextField.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 71,
+      "symbol": "LionheartCurrencyTextField.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 92,
+      "symbol": "LionheartCurrencyTextField.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 99,
+      "symbol": "LionheartCurrencyTextField.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 108,
+      "symbol": "LionheartCurrencyTextField.currencyValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 251,
+      "symbol": "LionheartCurrencyTextField.textField(_:shouldChangeCharactersIn:replacementString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 266,
+      "symbol": "LionheartCurrencyTextField.textFieldShouldBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 270,
+      "symbol": "LionheartCurrencyTextField.textFieldDidBeginEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 274,
+      "symbol": "LionheartCurrencyTextField.textFieldShouldEndEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 278,
+      "symbol": "LionheartCurrencyTextField.textFieldDidEndEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 293,
+      "symbol": "LionheartCurrencyTextField.textFieldShouldClear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/LionheartCurrencyTextField/LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift",
+      "line": 297,
+      "symbol": "LionheartCurrencyTextField.textFieldShouldReturn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/dan/Projects/LionheartCurrencyTextField"
+}
