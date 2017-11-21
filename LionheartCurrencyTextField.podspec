@@ -1,3 +1,5 @@
+# vim: ft=ruby
+
 Pod::Spec.new do |s|
   s.name             = 'LionheartCurrencyTextField'
   s.version          =  "2.0.2"
@@ -10,6 +12,7 @@ current locale, so in the US, typing "12345.12" will output "$12,345.12".
 
 See the GitHub project for more details.
                        DESC
+  s.documentation_url = 'https://code.lionheart.software/LionheartCurrencyTextField/'
 
   s.homepage         = 'https://github.com/lionheart/LionheartCurrencyTextField'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }

@@ -5,13 +5,15 @@
 [![Platform](https://img.shields.io/cocoapods/p/LionheartCurrencyTextField.svg?style=flat)](http://cocoapods.org/pods/LionheartCurrencyTextField)
 ![Swift](http://img.shields.io/badge/swift-3-blue.svg?style=flat)
 
+LionheartCurrencyTextField is a drop-in replacement for UITextField that displays currency values the way you'd expect it to. It's based on the user's current locale, so in the US, typing "12345.12" will output "$12,345.12".
+
+If you're currently choosing between LionheartCurrencyTextField and another alternative, please read about our [philosophy](https://gist.github.com/dlo/86208878ff976261fa16).
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory.
 
 ![](LionheartCurrencyTextField.gif)
-
-## Requirements
 
 ## Installation
 
@@ -24,8 +26,9 @@ pod "LionheartCurrencyTextField"
 
 ## Author
 
-Dan Loewenherz, dan@lionheartsw.com
+[Dan Loewenherz](https://github.com/dlo)
 
 ## License
 
-LionheartCurrencyTextField is available under the Apache 2.0 license. See the LICENSE file for more info.
+KeyboardAdjuster is available under the Apache 2.0 LICENSE. See the [LICENSE](LICENSE) file for more info.
+
