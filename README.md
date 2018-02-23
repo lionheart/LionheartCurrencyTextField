@@ -14,6 +14,14 @@ LionheartCurrencyTextField comes with a functional example project to help you g
 
 ![](LionheartCurrencyTextField.gif)
 
+### Code Sample
+
+```swift
+let textField = LionheartCurrencyTextField()
+```
+
+Yep, it really is that simple.
+
 ## Installation
 
 LionheartCurrencyTextField is available through [CocoaPods](http://cocoapods.org). To install
