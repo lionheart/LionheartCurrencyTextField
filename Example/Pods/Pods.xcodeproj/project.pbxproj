@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		016A2360190F9573A87028E3CD04F890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */; };
-		033097CD6D74E0162248D11FCB51316A /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE59982ECCEC5E4C4F9912C966304C8 /* LionheartCurrencyTextField-dummy.m */; };
+		033097CD6D74E0162248D11FCB51316A /* LionheartCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D760630657A20936BD6A74779CCC2 /* LionheartCurrencyTextField-dummy.m */; };
 		080589D33F8A5802434823470DD7A258 /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DAB43E05B4340FF0BE0A8620FE3BDE /* ColorRepresentation.swift */; };
 		0A79694DA5F3E959F3B6D4CEACBFA529 /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29797E188F23F6A4F5E324E00241E981 /* UIFont+LionheartExtensions.swift */; };
 		0E7913C6E1BB1432D0D184EA0299F133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */; };
@@ -39,9 +39,9 @@
 		AD643F1444C28A0C2CC66E43B2558BF0 /* DateFormatter+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705502493965A23EF12ED617909AB727 /* DateFormatter+LionheartExtensions.swift */; };
 		B266014F079DEAAC267CC65E20FCB0B8 /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB3F8F8BAC3D9CC7259F0F3913EA2E /* UIWindow+LionheartExtensions.swift */; };
 		B64090F8FB47DED0B7B6A0498CB5DD00 /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AAF2716CBD8822117C20E0F4E82E0 /* Array+LionheartExtensions.swift */; };
-		B692FA20FC193C4614CB04D3B7DE6682 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5356BC9DD85499DD58896C1C650424BB /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B692FA20FC193C4614CB04D3B7DE6682 /* LionheartCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8753AD66CF69445E3A411748FFE6FE12 /* LionheartCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C57A32177E74605BCC4A80665DF6FBC2 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD16F13FEFCDA76D2F3A5D2F1D16A6CB /* LionheartExtensions-dummy.m */; };
-		CA720B1FCFC38945FA17797C05CF1C26 /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E078235D16E98AAD6CFC8C8559CA32F6 /* LionheartCurrencyTextField.swift */; };
+		CA720B1FCFC38945FA17797C05CF1C26 /* LionheartCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CAA4354E7E42C5F197CED6DC7429E /* LionheartCurrencyTextField.swift */; };
 		CA8B567AB3BF6EAA5D8D4A1FF8D3BDDB /* Pods-LionheartCurrencyTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D7DFEED91AD4EC8A50C0CD8539E1C9 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1F1A55314D8B66D66C1D2C7D9EC5C63 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04F766B2F4277C559DCBBA561A3B8B1 /* Main.swift */; };
 		D528C6ED28CC5C817196766D28EF577A /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA55A5558AEF59C5759432221DBC01F /* String+LionheartExtensions.swift */; };
@@ -75,114 +75,116 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009698E8FE4C074A20C9259D2D5FE1C7 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
-		09A92604658D067F560EFAF5C9BC351C /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
-		0B822FE0CA2FD7DB7BC408F66BA838DA /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
-		107166147114598F50E24D7195925A0A /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
-		11C9499732E03C771E320A24B4B7063C /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
-		1389257071BBB881D9ED9626ACD29042 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		014AA0DEA607C3AFF766A6A4146DBCA1 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		0259ED45FF492C021AD4158DC75F9AAD /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
+		0B47E2EA03127E0F5A2CDF44A443A1AA /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
+		0EB7462CD009FA054A20C3DBB582F7C3 /* LionheartCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		1331DA669896EC6B16B3716B2F33DD1B /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
 		149FCBDBF7A01FE54A73D234532FC749 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
 		166474850BC4C687A62C257B248C79A8 /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		168A5E55D766C66B677AF933AD8605FB /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
 		1764F3E2D24373EC85638D5AAD061275 /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		18B4619A66F7665F085EF3F303C2BEB7 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
-		1BC4A5F4417C5A176850175DDB878DCE /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		1C1BDC40147B66989EF9FB4CEBD0E3D2 /* LionheartCurrencyTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LionheartCurrencyTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C2FFF779B918F1F351BDBC678E07341 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
+		1C39C507DEC217D8D5DA3A358D2A432F /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		1CB0FEDE4D958EE008B49787BC7A79EC /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
 		1D32EEA36267891A961FBD04CDE7B503 /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		1E442182082EDD9A5B17288C5B2B3E58 /* String.html */ = {isa = PBXFileReference; includeInIndex = 1; name = String.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Extensions/String.html; sourceTree = "<group>"; };
-		1E83AA7B1DE28F0578BFAC6D4D3C5422 /* LionheartCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartCurrencyTextField.modulemap; sourceTree = "<group>"; };
 		201D957F0B8ED37CCD272B3D09783FD2 /* LionheartCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartCurrencyTextField.framework; path = LionheartCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23C54720E5CD540C8D9B8641C2B76E3A /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		26022C0F1BF4C215FA3033C6AAABC36A /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
 		2640C2765A430B41A6907BDDB4E7464F /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		264DC7C22DECC8F6F2C0B8727F326413 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		27DAB43E05B4340FF0BE0A8620FE3BDE /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
 		29797E188F23F6A4F5E324E00241E981 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		2A7B9CC90CEE0FCEF3EE1FBC1AED6A47 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		2AEEE346A3866B38B0233863F66D2E95 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		2B2D7FEDAAD9F829BA897D70C7BCCE41 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		2D3E4F9D0402C022DBA9A80D104C7D30 /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		2EA287DEEA39A39C75394884437CB24E /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		2D7BE2D42366EDBC9DF668317BFDCCE6 /* LionheartCurrencyTextField.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = LionheartCurrencyTextField.tgz; path = docs/docsets/LionheartCurrencyTextField.tgz; sourceTree = "<group>"; };
 		2ED350D162BAD9BFA5F5F34111DDFAA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302E865991B407EF6311ACAB7144DBA1 /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
-		309D92F98DD6BFCE171D0A6993464A19 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
-		3A46674152D288210C2863664614E548 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
 		3BA5F68F0C1C41609BAF5666C7ACE67A /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		3CF0A3CFFD0C5C0E2339E1C1DDE33490 /* filelist-remote-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-remote-md5"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-remote-md5"; sourceTree = "<group>"; };
-		3F014A8A58A0229A39A4B0DD3F274A36 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
 		43AA2D5A4394DB84AE383183D50674C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		488B58974ED350C7BDD3FEF8B04D4E89 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
-		495BD6CD9A17D93A4F6B56FAAEF4BD1A /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
-		497DE8C0CF820E0591DC1BBCB7EBA66F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48A2B0852EFD99A31330DCB7F7EC5B27 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
 		4B55C235DB80403541376B89B5131B89 /* Pods-LionheartCurrencyTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LionheartCurrencyTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		4D220253494E7A2ADECDC98C6195862A /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		4D02A3773471056722EB5F413733E488 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
 		4E7856A89C8A5B778A5375AC02DF729F /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
 		50C33E8699D687D76DB18FE799DB2A71 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		52D169EB39A0E9BCEFB76E223BC370CA /* Pods-LionheartCurrencyTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5356BC9DD85499DD58896C1C650424BB /* LionheartCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
 		53D2ACDB474B32DB1142D8E974C84CD5 /* Bundle+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+LionheartExtensions.swift"; path = "Pod/Classes/Core/Bundle+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		54D7DFEED91AD4EC8A50C0CD8539E1C9 /* Pods-LionheartCurrencyTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LionheartCurrencyTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		5B3AAF2716CBD8822117C20E0F4E82E0 /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		5D8B886557CD1DB590591922E46899A9 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
-		5DF1C6299947758248E104CB62FD9E1F /* LionheartCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartCurrencyTextField.xcconfig; sourceTree = "<group>"; };
-		5E4ADAD8816F3941D1506FC8D316CD1B /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		5C9C7193F35C782088F6BB8A829FB2AF /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		605D760630657A20936BD6A74779CCC2 /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
 		61EB3F8F8BAC3D9CC7259F0F3913EA2E /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		649F128812F08061041EE0A5BF80E6B5 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
 		67CE8A13417BEC352CF0A82D31752903 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		6BA55A5558AEF59C5759432221DBC01F /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		6C0BE00CF5D39D2021D6C4A7F3869B6B /* Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LionheartCurrencyTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DA19487DBAB95C8CA0C6BD04646AB7D /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
 		705502493965A23EF12ED617909AB727 /* DateFormatter+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+LionheartExtensions.swift"; path = "Pod/Classes/Core/DateFormatter+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		72782E07819189AAD515FBA62C755BD8 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		732360ABBA304050AF43C2DDF14B70A0 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
+		7631074E90DDD4CCF72DCB406D9E6B4E /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
+		76C6AF72BA3CB2A683841E136837364C /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
+		77D92D5C7CE5044379A49AF40E953E13 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		78131CAF3AF64E222AC7754E9BC9270D /* LionheartCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartCurrencyTextField.xcconfig; sourceTree = "<group>"; };
+		7C5E143B024D0D7BD971048E7B4ECC2C /* LionheartCurrencyTextField.html */ = {isa = PBXFileReference; includeInIndex = 1; name = LionheartCurrencyTextField.html; path = docs/Classes/LionheartCurrencyTextField.html; sourceTree = "<group>"; };
 		7D06FF2485F2877029FFDE2A42690312 /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		80C2E044AD6340AA0C8ADABFB1161BAB /* String.html */ = {isa = PBXFileReference; includeInIndex = 1; name = String.html; path = docs/Extensions/String.html; sourceTree = "<group>"; };
+		7D59649B9DDBFD1E471FE5D23F309E58 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
+		817526214A093BB9DC8008061A2084DC /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
 		831115726C51C9E7AE12A8E468CC665D /* Pods-LionheartCurrencyTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		85674276EFA5747E652FEB658E30F72D /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		865C7CC2AF25B528A7E72AD9F51270BD /* LionheartCurrencyTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LionheartCurrencyTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86F00DD88C877DB8A9B3C5466F83FEC3 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
 		86F9D156417CD92CD6E1F7CA8B47C9C4 /* Pods_LionheartCurrencyTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LionheartCurrencyTextField_Example.framework; path = "Pods-LionheartCurrencyTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A54A0C31403FCBCEC50854C89875731 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
-		8ABBC59EE5B9F8A209E12DA0C7440E36 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		8753AD66CF69445E3A411748FFE6FE12 /* LionheartCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		87A19A2FF9BDD1D00ED375BDCD71688F /* LionheartCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartCurrencyTextField.modulemap; sourceTree = "<group>"; };
+		87C84420236FCFE25B2E014954F60C45 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		88719AC1711B4A56719307B4C9726715 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
+		8B318B62FD6CFBE135056BE5627F85BA /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		8BBA65D3CEAD1401705DDD71CF183A3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8D5A51766B510A1F6F54806AAB9424FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8DBDA2B0099A73EA9C600980E979DBAB /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
 		8FB0B13CD5039BAEC855A2FFA398A0D6 /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		8FFF8C6B0B7C1A0F2BCEEC31448D9252 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
-		91102A43293A49A1C2D4B8593ACD4C3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952F163BCCCF645F80B6EB2D89E5B2D0 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
 		9583A607D99BB7CF2BF57558851E5A33 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9673DEDDF941DAC073DAE6B43A9826FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9941FA6C7D258F2A9B562FE7C5ECF5B7 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		99A0321899D36BBF32DFF7244767C0FA /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
+		9A0EA039E3CC39F7A8788D86593D2A6D /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
 		9DAA630F433445530E4A0C83C3D94339 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		A225ACC2301F661644046FDE5D7CD2B3 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		9E0542773C71FB484A971218AF8622CC /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
+		A095FB65AAB8F280C7234205B1A4AEAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		A211355FB7E766847E671C17E3118BE7 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
 		A7BE0A76CB37781D7A3BB1631E850913 /* UIApplicationDelegate+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplicationDelegate+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIApplicationDelegate+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		AB4265DF2DF036E6CBAA17318B0A6E03 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
-		AE0E9AA24468AF70CCE98DE881315746 /* LionheartCurrencyTextField.html */ = {isa = PBXFileReference; includeInIndex = 1; name = LionheartCurrencyTextField.html; path = docs/Classes/LionheartCurrencyTextField.html; sourceTree = "<group>"; };
+		AA3CAA4354E7E42C5F197CED6DC7429E /* LionheartCurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LionheartCurrencyTextField.swift; path = LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift; sourceTree = "<group>"; };
+		AB9252BB232DB84FB6D13A96FCB0FC69 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
 		AF6A17C053EF585300637B684802D981 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartExtensions.framework; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0EDCC3B17245278443E2645B1E6E1D4 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
-		B14EB3E2C1C2C608B554E787FF838AD6 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		B24FF6528AB7DE97F80D0199CECA327F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B456D3B472832760488FE7EE53889905 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		B61D995CD56E34B36ED4B7AE4B1672DC /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
-		B66472ACFF39A5432120429D91C9765B /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		B8E249E10ADA2D2B7548F9A912120AAF /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		BD948D0CC49BC85B9413FDD34619C90B /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
 		C04F766B2F4277C559DCBBA561A3B8B1 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Pod/Classes/Main.swift; sourceTree = "<group>"; };
-		C13D21DEB09A0490CD0EDECAFE3C4F66 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
-		C31EF53ADC901861E5065F439E9AD95F /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
-		C3DEE07B38D5092B2F8D16A5DFEEB50F /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
-		C6CA20AB8347004F7CAC862C1B5144D3 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
-		CC33ADCDBC53FE4E67AE4AEC70DBDA12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93D831D7A17F50A62A5EE85289D5F0F /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
 		CC7EE2981DD988FC023493CB9A884726 /* Pods-LionheartCurrencyTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LionheartCurrencyTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		CE0690B1B7C77BAB0467E38AB8198A0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D2373E9F135F2C993B91A70B9E7B8459 /* LionheartCurrencyTextField.html */ = {isa = PBXFileReference; includeInIndex = 1; name = LionheartCurrencyTextField.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Classes/LionheartCurrencyTextField.html; sourceTree = "<group>"; };
-		D9881ED43411AC4894D986D227D63E8D /* filelist-remote */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-remote"; path = "docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist-remote"; sourceTree = "<group>"; };
+		CEBB6AF0CC63D6A4A364218F8E5A89C5 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
+		CF70B6299C1F60BE3E65EE648E51ACBE /* String.html */ = {isa = PBXFileReference; includeInIndex = 1; name = String.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Extensions/String.html; sourceTree = "<group>"; };
+		D4F47FE74D7635DCC191BD9806985D09 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		DB5916F6BDAF1819F1A638239F7A87E5 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
-		DC432D166E1EBA973090A96BF44E5B1F /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
-		DC749B82D9254F074B1E57CF26ACD7DD /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
 		DD16F13FEFCDA76D2F3A5D2F1D16A6CB /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
 		DF2C9FF77B126E0475148EB4DA8C286E /* Pods-LionheartCurrencyTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LionheartCurrencyTextField_Example.modulemap"; sourceTree = "<group>"; };
-		E078235D16E98AAD6CFC8C8559CA32F6 /* LionheartCurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LionheartCurrencyTextField.swift; path = LionheartCurrencyTextField/Classes/LionheartCurrencyTextField.swift; sourceTree = "<group>"; };
+		E134B9BE5B2E73681B0DDCFE7E032A80 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
 		E15A212DE986554B9C6D6DE84E0314AB /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		E2563EA55714AEE2DEEFC4FE29C06174 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		E2CEFE5D93FBD9CF27A29D27BC0A1E52 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		E2E423F242D82C78EF9F2755511D198B /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
 		E30FA653E227359388EE278F001B7EF6 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		E33EC9389EED8C48EA89554EC600DB2A /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
+		E3478E67E972B94482450AB51106B40C /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		E676961F26684C345AD31DCE072D97CC /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
 		E7713363AC318F48D44C10900AC60948 /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		EBC1E19C718F7C7E94737301EC0267C7 /* LionheartCurrencyTextField.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = LionheartCurrencyTextField.tgz; path = docs/docsets/LionheartCurrencyTextField.tgz; sourceTree = "<group>"; };
-		EBE59982ECCEC5E4C4F9912C966304C8 /* LionheartCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
-		ED9530BCF042BE85ED73848D83A0E679 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		EDE1C22FA35E2B0A5AEF942DF9F34F12 /* String.html */ = {isa = PBXFileReference; includeInIndex = 1; name = String.html; path = docs/Extensions/String.html; sourceTree = "<group>"; };
 		EEAC0B6B1073C5094E99D7F4EFF74A8E /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		F221088A7EEAFC47A650D660ACD4ACE4 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
 		F33EA38E6BBB1CF17BC71E809449DA2F /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		F5B53D0A59F650DE031DF0004F2A3D8D /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
-		FA773A0ACF66430327ABD57DDEF37F76 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
-		FB44E0905B4ADF2EB62E3C2405BA00E8 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
+		F6CC981DB2445CC81C0F5188EDDDF25B /* LionheartCurrencyTextField.html */ = {isa = PBXFileReference; includeInIndex = 1; name = LionheartCurrencyTextField.html; path = docs/docsets/LionheartCurrencyTextField.docset/Contents/Resources/Documents/Classes/LionheartCurrencyTextField.html; sourceTree = "<group>"; };
 		FE6E26F09EBABE754CF15861E4C6121D /* Pods-LionheartCurrencyTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LionheartCurrencyTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +217,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3947E7ABF37D8D1BAF2CDDB9AE2C51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24FF6528AB7DE97F80D0199CECA327F /* Info.plist */,
+				87A19A2FF9BDD1D00ED375BDCD71688F /* LionheartCurrencyTextField.modulemap */,
+				78131CAF3AF64E222AC7754E9BC9270D /* LionheartCurrencyTextField.xcconfig */,
+				605D760630657A20936BD6A74779CCC2 /* LionheartCurrencyTextField-dummy.m */,
+				0EB7462CD009FA054A20C3DBB582F7C3 /* LionheartCurrencyTextField-prefix.pch */,
+				8753AD66CF69445E3A411748FFE6FE12 /* LionheartCurrencyTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LionheartCurrencyTextField";
+			sourceTree = "<group>";
+		};
 		1E654D9DFCCA00E916B68085B8A71D6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,17 +265,6 @@
 			);
 			name = "Pods-LionheartCurrencyTextField_Example";
 			path = "Target Support Files/Pods-LionheartCurrencyTextField_Example";
-			sourceTree = "<group>";
-		};
-		5A25426C41AC531EB61876DF8DBC98FD /* LionheartCurrencyTextField */ = {
-			isa = PBXGroup;
-			children = (
-				E078235D16E98AAD6CFC8C8559CA32F6 /* LionheartCurrencyTextField.swift */,
-				C537EABADC197F856E1C9525332570AD /* Pod */,
-				E0B4818A98A198C4A65A3A325C35177E /* Support Files */,
-			);
-			name = LionheartCurrencyTextField;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6764F249B3281D5DC658E0FBE62DA6F0 /* Pods */ = {
@@ -299,6 +304,65 @@
 			);
 			name = LionheartExtensions;
 			path = LionheartExtensions;
+			sourceTree = "<group>";
+		};
+		9565BDC0067E0D477DCB3D5FF67B0796 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86F00DD88C877DB8A9B3C5466F83FEC3 /* badge.svg */,
+				7631074E90DDD4CCF72DCB406D9E6B4E /* badge.svg */,
+				2B2D7FEDAAD9F829BA897D70C7BCCE41 /* carat.png */,
+				E3478E67E972B94482450AB51106B40C /* carat.png */,
+				6DA19487DBAB95C8CA0C6BD04646AB7D /* Classes.html */,
+				E2E423F242D82C78EF9F2755511D198B /* Classes.html */,
+				C93D831D7A17F50A62A5EE85289D5F0F /* dash.png */,
+				014AA0DEA607C3AFF766A6A4146DBCA1 /* dash.png */,
+				1331DA669896EC6B16B3716B2F33DD1B /* docSet.dsidx */,
+				1C39C507DEC217D8D5DA3A358D2A432F /* Extensions.html */,
+				72782E07819189AAD515FBA62C755BD8 /* Extensions.html */,
+				CEBB6AF0CC63D6A4A364218F8E5A89C5 /* filelist */,
+				E134B9BE5B2E73681B0DDCFE7E032A80 /* filelist */,
+				76C6AF72BA3CB2A683841E136837364C /* filelist-local */,
+				26022C0F1BF4C215FA3033C6AAABC36A /* filelist-local */,
+				AB9252BB232DB84FB6D13A96FCB0FC69 /* filelist-local-md5 */,
+				0B47E2EA03127E0F5A2CDF44A443A1AA /* filelist-local-md5 */,
+				E33EC9389EED8C48EA89554EC600DB2A /* filelist-md5 */,
+				88719AC1711B4A56719307B4C9726715 /* filelist-md5 */,
+				4D02A3773471056722EB5F413733E488 /* gh.png */,
+				B456D3B472832760488FE7EE53889905 /* gh.png */,
+				1CB0FEDE4D958EE008B49787BC7A79EC /* highlight.css */,
+				8B318B62FD6CFBE135056BE5627F85BA /* highlight.css */,
+				817526214A093BB9DC8008061A2084DC /* index.html */,
+				A211355FB7E766847E671C17E3118BE7 /* index.html */,
+				A095FB65AAB8F280C7234205B1A4AEAA /* Info.plist */,
+				E2CEFE5D93FBD9CF27A29D27BC0A1E52 /* jazzy.css */,
+				E2563EA55714AEE2DEEFC4FE29C06174 /* jazzy.css */,
+				168A5E55D766C66B677AF933AD8605FB /* jazzy.js */,
+				5C9C7193F35C782088F6BB8A829FB2AF /* jazzy.js */,
+				0259ED45FF492C021AD4158DC75F9AAD /* jazzy.search.js */,
+				1C2FFF779B918F1F351BDBC678E07341 /* jazzy.search.js */,
+				649F128812F08061041EE0A5BF80E6B5 /* jquery.min.js */,
+				D4F47FE74D7635DCC191BD9806985D09 /* jquery.min.js */,
+				8BBA65D3CEAD1401705DDD71CF183A3A /* LICENSE */,
+				7C5E143B024D0D7BD971048E7B4ECC2C /* LionheartCurrencyTextField.html */,
+				F6CC981DB2445CC81C0F5188EDDDF25B /* LionheartCurrencyTextField.html */,
+				1C1BDC40147B66989EF9FB4CEBD0E3D2 /* LionheartCurrencyTextField.podspec */,
+				2D7BE2D42366EDBC9DF668317BFDCCE6 /* LionheartCurrencyTextField.tgz */,
+				732360ABBA304050AF43C2DDF14B70A0 /* lunr.min.js */,
+				F221088A7EEAFC47A650D660ACD4ACE4 /* lunr.min.js */,
+				9673DEDDF941DAC073DAE6B43A9826FB /* README.md */,
+				E676961F26684C345AD31DCE072D97CC /* search.json */,
+				952F163BCCCF645F80B6EB2D89E5B2D0 /* search.json */,
+				48A2B0852EFD99A31330DCB7F7EC5B27 /* spinner.gif */,
+				7D59649B9DDBFD1E471FE5D23F309E58 /* spinner.gif */,
+				CF70B6299C1F60BE3E65EE648E51ACBE /* String.html */,
+				EDE1C22FA35E2B0A5AEF942DF9F34F12 /* String.html */,
+				87C84420236FCFE25B2E014954F60C45 /* typeahead.jquery.js */,
+				9A0EA039E3CC39F7A8788D86593D2A6D /* typeahead.jquery.js */,
+				9E0542773C71FB484A971218AF8622CC /* undocumented.json */,
+				77D92D5C7CE5044379A49AF40E953E13 /* undocumented.json */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A5300BFE0E04758C8940CBA2E6885553 /* Targets Support Files */ = {
@@ -346,83 +410,23 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		C537EABADC197F856E1C9525332570AD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C13D21DEB09A0490CD0EDECAFE3C4F66 /* badge.svg */,
-				B0EDCC3B17245278443E2645B1E6E1D4 /* badge.svg */,
-				2EA287DEEA39A39C75394884437CB24E /* carat.png */,
-				264DC7C22DECC8F6F2C0B8727F326413 /* carat.png */,
-				DC749B82D9254F074B1E57CF26ACD7DD /* Classes.html */,
-				4D220253494E7A2ADECDC98C6195862A /* Classes.html */,
-				FA773A0ACF66430327ABD57DDEF37F76 /* dash.png */,
-				5D8B886557CD1DB590591922E46899A9 /* dash.png */,
-				ED9530BCF042BE85ED73848D83A0E679 /* docSet.dsidx */,
-				5E4ADAD8816F3941D1506FC8D316CD1B /* Extensions.html */,
-				A225ACC2301F661644046FDE5D7CD2B3 /* Extensions.html */,
-				3F014A8A58A0229A39A4B0DD3F274A36 /* filelist */,
-				99A0321899D36BBF32DFF7244767C0FA /* filelist-local */,
-				3A46674152D288210C2863664614E548 /* filelist-local-md5 */,
-				8A54A0C31403FCBCEC50854C89875731 /* filelist-md5 */,
-				D9881ED43411AC4894D986D227D63E8D /* filelist-remote */,
-				3CF0A3CFFD0C5C0E2339E1C1DDE33490 /* filelist-remote-md5 */,
-				B66472ACFF39A5432120429D91C9765B /* gh.png */,
-				DC432D166E1EBA973090A96BF44E5B1F /* gh.png */,
-				C3DEE07B38D5092B2F8D16A5DFEEB50F /* highlight.css */,
-				009698E8FE4C074A20C9259D2D5FE1C7 /* highlight.css */,
-				BD948D0CC49BC85B9413FDD34619C90B /* index.html */,
-				B14EB3E2C1C2C608B554E787FF838AD6 /* index.html */,
-				91102A43293A49A1C2D4B8593ACD4C3A /* Info.plist */,
-				23C54720E5CD540C8D9B8641C2B76E3A /* jazzy.css */,
-				1BC4A5F4417C5A176850175DDB878DCE /* jazzy.css */,
-				2AEEE346A3866B38B0233863F66D2E95 /* jazzy.js */,
-				1389257071BBB881D9ED9626ACD29042 /* jazzy.js */,
-				FB44E0905B4ADF2EB62E3C2405BA00E8 /* jazzy.search.js */,
-				8DBDA2B0099A73EA9C600980E979DBAB /* jazzy.search.js */,
-				8FFF8C6B0B7C1A0F2BCEEC31448D9252 /* jquery.min.js */,
-				11C9499732E03C771E320A24B4B7063C /* jquery.min.js */,
-				CE0690B1B7C77BAB0467E38AB8198A0E /* LICENSE */,
-				D2373E9F135F2C993B91A70B9E7B8459 /* LionheartCurrencyTextField.html */,
-				AE0E9AA24468AF70CCE98DE881315746 /* LionheartCurrencyTextField.html */,
-				865C7CC2AF25B528A7E72AD9F51270BD /* LionheartCurrencyTextField.podspec */,
-				EBC1E19C718F7C7E94737301EC0267C7 /* LionheartCurrencyTextField.tgz */,
-				309D92F98DD6BFCE171D0A6993464A19 /* lunr.min.js */,
-				18B4619A66F7665F085EF3F303C2BEB7 /* lunr.min.js */,
-				497DE8C0CF820E0591DC1BBCB7EBA66F /* README.md */,
-				488B58974ED350C7BDD3FEF8B04D4E89 /* search.json */,
-				AB4265DF2DF036E6CBAA17318B0A6E03 /* search.json */,
-				09A92604658D067F560EFAF5C9BC351C /* spinner.gif */,
-				0B822FE0CA2FD7DB7BC408F66BA838DA /* spinner.gif */,
-				1E442182082EDD9A5B17288C5B2B3E58 /* String.html */,
-				80C2E044AD6340AA0C8ADABFB1161BAB /* String.html */,
-				C31EF53ADC901861E5065F439E9AD95F /* typeahead.jquery.js */,
-				495BD6CD9A17D93A4F6B56FAAEF4BD1A /* typeahead.jquery.js */,
-				8ABBC59EE5B9F8A209E12DA0C7440E36 /* undocumented.json */,
-				C6CA20AB8347004F7CAC862C1B5144D3 /* undocumented.json */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		D3647C0AFF0A0FE7F7890288AD2C20C2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A25426C41AC531EB61876DF8DBC98FD /* LionheartCurrencyTextField */,
+				E4D13514FB946C67FE81302E43073CD9 /* LionheartCurrencyTextField */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E0B4818A98A198C4A65A3A325C35177E /* Support Files */ = {
+		E4D13514FB946C67FE81302E43073CD9 /* LionheartCurrencyTextField */ = {
 			isa = PBXGroup;
 			children = (
-				CC33ADCDBC53FE4E67AE4AEC70DBDA12 /* Info.plist */,
-				1E83AA7B1DE28F0578BFAC6D4D3C5422 /* LionheartCurrencyTextField.modulemap */,
-				5DF1C6299947758248E104CB62FD9E1F /* LionheartCurrencyTextField.xcconfig */,
-				EBE59982ECCEC5E4C4F9912C966304C8 /* LionheartCurrencyTextField-dummy.m */,
-				107166147114598F50E24D7195925A0A /* LionheartCurrencyTextField-prefix.pch */,
-				5356BC9DD85499DD58896C1C650424BB /* LionheartCurrencyTextField-umbrella.h */,
+				AA3CAA4354E7E42C5F197CED6DC7429E /* LionheartCurrencyTextField.swift */,
+				9565BDC0067E0D477DCB3D5FF67B0796 /* Pod */,
+				1C3947E7ABF37D8D1BAF2CDDB9AE2C51 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LionheartCurrencyTextField";
+			name = LionheartCurrencyTextField;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E7FB59CCFD1E6509FEDE84D0A2EA9D8E /* Support Files */ = {
@@ -664,6 +668,38 @@
 			};
 			name = Release;
 		};
+		6FCFE3D81EBE481969470B1355CDBA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78131CAF3AF64E222AC7754E9BC9270D /* LionheartCurrencyTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartCurrencyTextField/LionheartCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionheartCurrencyTextField/LionheartCurrencyTextField.modulemap";
+				PRODUCT_NAME = LionheartCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		732D18127A6C8040CF3EB602A4F6E6A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1764F3E2D24373EC85638D5AAD061275 /* Pods-LionheartCurrencyTextField_Example.release.xcconfig */;
@@ -762,10 +798,11 @@
 			};
 			name = Debug;
 		};
-		958B73B2D50256C0EB1700CE2A0A76C9 /* Debug */ = {
+		A86737FC212002612EECC0AB502638AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DF1C6299947758248E104CB62FD9E1F /* LionheartCurrencyTextField.xcconfig */;
+			baseConfigurationReference = 78131CAF3AF64E222AC7754E9BC9270D /* LionheartCurrencyTextField.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -778,38 +815,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LionheartCurrencyTextField/LionheartCurrencyTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LionheartCurrencyTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LionheartCurrencyTextField/LionheartCurrencyTextField.modulemap";
-				PRODUCT_NAME = LionheartCurrencyTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9D857DCF7B35531DAAAC64DA9372DE1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DF1C6299947758248E104CB62FD9E1F /* LionheartCurrencyTextField.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LionheartCurrencyTextField/LionheartCurrencyTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LionheartCurrencyTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LionheartCurrencyTextField/LionheartCurrencyTextField.modulemap";
 				PRODUCT_NAME = LionheartCurrencyTextField;
@@ -983,8 +989,8 @@
 		E33F56AA95154E8C0C800D2B1683FF88 /* Build configuration list for PBXNativeTarget "LionheartCurrencyTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				958B73B2D50256C0EB1700CE2A0A76C9 /* Debug */,
-				9D857DCF7B35531DAAAC64DA9372DE1F /* Release */,
+				6FCFE3D81EBE481969470B1355CDBA73 /* Debug */,
+				A86737FC212002612EECC0AB502638AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
