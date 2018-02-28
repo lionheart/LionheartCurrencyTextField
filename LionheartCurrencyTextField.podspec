@@ -20,11 +20,8 @@ See the GitHub project for more details.
   s.source           = { :git => 'https://github.com/lionheart/LionheartCurrencyTextField.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
-  s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '3.0'
-  }
-
   s.ios.deployment_target = '9.3'
   s.source_files = 'LionheartCurrencyTextField/Classes/**/*'
   s.dependency 'LionheartExtensions'
+  s.swift_version = "4.0"
 end
