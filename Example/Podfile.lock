@@ -1,5 +1,5 @@
 PODS:
-  - LionheartCurrencyTextField (2.0.3):
+  - LionheartCurrencyTextField (2.0.4):
     - LionheartExtensions
   - LionheartExtensions (3.11.1):
     - LionheartExtensions/Core (= 3.11.1)
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LionheartCurrencyTextField: 8ecfecef31b6a3fb7fc21b02400854b1c71e15b8
+  LionheartCurrencyTextField: eb0fabc8a6d9cbad0b981601b59673059760efbb
   LionheartExtensions: 9cfc42c9a717f7bfef4eb23f909142f63c3df167
 
 PODFILE CHECKSUM: 23532f77c2c1a7c46dcc7629762e4ad778f105fe
