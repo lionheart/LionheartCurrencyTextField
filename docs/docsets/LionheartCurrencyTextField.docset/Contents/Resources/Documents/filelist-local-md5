@@ -3,13 +3,15 @@
 0a757d72c8eb9754bcfba05d6ea407df undocumented.json
 0aec5e490ceebbd819e89e49bdc2fa44 css/highlight.css
 1dbc54b08da63a8b951dc4f6debff9ad Extensions.html
+2c20f7910e3fb425960f0cb2008564c4 docsets/LionheartCurrencyTextField.tgz
 39472cb4b9f49ad69beab1ca71801c90 js/typeahead.jquery.js
 45a1597ad4ff10d393c591c9f1513649 img/carat.png
 4766e05ba946399a9863f4c5855d14d3 Classes/LionheartCurrencyTextField.html
-4b4974f2c90ce5aa2ffee3fbfb66f395 docsets/LionheartCurrencyTextField.tgz
 6115541ef6662651a96c460fb460b15a filelist
 6115541ef6662651a96c460fb460b15a filelist-local
 6115541ef6662651a96c460fb460b15a filelist-remote
+654bebbd6f4617a9d90eac50b6e0ca71 filelist-md5
+654bebbd6f4617a9d90eac50b6e0ca71 filelist-remote-md5
 662a9e1c5bcebee0accc822f7ae3d5ae Extensions/String.html
 801e686bc6831ae8828bbc05c8b16a11 search.json
 8101d596b2b8fa35fe3a634ea342d7c3 js/jquery.min.js
@@ -22,5 +24,3 @@ d56df49a807a9fd06eb1667a84d3810e img/gh.png
 d71e0f5759f4c78c5896c82900b1b2b7 index.html
 dfd13cb70c00fe8621631392283d0d1b css/jazzy.css
 f6862e05ad5c2ed2f83d8d6fc48a4975 img/spinner.gif
-f8b49872f4e84b503d6d0a21a66139b1 filelist-md5
-f8b49872f4e84b503d6d0a21a66139b1 filelist-remote-md5
