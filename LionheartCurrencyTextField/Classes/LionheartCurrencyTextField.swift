@@ -18,11 +18,11 @@ import LionheartExtensions
 
 public extension String {
     func charactersInSetBeforeIndex(_ characterSet: CharacterSet, index: Index) -> [UInt16] {
-        return substring(to: index).unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
+        return self[..<index].unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
 
     func charactersInSetAfterIndex(_ characterSet: CharacterSet, index: Index) -> [UInt16] {
-        return substring(from: index).unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
+        return self[index..<endIndex].unicodeScalars.filter(characterSet.contains).map { UInt16($0.value) }
     }
 
     func charactersInSet(_ characterSet: CharacterSet) -> [UInt16] {
@@ -144,7 +144,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         let numDigits: Int
         if currentText.length > 0 {
             if wasTextDeleted {
-                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: currentText.characters.index(after: range.lowerBound)).count
+                numDigits = currentText.charactersInSetAfterIndex(characterSet, index: currentText.index(after: range.lowerBound)).count
             } else {
                 let numDigitsInEnteredString = string.charactersInSet(CharacterSet.decimalDigits).count
                 numDigits = currentText.charactersInSetBeforeIndex(characterSet, index: range.lowerBound).count + numDigitsInEnteredString
@@ -157,12 +157,12 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         var range = range
         if wasTextDeleted {
             let length = currentText.lengthOfRange(range)
-            while currentText.substring(with: range).charactersInSet(CharacterSet.decimalDigits).count < length {
+            while String(currentText[range]).charactersInSet(CharacterSet.decimalDigits).count < length {
                 if range.lowerBound == currentText.startIndex {
                     break
                 }
 
-                let startIndex = currentText.characters.index(before: range.lowerBound)
+                let startIndex = currentText.index(before: range.lowerBound)
                 range = startIndex..<range.upperBound
             }
         }
@@ -253,11 +253,11 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
             return false
         }
 
-        guard let _text = text else {
+        guard let _text = text,
+            let range = Range(range, in: _text) else {
             return true
         }
-
-        let range = _text.toRange(range)
+        
         return shouldChangeCharactersInRange(_text, range: range, replacementString: string)
     }
 
