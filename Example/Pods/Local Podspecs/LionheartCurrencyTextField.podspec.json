@@ -1,6 +1,6 @@
 {
   "name": "LionheartCurrencyTextField",
-  "version": "2.0.4",
+  "version": "2.0.6",
   "summary": "A text field that formats currency values",
   "description": "LionheartCurrencyTextField is a drop-in replacement for UITextField that\ndisplays currency values the way you'd expect it to. It's based on the user's\ncurrent locale, so in the US, typing \"12345.12\" will output \"$12,345.12\".\n\nSee the GitHub project for more details.",
   "documentation_url": "https://code.lionheart.software/LionheartCurrencyTextField/",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/lionheart/LionheartCurrencyTextField.git",
-    "tag": "2.0.4"
+    "tag": "2.0.6"
   },
   "social_media_url": "https://twitter.com/lionheartsw",
   "platforms": {
